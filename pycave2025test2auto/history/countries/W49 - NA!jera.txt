@@ -1,59 +1,7 @@
 ﻿capital = 767
 set_research_slots = 3
 
-declare_war_on = {
-	target = CAT
-	type = take_core_state
-	generator = { 143 }
-}
-KOR = {
-	add_to_war = {
-		targeted_alliance = W49
-		enemy = CAT
-	}
-}
-W09 = {
-	add_to_war = {
-		targeted_alliance = W49
-		enemy = CAT
-	}
-}
-W16 = {
-	add_to_war = {
-		targeted_alliance = W49
-		enemy = CAT
-	}
-}
-W21 = {
-	add_to_war = {
-		targeted_alliance = W49
-		enemy = CAT
-	}
-}
-X05 = {
-	add_to_war = {
-		targeted_alliance = W49
-		enemy = CAT
-	}
-}
-X90 = {
-	add_to_war = {
-		targeted_alliance = W49
-		enemy = CAT
-	}
-}
-W04 = {
-	add_to_war = {
-		targeted_alliance = CAT
-		enemy = W49
-	}
-}
-W41 = {
-	add_to_war = {
-		targeted_alliance = CAT
-		enemy = W49
-	}
-}
+
 
 oob = "W49_OOB"
 if = {
