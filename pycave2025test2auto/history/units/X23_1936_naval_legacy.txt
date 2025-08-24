@@ -1,0 +1,87 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 485
+		task_force = {
+			name = "1st Fleet"
+			location = 485
+			ship = { name = "1st La Roche Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Amiens Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Caen Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "2nd Brest Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "Corcaigh" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "O’Faolain" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "2nd Caen Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "3rd Brest Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "Gaillimh" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Brest Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "Mannion" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "Caomhánach" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Pau Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Caen Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Oviedo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "2nd Pau Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "2nd Oviedo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "3rd Pau Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "3rd Oviedo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "4th Oviedo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "4th Pau Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "5th Pau Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Carcassonne Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "4th Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "5th Oviedo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "3rd Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "2nd Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Oviedo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "9th Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "4th Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "8th Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "Róisín" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "7th Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "6th Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "11th Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "10th Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "Máire" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "5th Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st La Rochelle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "8th Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "Peigi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "2nd Oviedo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "10th Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "9th Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "Esther" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "7th Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "1st Holyhead Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "3rd Oviedo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "2nd Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "5th Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "11th Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "6th Oviedo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "12th Pau Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+			ship = { name = "12th Carcassonne Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X23 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X23"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X23"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=92
+	name="STATE_92"
+
+	history={
+		owner = X18
+		victory_points = {
+			4241 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+			4241 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = VIN
+		add_core_of = W22
+		add_core_of = X18
+		add_core_of = X78
+	}
+
+	provinces={
+		1234 1293 1379 1407 4241 4266 7284 7445 10328 12116 12158 12160 12188 12245 
+	}
+	manpower=133452
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

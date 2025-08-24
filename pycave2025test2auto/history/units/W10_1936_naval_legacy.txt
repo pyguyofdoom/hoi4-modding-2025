@@ -1,0 +1,43 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4089
+		task_force = {
+			name = "2nd Fleet"
+			location = 4089
+			ship = { name = "Ying Ching" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "Pao Nim" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "Hai Yung" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "2nd Yizhou Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "1st Taizhou Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "1st Yizhou Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "1st Nantong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "Ton Chi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "Nan Shin" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "Hai Shew" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "Hai Shen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W10 } } }
+			ship = { name = "Ying Swei" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W10 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "W10"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "W10"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

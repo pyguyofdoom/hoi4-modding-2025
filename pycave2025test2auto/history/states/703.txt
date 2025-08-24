@@ -1,0 +1,36 @@
+
+state={
+	id=703
+	name="STATE_703"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W91
+		victory_points = {
+			7992 15 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+			7992 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = MRT
+		add_core_of = W91
+	}
+
+	provinces={
+		7992 10814 
+	}
+	manpower=185304
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

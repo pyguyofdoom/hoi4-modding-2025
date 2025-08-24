@@ -1,0 +1,56 @@
+﻿converted_war_strategies_X83 = {
+	allowed = {
+		tag = X83
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "SAU"
+		value = 2920
+	}
+}
+
+converted_diplo_strategies_X83 = {
+	allowed = {
+		tag = X83
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "HLR"
+		value = 130
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SAU"
+		value = 267
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W62"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X00"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W69"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MOR"
+		value = 50
+	}
+}

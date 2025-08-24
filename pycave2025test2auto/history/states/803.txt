@@ -1,0 +1,20 @@
+
+state={
+	id=803
+	name="STATE_803"
+	impassable = yes
+
+	history={
+		owner = W72
+		add_core_of = W72
+	}
+
+	provinces={
+		2133 2177 2186 8134 8155 10473 12904 12912 12926 
+	}
+	manpower=746069
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

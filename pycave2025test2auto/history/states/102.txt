@@ -1,0 +1,42 @@
+
+state={
+	id=102
+	name="STATE_102"
+	resources={
+		chromium=51.000
+		steel=12.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			922 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 6
+			9833 = {
+				naval_base = 4
+				landmark_hagia_sophia = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+
+		}
+		add_core_of = X20
+	}
+
+	provinces={
+		849 922 3879 3893 6895 9833 11842 
+	}
+	manpower=1485228
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

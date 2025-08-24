@@ -1,0 +1,16 @@
+characters={
+	BRI_theodore_legrand={
+		name=BRI_theodore_legrand
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/portrait_fra_pierre_laval.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

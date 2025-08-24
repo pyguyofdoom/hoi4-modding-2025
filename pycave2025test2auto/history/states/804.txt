@@ -1,0 +1,35 @@
+
+state={
+	id=804
+	name="STATE_804"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = W72
+		victory_points = {
+			7669 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+			7669 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W72
+	}
+
+	provinces={
+		1217 1410 1422 1431 1454 1478 2139 4415 4441 4462 4487 7457 7481 7669 10276 10288 10316 10518 12104 12246 12290 12311 12326 12339 12499 
+	}
+	manpower=1671300
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

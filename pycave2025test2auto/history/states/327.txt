@@ -1,0 +1,38 @@
+
+state={
+	id=327
+	name="STATE_327"
+	resources={
+		aluminium=9.000
+		chromium=46.000
+		steel=42.000
+		tungsten=28.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			12641 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = KOR
+		add_claim_by = MON
+		add_claim_by = X59
+		add_claim_by = X63
+	}
+
+	provinces={
+		1672 1696 1761 1762 1826 4677 4705 4716 4719 4766 4835 4837 7725 7736 7751 7786 7816 7835 7854 7860 10528 10559 10574 10643 10658 10683 12507 12622 12641 12644 
+	}
+	manpower=1512136
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

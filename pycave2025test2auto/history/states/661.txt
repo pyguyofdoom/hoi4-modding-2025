@@ -1,0 +1,33 @@
+
+state={
+	id=661
+	name="STATE_661"
+
+	history={
+		owner = W39
+		victory_points = {
+			177 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 2
+			air_base = 2
+			177 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W39
+	}
+
+	provinces={
+		177 379 7123 11106 11350 13009 
+	}
+	manpower=2753576
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

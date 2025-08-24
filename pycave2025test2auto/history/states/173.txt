@@ -1,0 +1,34 @@
+
+state={
+	id=173
+	name="STATE_173"
+
+	history={
+		owner = X23
+		victory_points = {
+			6289 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			6289 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = IRE
+		add_core_of = X23
+		add_claim_by = X65
+	}
+
+	provinces={
+		6289 6313 6405 11334 
+	}
+	manpower=1051012
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

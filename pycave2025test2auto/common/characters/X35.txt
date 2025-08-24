@@ -1,0 +1,16 @@
+characters={
+	X35_chosokabe_oku={
+		name=X35_chosokabe_oku
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

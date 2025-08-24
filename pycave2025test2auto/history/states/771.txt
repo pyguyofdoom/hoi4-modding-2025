@@ -1,0 +1,33 @@
+
+state={
+	id=771
+	name="STATE_771"
+
+	history={
+		owner = W49
+		victory_points = {
+			10024 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			10024 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = W49
+	}
+
+	provinces={
+		832 942 1093 3835 4195 7111 9903 10024 11807 11812 11884 
+	}
+	manpower=666852
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

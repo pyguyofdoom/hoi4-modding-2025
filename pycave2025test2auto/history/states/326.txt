@@ -1,0 +1,36 @@
+
+state={
+	id=326
+	name="STATE_326"
+	resources={
+		steel=24.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			7169 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			9865 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = JAP
+		add_claim_by = KOR
+	}
+
+	provinces={
+		1024 1063 1165 3848 4067 4118 4122 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 
+	}
+	manpower=7936408
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

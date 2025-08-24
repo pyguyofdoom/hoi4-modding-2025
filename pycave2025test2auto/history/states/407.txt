@@ -1,0 +1,36 @@
+
+state={
+	id=407
+	name="STATE_407"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = NZL
+		victory_points = {
+			2211 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+			2211 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = NZL
+		add_core_of = W14
+	}
+
+	provinces={
+		2197 2203 2211 4819 5195 7839 8204 8212 8232 8241 10650 12632 12966 12974 12980 12988 
+	}
+	manpower=75264
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=352
+	name="STATE_352"
+	resources={
+		chromium=23.000
+		steel=32.000
+	}
+
+	history={
+		owner = KAR
+		victory_points = {
+			11142 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			3134 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = KAR
+		add_core_of = W56
+	}
+
+	provinces={
+		15 74 86 98 116 142 178 3008 3012 3121 3134 3170 6012 6029 6117 6140 6157 6181 6183 6194 9039 9059 9115 9140 9162 9165 9179 9201 9203 9215 9217 11031 11088 11117 11128 11140 11142 11183 11196 
+	}
+	manpower=34364
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

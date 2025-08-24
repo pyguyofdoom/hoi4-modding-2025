@@ -1,0 +1,36 @@
+
+state={
+	id=247
+	name="STATE_247"
+	resources={
+		aluminium=6.000
+		rubber=1.000
+	}
+
+	history={
+		owner = W83
+		victory_points = {
+			2123 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			5164 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = W83
+	}
+
+	provinces={
+		2123 2159 2202 2217 5164 10972 
+	}
+	manpower=2489804
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

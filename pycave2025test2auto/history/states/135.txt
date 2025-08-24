@@ -1,0 +1,36 @@
+
+state={
+	id=135
+	name="STATE_135"
+	resources={
+		oil=6.000
+		tungsten=16.000
+	}
+
+	history={
+		owner = CAL
+		victory_points = {
+			1408 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+			1214 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = CAL
+	}
+
+	provinces={
+		1214 1393 1408 1420 1858 1869 4385 4413 4428 7259 10228 10258 10273 10548 12231 12259 12272 
+	}
+	manpower=3312208
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

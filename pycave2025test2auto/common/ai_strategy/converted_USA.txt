@@ -1,0 +1,151 @@
+﻿converted_war_strategies_USA = {
+	allowed = {
+		tag = USA
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "X74"
+		value = 3529
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ARG"
+		value = 1138
+	}
+}
+
+converted_diplo_strategies_USA = {
+	allowed = {
+		tag = USA
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "X74"
+		value = 291
+	}
+	ai_strategy = {
+		type = contain
+		id = "X90"
+		value = 284
+	}
+	ai_strategy = {
+		type = contain
+		id = "W39"
+		value = 254
+	}
+	ai_strategy = {
+		type = contain
+		id = "ARG"
+		value = 253
+	}
+	ai_strategy = {
+		type = contain
+		id = "X23"
+		value = 221
+	}
+	ai_strategy = {
+		type = contain
+		id = "BOS"
+		value = 201
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 170
+	}
+	ai_strategy = {
+		type = contain
+		id = "BLZ"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X23"
+		value = 142
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X74"
+		value = 119
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X86"
+		value = 16
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X00"
+		value = 12
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X90"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BOS"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W39"
+		value = 6
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CAL"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W41"
+		value = 168
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X90"
+		value = 105
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HLR"
+		value = 78
+	}
+	ai_strategy = {
+		type = protect
+		id = "X86"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X90"
+		value = 247
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BOS"
+		value = 160
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SCA"
+		value = 143
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X74"
+		value = 128
+	}
+}

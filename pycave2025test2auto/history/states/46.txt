@@ -1,0 +1,36 @@
+
+state={
+	id=46
+	name="STATE_46"
+	resources={
+		aluminium=1.000
+		steel=11.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			3715 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			3732 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		733 1282 1338 1619 3712 3715 3732 4445 6719 7462 7629 9675 10318 10481 12202 12221 12459 
+	}
+	manpower=1107432
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

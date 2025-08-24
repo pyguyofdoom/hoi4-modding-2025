@@ -1,0 +1,36 @@
+
+state={
+	id=612
+	name="STATE_612"
+	resources={
+		aluminium=5.000
+		chromium=4.000
+		steel=4.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = W25
+		victory_points = {
+			1591 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 10
+
+		}
+		add_core_of = W25
+		add_core_of = W64
+	}
+
+	provinces={
+		1591 1840 4224 4651 4773 4845 7711 10146 10547 
+	}
+	manpower=203404
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=23
+	name="STATE_23"
+
+	history={
+		owner = SAU
+		victory_points = {
+			10840 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 0
+			10840 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = SAU
+		add_core_of = X01
+		add_claim_by = SUD
+		add_claim_by = W17
+	}
+
+	provinces={
+		1920 1973 4924 10752 10840 
+	}
+	manpower=1146368
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

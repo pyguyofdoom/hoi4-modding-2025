@@ -1,0 +1,33 @@
+
+state={
+	id=34
+	name="STATE_34"
+	resources={
+		aluminium=21.000
+		oil=4.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			5219 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		5152 5184 5219 8208 10975 10985 11022 12942 12970 
+	}
+	manpower=2990204
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

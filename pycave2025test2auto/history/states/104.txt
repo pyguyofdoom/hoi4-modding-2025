@@ -1,0 +1,35 @@
+
+state={
+	id=104
+	name="STATE_104"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			9940 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			6550 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X20
+	}
+
+	provinces={
+		1164 4170 6550 7003 8435 9940 10007 12058 
+	}
+	manpower=442744
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=571
+	name="STATE_571"
+
+	history={
+		owner = W19
+		victory_points = {
+			12279 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+			12279 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = W19
+	}
+
+	provinces={
+		1372 4228 4377 10306 12279 
+	}
+	manpower=872560
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

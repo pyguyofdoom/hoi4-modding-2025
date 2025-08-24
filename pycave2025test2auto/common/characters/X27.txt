@@ -1,0 +1,16 @@
+characters={
+	X27_batirbiy_mamkhegh={
+		name=X27_batirbiy_mamkhegh
+		portraits={
+			civilian={
+				large="GFX_GRE_George_Santios"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

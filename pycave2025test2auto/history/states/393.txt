@@ -1,0 +1,36 @@
+
+state={
+	id=393
+	name="STATE_393"
+	resources={
+		oil=16.000
+		steel=2.000
+		tungsten=38.000
+	}
+
+	history={
+		owner = X90
+		victory_points = {
+			7753 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1799 = {
+				naval_base = 1
+			}
+
+		}
+	}
+
+	provinces={
+		917 1323 1411 1737 1799 1872 4343 4678 4870 4877 7677 7753 7761 7820 7830 7853 7858 10644 12508 12571 12578 
+	}
+	manpower=961740
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

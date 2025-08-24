@@ -1,0 +1,36 @@
+
+state={
+	id=740
+	name="STATE_740"
+	resources={
+		aluminium=58.000
+		oil=1.000
+		steel=175.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			6534 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 8
+
+		}
+		add_core_of = SIL
+		add_core_of = W38
+		add_core_of = W41
+	}
+
+	provinces={
+		479 506 552 3283 3438 3485 3510 3545 6462 6464 6512 6534 6595 9457 9470 9511 9570 11467 11517 13205 
+	}
+	manpower=8009652
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=657
+	name="STATE_657"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = W39
+		victory_points = {
+			4641 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 1
+			air_base = 2
+			4641 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W39
+	}
+
+	provinces={
+		1594 1635 4598 4641 7632 7660 10484 
+	}
+	manpower=6080284
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

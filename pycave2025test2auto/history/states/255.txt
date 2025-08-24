@@ -1,0 +1,30 @@
+
+state={
+	id=255
+	name="STATE_255"
+
+	history={
+		owner = W83
+		victory_points = {
+			9962 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = RWA
+		add_core_of = W83
+	}
+
+	provinces={
+		2220 9962 13363 13364 
+	}
+	manpower=1434476
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

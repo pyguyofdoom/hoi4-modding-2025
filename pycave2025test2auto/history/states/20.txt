@@ -1,0 +1,33 @@
+
+state={
+	id=20
+	name="STATE_20"
+
+	history={
+		owner = SAU
+		victory_points = {
+			13313 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 6
+			13313 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = BHR
+		add_core_of = SAU
+	}
+
+	provinces={
+		13313 
+	}
+	manpower=53404
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=188
+	name="STATE_188"
+
+	history={
+		owner = COG
+		victory_points = {
+			7716 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = COG
+	}
+
+	provinces={
+		988 1731 2024 4128 7219 7716 7931 8016 8048 9986 10071 10883 10951 12741 12775 12824 13370 
+	}
+	manpower=857204
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

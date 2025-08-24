@@ -1,0 +1,85 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 5222
+		task_force = {
+			name = "3rd Fleet"
+			location = 5222
+			ship = { name = "Mtkvari" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Gelati" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Telavi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Racha" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+		}
+	}
+	fleet = {
+		name = "6th Fleet"
+		naval_base = 5222
+		task_force = {
+			name = "6th Fleet"
+			location = 5222
+			ship = { name = "Dmanisi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Kutatsi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Kharnabuji" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Svaneti" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3653
+		task_force = {
+			name = "1st Fleet"
+			location = 3653
+			ship = { name = "Demetre" definition = battleship equipment = { battleship_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Bichvinta" definition = battleship equipment = { battleship_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Urbnisi" definition = battleship equipment = { battleship_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Ereti" definition = battleship equipment = { battleship_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Lasharisjvari" definition = battleship equipment = { battleship_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "1st Sinop Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "3rd Giresun Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "2nd Lengeh Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "3rd Lengeh Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "2nd Giresun Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "5th Ubykhia Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "3rd Ubykhia Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "4th Ubykhia Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "4th Giresun Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "1st Giresun Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Narikala" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Tashiri" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Seti" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Tbilisi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 5222
+		task_force = {
+			name = "2nd Fleet"
+			location = 2919
+			ship = { name = "Ruisi" definition = battleship equipment = { battleship_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Geguti" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+			ship = { name = "Batomi" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W21 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "W21"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "W21"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

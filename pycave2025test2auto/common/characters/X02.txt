@@ -1,0 +1,76 @@
+characters={
+	X02_mahamud_mujahid={
+		name=X02_mahamud_mujahid
+		portraits={
+			army={
+				large="GFX_Ethiopia_Mulugeta_Yeggazu"
+			}
+			army={
+				small="GFX_Ethiopia_Mulugeta_Yeggazu"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X02_abdikarim_ibrahim={
+		name=X02_abdikarim_ibrahim
+		portraits={
+			army={
+				large="GFX_Ethiopia_Abiye_Abebe"
+			}
+			army={
+				small="GFX_Ethiopia_Abiye_Abebe"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X02_mahamud_dekiye={
+		name=X02_mahamud_dekiye
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X02_king_sarjelle_ii={
+		name=X02_king_sarjelle_ii
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

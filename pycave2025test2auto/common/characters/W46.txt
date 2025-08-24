@@ -1,0 +1,16 @@
+characters={
+	W46_ake_smjor={
+		name=W46_ake_smjor
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/portrait_NOR_johan_nygaardsvold.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=200
+	name="STATE_200"
+	resources={
+		rubber=7.000
+	}
+
+	history={
+		owner = X32
+		victory_points = {
+			1277 3 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			1277 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = MAL
+		add_core_of = W16
+		add_core_of = X32
+	}
+
+	provinces={
+		1277 7327 7463 12168 12181 12302 
+	}
+	manpower=171412
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=674
+	name="STATE_674"
+	resources={
+		aluminium=7.000
+		chromium=4.000
+		steel=8.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = W39
+		victory_points = {
+			5168 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+			5168 = {
+				naval_base = 10
+			}
+
+		}
+	}
+
+	provinces={
+		1446 1524 2175 2227 5168 5182 7561 8143 8227 10345 10933 10939 10967 10989 10998 12961 13273 
+	}
+	manpower=4139776
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=16
+	name="STATE_16"
+
+	history={
+		owner = SAU
+		victory_points = {
+			5037 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 10
+			1033 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = SAU
+		add_core_of = X01
+		add_core_of = X45
+	}
+
+	provinces={
+		1033 1923 2033 2090 2095 4981 5006 5037 7934 8073 8092 10748 10786 10835 12101 12758 12883 
+	}
+	manpower=2173636
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

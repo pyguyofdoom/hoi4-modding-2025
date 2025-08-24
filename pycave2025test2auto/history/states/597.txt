@@ -1,0 +1,43 @@
+
+state={
+	id=597
+	name="STATE_597"
+	resources={
+		chromium=3.000
+		rubber=2.000
+		steel=18.000
+		tungsten=37.000
+	}
+
+	history={
+		owner = W88
+		victory_points = {
+			10080 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+			1047 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W88
+		add_core_of = X47
+		add_core_of = X73
+		add_claim_by = GEO
+		add_claim_by = W21
+		add_claim_by = X79
+	}
+
+	provinces={
+		1047 1078 1120 1162 1202 4050 4165 4189 4207 7067 7108 7141 7152 7182 9938 9970 9978 9997 10062 10080 11938 12014 12095 
+	}
+	manpower=15750020
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

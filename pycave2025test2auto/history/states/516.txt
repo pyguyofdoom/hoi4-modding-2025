@@ -1,0 +1,30 @@
+
+state={
+	id=516
+	name="STATE_516"
+
+	history={
+		owner = W10
+		victory_points = {
+			3742 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CHI
+		add_core_of = W76
+	}
+
+	provinces={
+		517 556 1647 1933 1985 3742 3745 4939 5025 8081 10724 
+	}
+	manpower=6534592
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

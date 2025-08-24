@@ -1,0 +1,140 @@
+﻿capital = 13
+set_research_slots = 3
+
+oob = "PAL_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_levant
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 73
+	democratic = 25
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BLZ modifier = negative_30 }
+add_opinion_modifier = { target = BOS modifier = negative_55 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = CAL modifier = negative_10 }
+add_opinion_modifier = { target = CAT modifier = negative_50 }
+add_opinion_modifier = { target = HLR modifier = negative_25 }
+add_opinion_modifier = { target = ITA modifier = negative_70 }
+add_opinion_modifier = { target = KOR modifier = negative_35 }
+add_opinion_modifier = { target = ROM modifier = negative_10 }
+add_opinion_modifier = { target = SAU modifier = positive_25 }
+add_opinion_modifier = { target = SCA modifier = negative_70 }
+add_opinion_modifier = { target = SOV modifier = negative_125 }
+add_opinion_modifier = { target = SUD modifier = positive_15 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = W04 modifier = negative_45 }
+add_opinion_modifier = { target = W07 modifier = positive_10 }
+add_opinion_modifier = { target = W10 modifier = negative_25 }
+add_opinion_modifier = { target = W16 modifier = positive_30 }
+add_opinion_modifier = { target = W18 modifier = positive_30 }
+add_opinion_modifier = { target = W35 modifier = negative_10 }
+add_opinion_modifier = { target = W39 modifier = negative_35 }
+add_opinion_modifier = { target = W41 modifier = negative_10 }
+add_opinion_modifier = { target = W49 modifier = negative_20 }
+add_opinion_modifier = { target = W65 modifier = positive_25 }
+add_opinion_modifier = { target = W72 modifier = positive_20 }
+add_opinion_modifier = { target = X03 modifier = positive_30 }
+add_opinion_modifier = { target = X10 modifier = positive_30 }
+add_opinion_modifier = { target = X13 modifier = positive_30 }
+add_opinion_modifier = { target = X14 modifier = negative_25 }
+add_opinion_modifier = { target = X20 modifier = negative_135 }
+add_opinion_modifier = { target = X23 modifier = negative_10 }
+add_opinion_modifier = { target = X32 modifier = positive_30 }
+add_opinion_modifier = { target = X58 modifier = positive_30 }
+add_opinion_modifier = { target = X74 modifier = negative_35 }
+add_opinion_modifier = { target = X90 modifier = negative_10 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_mashriqi
+}
+
+recruit_character = PAL_zafir_ibn_ali
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Parween ibn Khalid"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAL }
+	}
+
+	create_operative_leader = {
+		name = "Yagana al-Nablusi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAL }
+	}
+
+	create_operative_leader = {
+		name = "Sheeva ibn Ja'far"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAL }
+	}
+
+	create_operative_leader = {
+		name = "Salim ibn Abd Allah"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAL }
+	}
+
+	create_operative_leader = {
+		name = "Ali al-Halabi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAL }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

@@ -1,0 +1,33 @@
+
+state={
+	id=76
+	name="STATE_76"
+
+	history={
+		owner = BOS
+		victory_points = {
+			3924 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			6889 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = BOS
+		add_core_of = X33
+	}
+
+	provinces={
+		591 984 3868 3924 3974 6611 6889 11816 11901 
+	}
+	manpower=861092
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=617
+	name="STATE_617"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = UBD
+		victory_points = {
+			3152 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 7
+			3152 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = UBD
+	}
+
+	provinces={
+		83 185 308 496 567 592 3074 3152 3174 4640 6099 6178 6201 6381 6408 9079 9221 9485 11057 11127 11291 11426 11443 
+	}
+	manpower=724316
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

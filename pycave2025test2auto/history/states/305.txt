@@ -1,0 +1,30 @@
+
+state={
+	id=305
+	name="STATE_305"
+
+	history={
+		owner = KHI
+		victory_points = {
+			4581 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = KHI
+		add_core_of = W25
+	}
+
+	provinces={
+		4581 4638 7243 7486 7600 7657 10452 12471 
+	}
+	manpower=146652
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

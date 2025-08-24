@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X87 = {
+	allowed = {
+		tag = X87
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 1246
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W41"
+		value = 1110
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X23"
+		value = 302
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAT"
+		value = 229
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W35"
+		value = 176
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X20"
+		value = 86
+	}
+	ai_strategy = {
+		type = conquer
+		id = "COR"
+		value = 78
+	}
+}
+
+converted_diplo_strategies_X87 = {
+	allowed = {
+		tag = X87
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 382
+	}
+	ai_strategy = {
+		type = contain
+		id = "HLR"
+		value = 310
+	}
+	ai_strategy = {
+		type = contain
+		id = "X20"
+		value = 288
+	}
+	ai_strategy = {
+		type = contain
+		id = "W41"
+		value = 246
+	}
+	ai_strategy = {
+		type = contain
+		id = "W35"
+		value = 228
+	}
+	ai_strategy = {
+		type = contain
+		id = "COR"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAT"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "ROM"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "COR"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAT"
+		value = 370
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W41"
+		value = 336
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 293
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 133
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X23"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W41"
+		value = 126
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W04"
+		value = 110
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HLR"
+		value = 107
+	}
+	ai_strategy = {
+		type = protect
+		id = "COR"
+		value = 120
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "COR"
+		value = 30
+	}
+}

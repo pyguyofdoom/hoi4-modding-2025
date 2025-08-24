@@ -1,0 +1,36 @@
+
+state={
+	id=345
+	name="STATE_345"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = W85
+		victory_points = {
+			4543 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			4543 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W85
+		add_claim_by = NZL
+	}
+
+	provinces={
+		4543 4615 10334 10373 
+	}
+	manpower=124428
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

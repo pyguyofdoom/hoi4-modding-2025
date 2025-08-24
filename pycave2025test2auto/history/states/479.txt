@@ -1,0 +1,32 @@
+
+state={
+	id=479
+	name="STATE_479"
+
+	history={
+		owner = SOV
+		victory_points = {
+			10531 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = SOV
+		add_core_of = TAN
+		add_core_of = X59
+		add_claim_by = W25
+	}
+
+	provinces={
+		1297 1369 1674 1685 1718 1726 1733 1765 1779 1790 1794 1797 1824 1860 4366 4665 4681 4730 4734 4767 4771 4781 4789 4793 4800 4803 4806 4827 4840 4866 7274 7655 7680 7687 7722 7757 7789 7793 7822 7825 7849 7861 7886 10529 10531 10533 10537 10546 10555 10613 10617 10652 10673 10686 10713 11410 12174 12509 12510 12514 12515 12528 12536 12599 12606 12613 12631 12679 
+	}
+	manpower=4267908
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=377
+	name="STATE_377"
+
+	history={
+		owner = X81
+		victory_points = {
+			10263 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
+			air_base = 10
+			10263 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = W13
+		add_core_of = X81
+	}
+
+	provinces={
+		1589 4349 10263 
+	}
+	manpower=96740
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

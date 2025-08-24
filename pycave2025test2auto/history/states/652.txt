@@ -1,0 +1,29 @@
+
+state={
+	id=652
+	name="STATE_652"
+
+	history={
+		owner = W37
+		victory_points = {
+			8019 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = W37
+	}
+
+	provinces={
+		8019 8062 13246 13247 
+	}
+	manpower=312420
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

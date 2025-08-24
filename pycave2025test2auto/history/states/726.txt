@@ -1,0 +1,36 @@
+
+state={
+	id=726
+	name="STATE_726"
+	resources={
+		aluminium=1.000
+		steel=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			673 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_core_of = W38
+		add_core_of = W41
+	}
+
+	provinces={
+		671 673 688 3675 6678 6680 9633 9636 11618 11634 
+	}
+	manpower=1070200
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = HLR
+		victory_points = {
+			2115 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			2115 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = RCG
+	}
+
+	provinces={
+		2115 
+	}
+	manpower=333152
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

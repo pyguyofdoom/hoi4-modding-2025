@@ -1,0 +1,16 @@
+characters={
+	W54_georg_ludendorff={
+		name=W54_georg_ludendorff
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=minarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

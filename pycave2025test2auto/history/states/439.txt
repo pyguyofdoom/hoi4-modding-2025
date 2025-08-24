@@ -1,0 +1,30 @@
+
+state={
+	id=439
+	name="STATE_439"
+
+	history={
+		owner = W07
+		victory_points = {
+			5050 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = W07
+		add_core_of = W43
+	}
+
+	provinces={
+		829 2065 4943 5050 5098 9816 10774 12773 
+	}
+	manpower=982260
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,35 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4014
+		task_force = {
+			name = "1st Fleet"
+			location = 4014
+			ship = { name = "1st Catania Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W20 } } }
+			ship = { name = "Bari" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W20 } } }
+			ship = { name = "Basilicata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W20 } } }
+			ship = { name = "Calabria" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W20 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "W20"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "W20"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

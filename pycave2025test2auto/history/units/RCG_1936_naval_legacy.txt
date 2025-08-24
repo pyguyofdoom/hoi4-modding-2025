@@ -1,0 +1,33 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12975
+		task_force = {
+			name = "1st Fleet"
+			location = 12975
+			ship = { name = "Leopold I" definition = battleship equipment = { battleship_2 = { amount = 1 owner = RCG } } }
+			ship = { name = "1st Loango Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = RCG } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "RCG"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "RCG"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

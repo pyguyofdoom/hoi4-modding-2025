@@ -1,0 +1,33 @@
+
+state={
+	id=225
+	name="STATE_225"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = HLR
+		victory_points = {
+			11486 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W45
+		add_claim_by = HLR
+	}
+
+	provinces={
+		519 11486 
+	}
+	manpower=1160816
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

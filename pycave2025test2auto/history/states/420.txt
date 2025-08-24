@@ -1,0 +1,46 @@
+
+state={
+	id=420
+	name="STATE_420"
+
+	history={
+		owner = W04
+		victory_points = {
+			6986 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			3866 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W04
+		W16 = {
+			set_province_controller = 3790
+			set_province_controller = 3846
+			set_province_controller = 3866
+			set_province_controller = 3886
+			set_province_controller = 3926
+			set_province_controller = 6880
+			set_province_controller = 6884
+			set_province_controller = 6933
+			set_province_controller = 6986
+			set_province_controller = 9765
+			set_province_controller = 9819
+			set_province_controller = 9869
+		}
+	}
+
+	provinces={
+		3790 3846 3866 3886 3926 6880 6884 6933 6986 9765 9819 9869 
+	}
+	manpower=944456
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

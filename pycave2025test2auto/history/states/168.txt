@@ -1,0 +1,36 @@
+
+state={
+	id=168
+	name="STATE_168"
+	resources={
+		chromium=10.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			2200 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			10993 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = X23
+		add_claim_by = KEN
+	}
+
+	provinces={
+		2200 5185 8180 8246 10993 11015 12956 
+	}
+	manpower=2361168
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

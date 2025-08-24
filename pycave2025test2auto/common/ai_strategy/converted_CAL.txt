@@ -1,0 +1,131 @@
+﻿converted_war_strategies_CAL = {
+	allowed = {
+		tag = CAL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "W10"
+		value = 1606
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KOR"
+		value = 584
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W21"
+		value = 584
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X90"
+		value = 74
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HLR"
+		value = 73
+	}
+}
+
+converted_diplo_strategies_CAL = {
+	allowed = {
+		tag = CAL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "X90"
+		value = 267
+	}
+	ai_strategy = {
+		type = contain
+		id = "BLZ"
+		value = 255
+	}
+	ai_strategy = {
+		type = contain
+		id = "X74"
+		value = 166
+	}
+	ai_strategy = {
+		type = contain
+		id = "W39"
+		value = 85
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W10"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KOR"
+		value = 195
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W21"
+		value = 195
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X90"
+		value = 162
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X86"
+		value = 85
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X74"
+		value = 84
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HLR"
+		value = 24
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W39"
+		value = 174
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X74"
+		value = 104
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X74"
+		value = 119
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X90"
+		value = 92
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X23"
+		value = 47
+	}
+}

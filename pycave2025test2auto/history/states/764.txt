@@ -1,0 +1,42 @@
+
+state={
+	id=764
+	name="STATE_764"
+	resources={
+		aluminium=3.000
+		rubber=1.000
+	}
+
+	history={
+		owner = W92
+		victory_points = {
+			2120 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+			2120 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W78
+		add_core_of = W92
+		KOR = {
+			set_province_controller = 2120
+			set_province_controller = 5155
+			set_province_controller = 12935
+		}
+	}
+
+	provinces={
+		2120 5155 12935 
+	}
+	manpower=4942664
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

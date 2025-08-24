@@ -1,0 +1,35 @@
+
+state={
+	id=720
+	name="STATE_720"
+	resources={
+		steel=74.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			514 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = W38
+		add_core_of = W41
+		add_claim_by = GER
+		add_claim_by = HLR
+	}
+
+	provinces={
+		514 573 3514 3535 6559 9441 9471 9535 11481 
+	}
+	manpower=8135604
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

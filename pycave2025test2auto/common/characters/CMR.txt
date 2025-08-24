@@ -1,0 +1,16 @@
+characters={
+	CMR_roeland_vetter={
+		name=CMR_roeland_vetter
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

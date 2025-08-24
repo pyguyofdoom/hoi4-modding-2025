@@ -1,0 +1,141 @@
+﻿capital = 468
+set_research_slots = 3
+
+oob = "X84_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_russia
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 91
+	democratic = 7
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BLZ modifier = negative_30 }
+add_opinion_modifier = { target = BOS modifier = negative_40 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = CAL modifier = negative_10 }
+add_opinion_modifier = { target = CAT modifier = negative_50 }
+add_opinion_modifier = { target = COG modifier = negative_200 }
+add_opinion_modifier = { target = HLR modifier = negative_10 }
+add_opinion_modifier = { target = ITA modifier = negative_55 }
+add_opinion_modifier = { target = KEN modifier = negative_200 }
+add_opinion_modifier = { target = KOR modifier = negative_35 }
+add_opinion_modifier = { target = ROM modifier = positive_20 }
+add_opinion_modifier = { target = SAU modifier = positive_15 }
+add_opinion_modifier = { target = SCA modifier = negative_70 }
+add_opinion_modifier = { target = SOV modifier = negative_95 }
+add_opinion_modifier = { target = SUD modifier = negative_145 }
+add_opinion_modifier = { target = TZN modifier = negative_200 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = W04 modifier = negative_45 }
+add_opinion_modifier = { target = W07 modifier = negative_20 }
+add_opinion_modifier = { target = W10 modifier = negative_25 }
+add_opinion_modifier = { target = W21 modifier = positive_30 }
+add_opinion_modifier = { target = W27 modifier = negative_200 }
+add_opinion_modifier = { target = W35 modifier = positive_5 }
+add_opinion_modifier = { target = W37 modifier = negative_200 }
+add_opinion_modifier = { target = W39 modifier = negative_20 }
+add_opinion_modifier = { target = W41 modifier = positive_5 }
+add_opinion_modifier = { target = W49 modifier = negative_20 }
+add_opinion_modifier = { target = W65 modifier = negative_150 }
+add_opinion_modifier = { target = W72 modifier = negative_10 }
+add_opinion_modifier = { target = X02 modifier = negative_200 }
+add_opinion_modifier = { target = X14 modifier = negative_25 }
+add_opinion_modifier = { target = X20 modifier = negative_135 }
+add_opinion_modifier = { target = X23 modifier = negative_10 }
+add_opinion_modifier = { target = X44 modifier = negative_200 }
+add_opinion_modifier = { target = X74 modifier = negative_35 }
+add_opinion_modifier = { target = X90 modifier = negative_10 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_ugrian
+}
+
+recruit_character = X84_king_na!hkol_ii
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Katariina Minina"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X84 }
+	}
+
+	create_operative_leader = {
+		name = "Sirpa Minina"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X84 }
+	}
+
+	create_operative_leader = {
+		name = "Mirjami Kokko"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X84 }
+	}
+
+	create_operative_leader = {
+		name = "Aleksandr Sibiriak"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X84 }
+	}
+
+	create_operative_leader = {
+		name = "Aleksandr Tikhanov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X84 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

@@ -1,0 +1,29 @@
+
+state={
+	id=395
+	name="STATE_395"
+
+	history={
+		owner = NGA
+		victory_points = {
+			12817 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = NGA
+	}
+
+	provinces={
+		1891 12817 
+	}
+	manpower=1809792
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

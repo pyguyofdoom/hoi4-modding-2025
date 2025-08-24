@@ -1,0 +1,35 @@
+
+state={
+	id=238
+	name="STATE_238"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = W83
+		victory_points = {
+			12971 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			12971 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = W83
+	}
+
+	provinces={
+		2180 12950 12971 
+	}
+	manpower=2443804
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

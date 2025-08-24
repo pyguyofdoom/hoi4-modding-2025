@@ -1,0 +1,106 @@
+﻿converted_war_strategies_KAR = {
+	allowed = {
+		tag = KAR
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 471
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 35
+	}
+	ai_strategy = {
+		type = conquer
+		id = "NOR"
+		value = 15
+	}
+}
+
+converted_diplo_strategies_KAR = {
+	allowed = {
+		tag = KAR
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 244
+	}
+	ai_strategy = {
+		type = contain
+		id = "NOR"
+		value = 230
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 375
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 129
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "NOR"
+		value = 83
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAL"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X74"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W41"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HLR"
+		value = 200
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W25"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MOR"
+		value = 43
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SYR"
+		value = 43
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NGA"
+		value = 22
+	}
+}

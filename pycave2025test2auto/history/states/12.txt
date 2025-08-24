@@ -1,0 +1,32 @@
+
+state={
+	id=12
+	name="STATE_12"
+
+	history={
+		owner = SAU
+		victory_points = {
+			7151 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			4115 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976 
+	}
+	manpower=124172
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

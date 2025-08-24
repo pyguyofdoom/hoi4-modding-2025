@@ -1,0 +1,36 @@
+
+state={
+	id=167
+	name="STATE_167"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			8188 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			5128 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = X23
+		add_claim_by = KEN
+	}
+
+	provinces={
+		5128 8188 
+	}
+	manpower=2294932
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

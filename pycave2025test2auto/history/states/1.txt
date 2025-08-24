@@ -1,0 +1,30 @@
+
+state={
+	id=1
+	name="STATE_1"
+
+	history={
+		owner = AFG
+		victory_points = {
+			1459 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W25
+		add_claim_by = AFG
+	}
+
+	provinces={
+		1216 1459 1483 1532 1554 1573 1623 4488 4499 4629 7639 7682 7775 10420 10470 10488 10530 10671 12161 12239 12722 
+	}
+	manpower=2690360
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=496
+	name="STATE_496"
+	resources={
+		aluminium=5.000
+		steel=34.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			383 25 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+			383 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		69 77 114 147 156 171 295 383 3005 3063 3070 3128 3141 3148 3286 3375 3386 6028 6084 6093 6123 6147 6164 6188 6195 6310 6331 6406 9054 9068 9138 9173 9182 9193 9209 9218 11044 11070 11114 11197 
+	}
+	manpower=2095136
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

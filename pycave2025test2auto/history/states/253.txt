@@ -1,0 +1,30 @@
+
+state={
+	id=253
+	name="STATE_253"
+
+	history={
+		owner = W83
+		victory_points = {
+			4171 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W83
+		add_claim_by = TZN
+	}
+
+	provinces={
+		2176 4171 5180 8144 10932 10988 12967 
+	}
+	manpower=2355464
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

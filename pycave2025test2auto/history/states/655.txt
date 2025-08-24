@@ -1,0 +1,35 @@
+
+state={
+	id=655
+	name="STATE_655"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = W39
+		victory_points = {
+			7630 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+			7630 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W39
+	}
+
+	provinces={
+		1633 4624 7617 7630 10482 
+	}
+	manpower=1667516
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

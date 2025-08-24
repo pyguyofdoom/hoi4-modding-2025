@@ -1,0 +1,45 @@
+
+state={
+	id=149
+	name="STATE_149"
+	resources={
+		steel=12.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			6489 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 7
+			6103 = {
+				landmark_big_ben = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+			13070 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W53
+		add_core_of = X23
+	}
+
+	provinces={
+		507 3501 6103 6221 6270 6489 9458 11333 11446 11471 13070 
+	}
+	manpower=5548220
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

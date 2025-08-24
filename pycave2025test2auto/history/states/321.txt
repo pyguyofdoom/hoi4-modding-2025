@@ -1,0 +1,35 @@
+
+state={
+	id=321
+	name="STATE_321"
+
+	history={
+		owner = KOR
+		victory_points = {
+			10444 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 6
+			12352 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = JAP
+		add_core_of = KOR
+		add_core_of = X35
+	}
+
+	provinces={
+		1512 1642 3962 4576 4646 7532 7595 10444 10512 12352 12421 12493 
+	}
+	manpower=967576
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

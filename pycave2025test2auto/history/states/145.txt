@@ -1,0 +1,37 @@
+
+state={
+	id=145
+	name="STATE_145"
+	resources={
+		aluminium=8.000
+		steel=86.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			6384 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			3205 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = X23
+	}
+
+	provinces={
+		219 3205 6318 6335 6384 6399 9285 11332 
+	}
+	manpower=6294412
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,39 @@
+
+state={
+	id=19
+	name="STATE_19"
+	resources={
+		aluminium=21.000
+		oil=2.000
+		steel=3.000
+	}
+
+	history={
+		owner = SAU
+		victory_points = {
+			2048 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 10
+			1955 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = QAT
+		add_core_of = SAU
+		add_core_of = UAE
+	}
+
+	provinces={
+		1955 2048 5024 7960 8051 8108 10791 10850 10904 12702 13369 
+	}
+	manpower=673124
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

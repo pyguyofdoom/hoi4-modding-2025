@@ -1,0 +1,280 @@
+focus_tree = {
+	id = W10_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = W10
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = expand_the_reichW10
+		icon = GFX_goal_generic_political_pressure
+		text = expand_the_reich
+		x = 28
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = expand_the_reich }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = W10_sudeten_TIB
+		icon = GFX_goal_anschluss
+		text = _sudeten_TIB
+		prerequisite = { focus = expand_the_reichW10 }
+		bypass = {
+	  has_war_with = TIB
+	}
+		x = -2
+		y = 1
+		relative_position_id = expand_the_reichW10
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Tibet" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = TIB
+			}
+			TIB = {
+				country_event = NFEvents.29
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = W10_finish_TIB
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_TIB
+		prerequisite = { focus =  W10_sudeten_TIB }
+		bypass = {
+		has_war_with = TIB
+	}
+		x = 0
+		y = 1
+		relative_position_id = W10_sudeten_TIB
+		cost = 10
+		available = {
+		TIB = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Tibet" }
+		create_wargoal = {
+			type = annex_everything
+			target = TIB
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = W10_sudeten_X07
+		icon = GFX_goal_anschluss
+		text = _sudeten_X07
+		prerequisite = { focus = expand_the_reichW10 }
+		bypass = {
+	  has_war_with = X07
+	}
+		x = 0
+		y = 1
+		relative_position_id = expand_the_reichW10
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Ava" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = X07
+			}
+			X07 = {
+				country_event = NFEvents.32
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = W10_finish_X07
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_X07
+		prerequisite = { focus =  W10_sudeten_X07 }
+		bypass = {
+		has_war_with = X07
+	}
+		x = 0
+		y = 1
+		relative_position_id = W10_sudeten_X07
+		cost = 10
+		available = {
+		X07 = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Ava" }
+		create_wargoal = {
+			type = annex_everything
+			target = X07
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = W10_sudeten_X73
+		icon = GFX_goal_anschluss
+		text = _sudeten_X73
+		prerequisite = { focus = expand_the_reichW10 }
+		bypass = {
+	  has_war_with = X73
+	}
+		x = 2
+		y = 1
+		relative_position_id = expand_the_reichW10
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Lan Na" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = X73
+			}
+			X73 = {
+				country_event = NFEvents.35
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = W10_finish_X73
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_X73
+		prerequisite = { focus =  W10_sudeten_X73 }
+		bypass = {
+		has_war_with = X73
+	}
+		x = 0
+		y = 1
+		relative_position_id = W10_sudeten_X73
+		cost = 10
+		available = {
+		X73 = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Lan Na" }
+		create_wargoal = {
+			type = annex_everything
+			target = X73
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = GP_WarSOVW10
+		icon = GFX_goal_generic_major_war
+		text = GP_WarSOV
+		bypass = {
+		has_war_with = SOV
+	}
+		x = 30
+		y = 0
+		cost = 10
+		available = {
+		has_war = no
+		date > 1939.12.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 5 name = "War with Russia" }
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = SOV
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = SOV ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				
+			}
+		}
+	}
+	}
+
+}

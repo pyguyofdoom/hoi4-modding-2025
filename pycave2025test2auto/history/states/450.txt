@@ -1,0 +1,29 @@
+
+state={
+	id=450
+	name="STATE_450"
+
+	history={
+		owner = SOV
+		victory_points = {
+			6280 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		233 277 358 406 560 3309 3366 3556 6280 6306 6340 6359 6413 6415 6579 9236 9304 9341 9359 11285 11341 11342 11391 
+	}
+	manpower=2801764
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

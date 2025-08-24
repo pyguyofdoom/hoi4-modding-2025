@@ -1,0 +1,30 @@
+
+state={
+	id=376
+	name="STATE_376"
+
+	history={
+		owner = MON
+		victory_points = {
+			1402 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = MON
+		add_core_of = W51
+	}
+
+	provinces={
+		1239 1287 1382 1402 4250 4389 4595 7335 7350 7405 7407 10235 10292 
+	}
+	manpower=130076
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

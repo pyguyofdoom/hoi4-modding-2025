@@ -1,0 +1,29 @@
+
+state={
+	id=754
+	name="STATE_754"
+
+	history={
+		owner = W41
+		victory_points = {
+			3496 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W41
+	}
+
+	provinces={
+		422 474 513 535 3412 3496 6520 6546 9520 11441 11503 
+	}
+	manpower=833556
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

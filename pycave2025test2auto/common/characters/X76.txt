@@ -1,0 +1,16 @@
+characters={
+	X76_leon_jacinto={
+		name=X76_leon_jacinto
+		portraits={
+			civilian={
+				large="GFX_Philippines_Elpidio_Quirino"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

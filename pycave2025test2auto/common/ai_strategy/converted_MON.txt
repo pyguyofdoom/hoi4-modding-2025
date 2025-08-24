@@ -1,0 +1,131 @@
+﻿converted_war_strategies_MON = {
+	allowed = {
+		tag = MON
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "W10"
+		value = 1128
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 268
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KOR"
+		value = 216
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIB"
+		value = 50
+	}
+}
+
+converted_diplo_strategies_MON = {
+	allowed = {
+		tag = MON
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "W10"
+		value = 249
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIB"
+		value = 203
+	}
+	ai_strategy = {
+		type = contain
+		id = "KHI"
+		value = 121
+	}
+	ai_strategy = {
+		type = contain
+		id = "AFG"
+		value = 57
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W10"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIB"
+		value = 368
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 315
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KOR"
+		value = 116
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W25"
+		value = 48
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AFG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W21"
+		value = 113
+	}
+	ai_strategy = {
+		type = alliance
+		id = "KOR"
+		value = 84
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W25"
+		value = 15
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SIB"
+		value = 100
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KHI"
+		value = 75
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W69"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NEP"
+		value = 50
+	}
+}

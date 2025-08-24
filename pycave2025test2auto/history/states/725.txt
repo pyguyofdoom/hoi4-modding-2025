@@ -1,0 +1,33 @@
+
+state={
+	id=725
+	name="STATE_725"
+	resources={
+		aluminium=18.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			11604 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ITA
+		add_core_of = W41
+	}
+
+	provinces={
+		658 3641 3660 3662 9600 11601 11604 
+	}
+	manpower=471240
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

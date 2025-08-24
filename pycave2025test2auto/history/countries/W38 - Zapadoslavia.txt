@@ -1,0 +1,140 @@
+﻿capital = 746
+set_cosmetic_tag = W38_union
+set_research_slots = 3
+
+oob = "W38_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_poland
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 73
+	democratic = 25
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BLZ modifier = negative_30 }
+add_opinion_modifier = { target = BOS modifier = negative_55 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = CAL modifier = negative_10 }
+add_opinion_modifier = { target = CAT modifier = negative_50 }
+add_opinion_modifier = { target = COG modifier = negative_200 }
+add_opinion_modifier = { target = HLR modifier = negative_25 }
+add_opinion_modifier = { target = ITA modifier = negative_70 }
+add_opinion_modifier = { target = KEN modifier = negative_200 }
+add_opinion_modifier = { target = KOR modifier = negative_35 }
+add_opinion_modifier = { target = ROM modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = negative_70 }
+add_opinion_modifier = { target = SOV modifier = negative_125 }
+add_opinion_modifier = { target = SUD modifier = negative_160 }
+add_opinion_modifier = { target = TZN modifier = negative_200 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = W04 modifier = negative_45 }
+add_opinion_modifier = { target = W07 modifier = negative_20 }
+add_opinion_modifier = { target = W10 modifier = negative_25 }
+add_opinion_modifier = { target = W27 modifier = negative_200 }
+add_opinion_modifier = { target = W35 modifier = negative_10 }
+add_opinion_modifier = { target = W37 modifier = negative_200 }
+add_opinion_modifier = { target = W39 modifier = negative_35 }
+add_opinion_modifier = { target = W41 modifier = positive_15 }
+add_opinion_modifier = { target = W49 modifier = negative_20 }
+add_opinion_modifier = { target = W65 modifier = negative_150 }
+add_opinion_modifier = { target = W72 modifier = negative_10 }
+add_opinion_modifier = { target = X02 modifier = negative_200 }
+add_opinion_modifier = { target = X14 modifier = negative_25 }
+add_opinion_modifier = { target = X20 modifier = negative_135 }
+add_opinion_modifier = { target = X23 modifier = negative_10 }
+add_opinion_modifier = { target = X44 modifier = negative_200 }
+add_opinion_modifier = { target = X74 modifier = negative_35 }
+add_opinion_modifier = { target = X90 modifier = negative_10 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_polish
+}
+
+recruit_character = W38_lucjan_taczaneowski
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Elżbieta Pilsudska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W38 }
+	}
+
+	create_operative_leader = {
+		name = "Renata Bór-Komorowska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W38 }
+	}
+
+	create_operative_leader = {
+		name = "Natalia Kruszewska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W38 }
+	}
+
+	create_operative_leader = {
+		name = "Gustaw Mikolajczyk"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W38 }
+	}
+
+	create_operative_leader = {
+		name = "Henryk Mierolawski"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W38 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

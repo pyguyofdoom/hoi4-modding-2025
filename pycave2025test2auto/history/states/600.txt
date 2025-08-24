@@ -1,0 +1,39 @@
+
+state={
+	id=600
+	name="STATE_600"
+	resources={
+		chromium=1.000
+		steel=7.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = W88
+		victory_points = {
+			9963 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			9963 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W88
+		add_core_of = X40
+		add_claim_by = X23
+	}
+
+	provinces={
+		1087 1187 4092 9963 11941 12077 
+	}
+	manpower=3925684
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

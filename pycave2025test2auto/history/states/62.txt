@@ -1,0 +1,29 @@
+
+state={
+	id=62
+	name="STATE_62"
+
+	history={
+		owner = BLZ
+		victory_points = {
+			1965 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = BLZ
+	}
+
+	provinces={
+		1965 2011 7913 8089 12755 
+	}
+	manpower=6394976
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

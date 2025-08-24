@@ -1,0 +1,43 @@
+
+state={
+	id=419
+	name="STATE_419"
+	resources={
+		tungsten=43.000
+	}
+
+	history={
+		owner = W04
+		victory_points = {
+			980 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 6
+			11805 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W04
+		W16 = {
+			set_province_controller = 844
+			set_province_controller = 924
+			set_province_controller = 970
+			set_province_controller = 11768
+			set_province_controller = 11805
+		}
+	}
+
+	provinces={
+		844 924 970 980 11768 11805 
+	}
+	manpower=1459388
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

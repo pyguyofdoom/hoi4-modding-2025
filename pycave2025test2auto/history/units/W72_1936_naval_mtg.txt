@@ -1,0 +1,65 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10365
+		task_force = {
+			name = "1st Fleet"
+			location = 10365
+			ship = { name = "1st Newcastle Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = W72 version_name = "Early Battleship" } } }
+			ship = { name = "1st Cairns Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = W72 version_name = "Early Battleship" } } }
+			ship = { name = "1st Port Augusta Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = W72 version_name = "Early Battleship" } } }
+			ship = { name = "1st Warrnambool Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = W72 version_name = "Early Battleship" } } }
+			ship = { name = "2nd Cairns Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = W72 version_name = "Early Battleship" } } }
+			ship = { name = "2nd Port Augusta Dreadnought" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = W72 version_name = "Early Battleship" } } }
+			ship = { name = "1st Newcastle Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Newcastle Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Broome Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Warrnambool Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Newcastle Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Newcastle Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Warrnambool Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Newcastle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Cairns Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Warrnambool Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Warrnambool Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th Warrnambool Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Port Augusta Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "5th Warrnambool Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "6th Warrnambool Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Cairns Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Cairns Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Port Essington Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Port Augusta Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Broome Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Port Essington Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Newcastle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Newcastle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th Newcastle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "5th Newcastle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+			ship = { name = "6th Newcastle Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = W72 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "W72"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "W72"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

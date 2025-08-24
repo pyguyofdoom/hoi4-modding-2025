@@ -1,0 +1,38 @@
+
+state={
+	id=101
+	name="STATE_101"
+	resources={
+		aluminium=18.000
+		chromium=14.000
+		steel=11.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			12001 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			7127 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = X20
+	}
+
+	provinces={
+		976 1106 1109 1205 3401 3864 7127 11895 12001 
+	}
+	manpower=537356
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

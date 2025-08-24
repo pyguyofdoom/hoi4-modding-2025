@@ -1,0 +1,21 @@
+﻿converted_war_strategies_X26 = {
+	allowed = {
+		tag = X26
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_X26 = {
+	allowed = {
+		tag = X26
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=777
+	name="STATE_777"
+
+	history={
+		owner = W61
+		victory_points = {
+			1340 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1224 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X22
+		add_claim_by = W61
+	}
+
+	provinces={
+		1224 1311 1340 4269 4373 7307 
+	}
+	manpower=546504
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

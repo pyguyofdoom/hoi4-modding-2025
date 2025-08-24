@@ -1,0 +1,38 @@
+
+state={
+	id=545
+	name="STATE_545"
+	resources={
+		rubber=50.000
+		steel=1.000
+		tungsten=18.000
+	}
+
+	history={
+		owner = W16
+		victory_points = {
+			7427 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 10
+			12299 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = MAL
+		add_core_of = W16
+	}
+
+	provinces={
+		4412 4424 7427 10297 10313 12299 
+	}
+	manpower=971212
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

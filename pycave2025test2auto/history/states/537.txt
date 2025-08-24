@@ -1,0 +1,32 @@
+
+state={
+	id=537
+	name="STATE_537"
+
+	history={
+		owner = W10
+		victory_points = {
+			4801 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = AFG
+		add_core_of = X51
+		add_core_of = X59
+		add_core_of = X63
+	}
+
+	provinces={
+		1723 1743 1787 1853 1859 1868 4655 4729 4732 4786 4792 4801 4856 4862 4873 7717 7749 7752 7823 7885 10554 10558 10575 10578 10632 10647 10689 10708 12533 12539 12557 12605 12612 12629 12665 12669 12686 
+	}
+	manpower=967372
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

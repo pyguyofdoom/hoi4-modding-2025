@@ -1,0 +1,36 @@
+
+state={
+	id=435
+	name="STATE_435"
+
+	history={
+		owner = W04
+		victory_points = {
+			10777 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			10777 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = SUD
+		add_claim_by = W17
+		X90 = {
+			set_province_controller = 10777
+		}
+	}
+
+	provinces={
+		10777 
+	}
+	manpower=37488
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

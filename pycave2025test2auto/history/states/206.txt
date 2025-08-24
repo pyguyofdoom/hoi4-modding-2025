@@ -1,0 +1,30 @@
+
+state={
+	id=206
+	name="STATE_206"
+
+	history={
+		owner = X44
+		victory_points = {
+			1932 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = X44
+		add_claim_by = NGA
+	}
+
+	provinces={
+		1932 2025 8021 
+	}
+	manpower=363012
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=686
+	name="STATE_686"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = W39
+		victory_points = {
+			10912 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			10767 = {
+				naval_base = 10
+			}
+
+		}
+	}
+
+	provinces={
+		1981 5317 7915 8050 10736 10767 10823 10849 10879 10912 13362 
+	}
+	manpower=2097804
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

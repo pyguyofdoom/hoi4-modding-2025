@@ -1,0 +1,32 @@
+
+state={
+	id=758
+	name="STATE_758"
+
+	history={
+		owner = W41
+		victory_points = {
+			6549 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = W38
+		add_core_of = W41
+		add_claim_by = GER
+		add_claim_by = HLR
+	}
+
+	provinces={
+		3397 6549 11445 
+	}
+	manpower=2437188
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

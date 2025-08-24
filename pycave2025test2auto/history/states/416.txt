@@ -1,0 +1,61 @@
+
+state={
+	id=416
+	name="STATE_416"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = W04
+		victory_points = {
+			1048 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			4080 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W04
+		KOR = {
+			set_province_controller = 875
+			set_province_controller = 879
+			set_province_controller = 1178
+			set_province_controller = 3810
+			set_province_controller = 3871
+			set_province_controller = 4182
+			set_province_controller = 6744
+			set_province_controller = 7098
+			set_province_controller = 7183
+			set_province_controller = 7198
+			set_province_controller = 9891
+			set_province_controller = 13231
+		}
+		W16 = {
+			set_province_controller = 1048
+			set_province_controller = 3940
+			set_province_controller = 4080
+			set_province_controller = 4135
+			set_province_controller = 7153
+			set_province_controller = 9815
+			set_province_controller = 10094
+			set_province_controller = 11749
+			set_province_controller = 12070
+			set_province_controller = 13228
+		}
+	}
+
+	provinces={
+		875 879 1048 1178 3810 3871 3940 4080 4135 4182 6744 7098 7153 7183 7198 9815 9891 10094 11749 12070 13228 13231 
+	}
+	manpower=2358688
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

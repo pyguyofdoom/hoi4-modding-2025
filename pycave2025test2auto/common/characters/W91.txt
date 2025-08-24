@@ -1,0 +1,16 @@
+characters={
+	W91_rudolf_huisman={
+		name=W91_rudolf_huisman
+		portraits={
+			civilian={
+				large="gfx/leaders/NZL/Portrait_NewZealand_Peter_Fraser.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

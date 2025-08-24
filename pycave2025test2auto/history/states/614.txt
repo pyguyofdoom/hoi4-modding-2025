@@ -1,0 +1,34 @@
+
+state={
+	id=614
+	name="STATE_614"
+
+	history={
+		owner = TZN
+		victory_points = {
+			2196 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 10
+			2196 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = TZN
+		add_core_of = W77
+	}
+
+	provinces={
+		2196 2206 5224 8183 8205 11017 12911 
+	}
+	manpower=1108228
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

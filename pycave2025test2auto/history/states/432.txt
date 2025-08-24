@@ -1,0 +1,43 @@
+
+state={
+	id=432
+	name="STATE_432"
+	resources={
+		aluminium=5.000
+		rubber=2.000
+		steel=1.000
+	}
+
+	history={
+		owner = W87
+		victory_points = {
+			12858 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			12858 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W87
+		W16 = {
+			set_province_controller = 1909
+			set_province_controller = 4957
+			set_province_controller = 12802
+			set_province_controller = 12858
+		}
+	}
+
+	provinces={
+		1909 4957 12802 12858 
+	}
+	manpower=2761992
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

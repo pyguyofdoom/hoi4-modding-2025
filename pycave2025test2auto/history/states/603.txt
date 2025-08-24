@@ -1,0 +1,37 @@
+
+state={
+	id=603
+	name="STATE_603"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = W21
+		victory_points = {
+			979 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			6995 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = GEO
+		add_core_of = W21
+		add_core_of = X20
+	}
+
+	provinces={
+		979 3919 3967 3982 6920 6938 6995 9844 11881 11883 
+	}
+	manpower=2156564
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=574
+	name="STATE_574"
+
+	history={
+		owner = KEN
+		victory_points = {
+			1939 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = KEN
+	}
+
+	provinces={
+		1939 6020 10761 10962 
+	}
+	manpower=426580
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

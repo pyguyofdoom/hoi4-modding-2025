@@ -1,0 +1,33 @@
+
+state={
+	id=85
+	name="STATE_85"
+
+	history={
+		owner = BOS
+		victory_points = {
+			9780 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			9780 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X20
+		add_claim_by = BOS
+	}
+
+	provinces={
+		3896 9780 11762 
+	}
+	manpower=599776
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

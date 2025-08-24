@@ -1,0 +1,29 @@
+
+state={
+	id=259
+	name="STATE_259"
+
+	history={
+		owner = W80
+		victory_points = {
+			11194 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W80
+	}
+
+	provinces={
+		7963 9137 11194 
+	}
+	manpower=1572596
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=342
+	name="STATE_342"
+
+	history={
+		owner = W85
+		victory_points = {
+			1269 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+			7390 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W85
+	}
+
+	provinces={
+		1042 1085 1269 1358 1370 4226 4252 4292 4378 7390 7437 10234 10291 10319 12265 
+	}
+	manpower=823228
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

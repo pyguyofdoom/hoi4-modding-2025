@@ -1,0 +1,34 @@
+
+state={
+	id=356
+	name="STATE_356"
+
+	history={
+		owner = X73
+		victory_points = {
+			4075 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 0
+			10016 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = VIN
+		add_core_of = X73
+	}
+
+	provinces={
+		1185 4075 4119 4529 9988 10016 10075 10103 10129 11909 11936 12048 12075 12319 
+	}
+	manpower=3900808
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

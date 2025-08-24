@@ -1,0 +1,32 @@
+
+state={
+	id=621
+	name="STATE_621"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			4569 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		1523 1621 4449 4540 4569 7449 7607 10333 10391 10516 12346 
+	}
+	manpower=790128
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

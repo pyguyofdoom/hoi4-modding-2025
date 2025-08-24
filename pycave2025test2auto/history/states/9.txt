@@ -1,0 +1,34 @@
+
+state={
+	id=9
+	name="STATE_9"
+	resources={
+		aluminium=2.000
+		oil=5.000
+		steel=2.000
+	}
+
+	history={
+		owner = X03
+		victory_points = {
+			2026 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X03
+	}
+
+	provinces={
+		2026 4928 12756 
+	}
+	manpower=1092700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

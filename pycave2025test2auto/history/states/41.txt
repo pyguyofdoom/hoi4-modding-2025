@@ -1,0 +1,34 @@
+
+state={
+	id=41
+	name="STATE_41"
+	resources={
+		oil=4.000
+		tungsten=36.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			5230 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X29
+		add_core_of = X98
+	}
+
+	provinces={
+		5188 5230 8157 8211 8225 8240 10938 10982 10996 12917 13195 
+	}
+	manpower=3277588
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

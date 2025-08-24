@@ -1,0 +1,25 @@
+GRE_OPERATIVE_CODENAME_HISTORICAL = {
+	name = GRE_OPERATIVE_CODENAME_HISTORICAL
+
+	for_countries = { W67 W93 W94 X20 X36 }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+	unique = {
+		"Kallos"
+		"Kairos"
+		"Aigai"
+		"Laurion"
+		"Somatophylaktos"
+		"Philosophos"
+		"Sphinx"
+		"Ajax"
+		"Eugenios"
+		"Potamos"
+		"Hippos"
+		"Attikos"
+		"Kretai"
+		"Aiôn"
+	}
+}

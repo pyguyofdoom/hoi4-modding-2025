@@ -1,0 +1,16 @@
+characters={
+	W93_charalampos_foumis={
+		name=W93_charalampos_foumis
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_Italy_Benito_Mussolini.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

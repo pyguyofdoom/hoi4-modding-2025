@@ -1,0 +1,36 @@
+
+state={
+	id=260
+	name="STATE_260"
+	resources={
+		aluminium=4.000
+		steel=25.000
+	}
+
+	history={
+		owner = HLR
+		victory_points = {
+			9642 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 7
+
+		}
+		add_core_of = GER
+		add_core_of = HLR
+		add_core_of = W54
+		add_claim_by = X23
+	}
+
+	provinces={
+		551 680 698 3506 3533 3666 6531 6698 9472 9490 9642 9658 11732 13011 
+	}
+	manpower=2884844
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

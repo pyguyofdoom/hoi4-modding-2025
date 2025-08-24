@@ -1,0 +1,33 @@
+
+state={
+	id=204
+	name="STATE_204"
+
+	history={
+		owner = FIN
+		victory_points = {
+			3061 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 7
+			11105 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = FIN
+	}
+
+	provinces={
+		67 204 3061 3161 6009 6082 6108 6144 6163 6186 9129 9160 9167 9183 11056 11066 11105 11211 
+	}
+	manpower=355840
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

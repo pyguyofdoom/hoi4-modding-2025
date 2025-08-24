@@ -1,0 +1,37 @@
+
+state={
+	id=277
+	name="STATE_277"
+	resources={
+		aluminium=1.000
+		chromium=1.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			5096 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X15
+		add_core_of = X19
+		add_claim_by = X67
+	}
+
+	provinces={
+		1199 1949 2036 2105 4106 4410 4950 4953 5096 7080 7205 8076 10332 10801 10807 10816 11993 11995 12080 12799 12854 
+	}
+	manpower=7290032
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

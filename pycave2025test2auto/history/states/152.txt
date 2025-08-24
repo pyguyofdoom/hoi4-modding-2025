@@ -1,0 +1,36 @@
+
+state={
+	id=152
+	name="STATE_152"
+	resources={
+		steel=30.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			6449 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			6449 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = X23
+	}
+
+	provinces={
+		539 553 3549 3579 6449 6569 6599 9434 9550 9578 11521 11535 11563 
+	}
+	manpower=2610484
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

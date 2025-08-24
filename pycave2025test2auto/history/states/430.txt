@@ -1,0 +1,43 @@
+
+state={
+	id=430
+	name="STATE_430"
+	resources={
+		aluminium=4.000
+		rubber=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = W87
+		victory_points = {
+			5045 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W87
+		add_core_of = X38
+		W16 = {
+			set_province_controller = 5045
+		}
+		W21 = {
+			set_province_controller = 2012
+			set_province_controller = 10829
+			set_province_controller = 10915
+		}
+	}
+
+	provinces={
+		2012 5045 10829 10915 
+	}
+	manpower=1676552
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

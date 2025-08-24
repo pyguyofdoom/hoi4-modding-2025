@@ -1,0 +1,32 @@
+
+state={
+	id=763
+	name="STATE_763"
+
+	history={
+		owner = W41
+		victory_points = {
+			3234 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_core_of = HES
+		add_core_of = HLR
+		add_claim_by = W41
+	}
+
+	provinces={
+		3234 3395 
+	}
+	manpower=739196
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

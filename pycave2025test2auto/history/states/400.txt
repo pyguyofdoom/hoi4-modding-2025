@@ -1,0 +1,31 @@
+
+state={
+	id=400
+	name="STATE_400"
+
+	history={
+		owner = SUD
+		victory_points = {
+			5041 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = SUD
+		add_core_of = W17
+		add_core_of = W40
+	}
+
+	provinces={
+		2072 5041 5097 7944 13236 13237 13238 13240 13241 
+	}
+	manpower=2361088
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

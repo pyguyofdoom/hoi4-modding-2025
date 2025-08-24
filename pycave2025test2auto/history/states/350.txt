@@ -1,0 +1,35 @@
+
+state={
+	id=350
+	name="STATE_350"
+	resources={
+		aluminium=8.000
+	}
+
+	history={
+		owner = W85
+		victory_points = {
+			2189 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			2189 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W85
+	}
+
+	provinces={
+		2183 2189 5181 5187 10665 12645 
+	}
+	manpower=495368
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

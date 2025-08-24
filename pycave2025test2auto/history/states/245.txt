@@ -1,0 +1,36 @@
+
+state={
+	id=245
+	name="STATE_245"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = W84
+		victory_points = {
+			12785 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+			10862 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W84
+		add_claim_by = TOG
+	}
+
+	provinces={
+		10862 12742 12785 12787 
+	}
+	manpower=3603768
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

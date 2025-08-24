@@ -1,0 +1,33 @@
+
+state={
+	id=399
+	name="STATE_399"
+	resources={
+		aluminium=3.000
+		steel=24.000
+	}
+
+	history={
+		owner = NOR
+		victory_points = {
+			11049 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		46 113 168 202 3039 3108 3111 3162 3191 6010 6126 6129 6185 6207 9066 9148 9154 9171 9229 11049 11052 11053 11116 11187 
+	}
+	manpower=169440
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

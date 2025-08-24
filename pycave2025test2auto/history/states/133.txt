@@ -1,0 +1,32 @@
+
+state={
+	id=133
+	name="STATE_133"
+
+	history={
+		owner = X20
+		victory_points = {
+			11746 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			4124 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X20
+	}
+
+	provinces={
+		806 886 3889 3921 4124 6813 6956 7026 9893 10056 11746 11810 
+	}
+	manpower=611960
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

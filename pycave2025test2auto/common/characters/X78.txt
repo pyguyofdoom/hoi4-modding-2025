@@ -1,0 +1,16 @@
+characters={
+	X78_king_arcadio={
+		name=X78_king_arcadio
+		portraits={
+			civilian={
+				large="GFX_Sarawak_Ahmad_Tajuddin"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

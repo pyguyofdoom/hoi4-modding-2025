@@ -1,0 +1,37 @@
+
+state={
+	id=317
+	name="STATE_317"
+	resources={
+		steel=4.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			7125 50 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 10
+			1148 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = KOR
+	}
+
+	provinces={
+		1100 1148 4004 4103 7021 7125 7175 7204 7221 9936 10036 10115 11912 11977 11992 12011 
+	}
+	manpower=6093344
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

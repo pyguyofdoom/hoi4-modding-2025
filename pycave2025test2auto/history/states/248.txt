@@ -1,0 +1,33 @@
+
+state={
+	id=248
+	name="STATE_248"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = W80
+		victory_points = {
+			7978 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W80
+		add_claim_by = NGA
+	}
+
+	provinces={
+		4889 4938 7978 8109 10820 
+	}
+	manpower=2119728
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

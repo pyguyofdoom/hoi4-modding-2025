@@ -1,0 +1,29 @@
+
+state={
+	id=74
+	name="STATE_74"
+
+	history={
+		owner = BOS
+		victory_points = {
+			3630 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = BOS
+	}
+
+	provinces={
+		3630 6652 11588 11657 
+	}
+	manpower=777844
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

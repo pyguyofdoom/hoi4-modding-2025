@@ -1,0 +1,31 @@
+
+state={
+	id=748
+	name="STATE_748"
+
+	history={
+		owner = W41
+		victory_points = {
+			3393 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = SOV
+		add_core_of = W38
+		add_core_of = W41
+	}
+
+	provinces={
+		290 318 347 400 3254 3256 3281 3392 3393 11247 11301 11357 11528 13206 
+	}
+	manpower=2020820
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

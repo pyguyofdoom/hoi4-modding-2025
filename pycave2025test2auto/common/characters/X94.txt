@@ -1,0 +1,56 @@
+characters={
+	X94_louis_uys={
+		name=X94_louis_uys
+		portraits={
+			army={
+				large="GFX_Portrait_France_Generic_land_4"
+			}
+			army={
+				small="GFX_Portrait_France_Generic_land_4"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X94_andries_retief={
+		name=X94_andries_retief
+		portraits={
+			army={
+				large="GFX_portrait_Philippe_Petain"
+			}
+			army={
+				small="GFX_portrait_Philippe_Petain"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X94_siener_theron={
+		name=X94_siener_theron
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Harry_Truman.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

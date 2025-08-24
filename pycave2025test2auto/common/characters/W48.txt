@@ -1,0 +1,56 @@
+characters={
+	W48_senarat_narendrasimha={
+		name=W48_senarat_narendrasimha
+		portraits={
+			army={
+				large="GFX_Portrait_The_Raj_Army_Generic"
+			}
+			army={
+				small="GFX_Portrait_The_Raj_Army_Generic"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W48_vimala_rajasimha={
+		name=W48_vimala_rajasimha
+		portraits={
+			army={
+				large="GFX_PRF_El_Edroos"
+			}
+			army={
+				small="GFX_PRF_El_Edroos"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=5
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W48_king_vimala={
+		name=W48_king_vimala
+		portraits={
+			civilian={
+				large="GFX_PRF_Maharaja_Ranbir_Singh"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

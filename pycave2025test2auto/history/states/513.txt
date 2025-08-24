@@ -1,0 +1,31 @@
+
+state={
+	id=513
+	name="STATE_513"
+
+	history={
+		owner = W10
+		victory_points = {
+			1588 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CHI
+		add_claim_by = MON
+		add_claim_by = X59
+	}
+
+	provinces={
+		930 1499 1502 1545 1558 1588 1627 1638 1645 1732 1847 3877 4503 4506 4561 4592 4633 4642 4649 4876 7526 7582 7613 7767 7812 7894 7897 9831 10368 10379 10567 10638 11836 11903 12337 12469 12478 12485 
+	}
+	manpower=1824820
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

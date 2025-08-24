@@ -1,0 +1,35 @@
+
+state={
+	id=43
+	name="STATE_43"
+	resources={
+		oil=11.000
+	}
+
+	history={
+		owner = ARG
+		victory_points = {
+			10515 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			10515 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		1449 8187 8238 10515 10943 11007 12453 12964 
+	}
+	manpower=2200596
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

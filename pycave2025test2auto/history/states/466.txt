@@ -1,0 +1,35 @@
+
+state={
+	id=466
+	name="STATE_466"
+
+	history={
+		owner = SOV
+		victory_points = {
+			3151 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 6
+			3151 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = SOV
+		add_core_of = X52
+		add_claim_by = SCA
+		add_claim_by = UBD
+	}
+
+	provinces={
+		70 79 95 104 126 149 181 3053 3120 3151 6139 6174 6197 9097 9098 9120 9164 9197 9408 11032 11059 11068 11080 11097 11186 11202 
+	}
+	manpower=3807884
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

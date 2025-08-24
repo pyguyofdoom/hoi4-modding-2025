@@ -1,0 +1,42 @@
+
+state={
+	id=766
+	name="STATE_766"
+	resources={
+		chromium=11.000
+		steel=3.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = W92
+		victory_points = {
+			4851 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = W11
+		add_core_of = W78
+		add_core_of = W92
+		add_core_of = X75
+		KOR = {
+			set_province_controller = 1874
+			set_province_controller = 2151
+			set_province_controller = 4851
+		}
+	}
+
+	provinces={
+		1874 2151 4851 
+	}
+	manpower=2032460
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

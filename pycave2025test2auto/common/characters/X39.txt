@@ -1,0 +1,16 @@
+characters={
+	X39_giuseppe_acton={
+		name=X39_giuseppe_acton
+		portraits={
+			civilian={
+				large="GFX_Papal_State_Angelo_Cerica"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

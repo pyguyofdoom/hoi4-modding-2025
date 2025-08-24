@@ -1,0 +1,34 @@
+
+state={
+	id=369
+	name="STATE_369"
+	resources={
+		aluminium=11.000
+		oil=7.000
+		steel=28.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			853 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		850 853 1793 3834 4796 6897 7747 7821 7920 8115 10573 10783 11814 12765 
+	}
+	manpower=152884
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

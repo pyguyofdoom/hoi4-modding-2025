@@ -1,0 +1,32 @@
+
+state={
+	id=737
+	name="STATE_737"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			11639 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W41
+	}
+
+	provinces={
+		690 711 3676 3689 6679 6709 9668 9670 11639 
+	}
+	manpower=1653640
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=650
+	name="STATE_650"
+	resources={
+		aluminium=5.000
+	}
+
+	history={
+		owner = W35
+		victory_points = {
+			6793 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			9924 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = W35
+	}
+
+	provinces={
+		782 6793 9924 
+	}
+	manpower=721872
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

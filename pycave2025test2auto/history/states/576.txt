@@ -1,0 +1,33 @@
+
+state={
+	id=576
+	name="STATE_576"
+
+	history={
+		owner = SYR
+		victory_points = {
+			12029 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			12029 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = SYR
+	}
+
+	provinces={
+		12029 
+	}
+	manpower=53680
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

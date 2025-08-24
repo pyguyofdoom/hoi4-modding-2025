@@ -1,0 +1,46 @@
+
+state={
+	id=415
+	name="STATE_415"
+
+	history={
+		owner = W04
+		victory_points = {
+			6906 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			6906 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = CAT
+		add_core_of = W04
+		KOR = {
+			set_province_controller = 3799
+			set_province_controller = 3873
+			set_province_controller = 6817
+			set_province_controller = 6856
+			set_province_controller = 6906
+			set_province_controller = 6959
+			set_province_controller = 9896
+			set_province_controller = 13222
+		}
+		W21 = {
+			set_province_controller = 10109
+		}
+	}
+
+	provinces={
+		3799 3873 6817 6856 6906 6959 9896 10109 13222 
+	}
+	manpower=1599920
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

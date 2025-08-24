@@ -1,0 +1,71 @@
+﻿converted_war_strategies_W72 = {
+	allowed = {
+		tag = W72
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_W72 = {
+	allowed = {
+		tag = W72
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "W16"
+		value = 60
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W16"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X71"
+		value = 55
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAL"
+		value = 26
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X74"
+		value = 10
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RAJ"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W39"
+		value = 2
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W16"
+		value = 99
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "RAJ"
+		value = 28
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SOV"
+		value = 24
+	}
+}

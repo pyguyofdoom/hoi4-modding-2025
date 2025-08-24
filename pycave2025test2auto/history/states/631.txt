@@ -1,0 +1,34 @@
+
+state={
+	id=631
+	name="STATE_631"
+
+	history={
+		owner = USA
+		victory_points = {
+			1615 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+			4464 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = X26
+		add_core_of = X93
+		add_claim_by = USA
+	}
+
+	provinces={
+		1615 4464 4510 4565 4650 7464 7668 8110 10410 10449 10753 11717 12328 12429 
+	}
+	manpower=778348
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

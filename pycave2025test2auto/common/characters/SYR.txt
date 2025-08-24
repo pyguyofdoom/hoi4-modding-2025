@@ -1,0 +1,16 @@
+characters={
+	SYR_tawfiq_al_ghazzawi={
+		name=SYR_tawfiq_al_ghazzawi
+		portraits={
+			civilian={
+				large="GFX_Johannes_Bell"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

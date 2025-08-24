@@ -1,0 +1,34 @@
+
+state={
+	id=543
+	name="STATE_543"
+
+	history={
+		owner = SIA
+		victory_points = {
+			7408 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			7408 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = SIA
+		add_core_of = X73
+	}
+
+	provinces={
+		1427 4566 7312 7338 7353 7367 7408 7544 7559 7572 10221 10250 10398 10411 12173 12345 
+	}
+	manpower=3173288
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

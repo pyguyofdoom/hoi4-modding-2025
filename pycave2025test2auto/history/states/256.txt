@@ -1,0 +1,33 @@
+
+state={
+	id=256
+	name="STATE_256"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = W80
+		victory_points = {
+			2081 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = CHA
+		add_core_of = W80
+	}
+
+	provinces={
+		1883 1993 2081 3181 7919 9152 13211 
+	}
+	manpower=1400256
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

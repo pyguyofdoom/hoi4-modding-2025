@@ -1,0 +1,32 @@
+
+state={
+	id=778
+	name="STATE_778"
+
+	history={
+		owner = W61
+		victory_points = {
+			10514 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 2
+			air_base = 10
+
+		}
+		add_core_of = NEP
+		add_core_of = W60
+		add_core_of = W61
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1553 1581 10514 
+	}
+	manpower=679304
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,60 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12304
+		task_force = {
+			name = "2nd Fleet"
+			location = 12304
+			ship = { name = "Superb" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Temeraire" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Ajax" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Iron Duke" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Marlborough" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Monarch" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Conqueror" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "King George V" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Dreadnought 2" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Centurion" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Bellerophon" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Audacious" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "Benbow" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W39 } } }
+			ship = { name = "1st Jamaica Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Blake" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Blenheim" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Edgar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Galatea" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Immortalite" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Aurora" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Nelson" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Shannon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Northampton" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Narcissus" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Hawke" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Endymion" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Royal Arthur" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+			ship = { name = "Gibraltar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W39 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "W39"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "W39"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

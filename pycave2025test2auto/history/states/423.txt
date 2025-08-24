@@ -1,0 +1,38 @@
+
+state={
+	id=423
+	name="STATE_423"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = W04
+		victory_points = {
+			10113 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			10113 = {
+				naval_base = 10
+			}
+
+		}
+		W16 = {
+			set_province_controller = 10113
+			set_province_controller = 12087
+		}
+	}
+
+	provinces={
+		10113 12087 
+	}
+	manpower=308540
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

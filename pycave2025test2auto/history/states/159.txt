@@ -1,0 +1,29 @@
+
+state={
+	id=159
+	name="STATE_159"
+
+	history={
+		owner = X23
+		victory_points = {
+			6766 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X23
+	}
+
+	provinces={
+		929 943 3749 3915 3948 6766 6775 6931 9882 9884 11697 11699 11702 12169 
+	}
+	manpower=2222644
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

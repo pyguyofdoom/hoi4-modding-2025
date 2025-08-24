@@ -1,0 +1,61 @@
+﻿converted_war_strategies_ICE = {
+	allowed = {
+		tag = ICE
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 2409
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W41"
+		value = 146
+	}
+}
+
+converted_diplo_strategies_ICE = {
+	allowed = {
+		tag = ICE
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 267
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 117
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W41"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "COR"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X34"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X65"
+		value = 50
+	}
+}

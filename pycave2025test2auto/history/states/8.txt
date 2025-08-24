@@ -1,0 +1,30 @@
+
+state={
+	id=8
+	name="STATE_8"
+
+	history={
+		owner = X03
+		victory_points = {
+			1982 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W07
+		add_core_of = X03
+	}
+
+	provinces={
+		1982 8040 8125 
+	}
+	manpower=422904
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

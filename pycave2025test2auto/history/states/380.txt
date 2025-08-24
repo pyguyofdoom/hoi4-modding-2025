@@ -1,0 +1,29 @@
+
+state={
+	id=380
+	name="STATE_380"
+
+	history={
+		owner = X86
+		victory_points = {
+			12667 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = X86
+	}
+
+	provinces={
+		1747 1875 3750 4839 4880 7745 7771 7862 10569 10595 12620 12667 
+	}
+	manpower=9388
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

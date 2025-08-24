@@ -1,0 +1,36 @@
+
+state={
+	id=230
+	name="STATE_230"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = W80
+		victory_points = {
+			1903 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			8244 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = GAB
+		add_core_of = W80
+	}
+
+	provinces={
+		1903 8244 
+	}
+	manpower=444260
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

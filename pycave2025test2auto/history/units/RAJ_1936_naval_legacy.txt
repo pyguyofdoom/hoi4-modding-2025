@@ -1,0 +1,45 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10088
+		task_force = {
+			name = "1st Fleet"
+			location = 10088
+			ship = { name = "1st Calicut Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "1st Kolhapur Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "4th Nellore Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "3rd Nellore Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "1st Nellore Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "2nd Nellore Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "1st Karachi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "Sagar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "Niloufa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "Shameena" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "Yasmine" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "Aurangabad" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "Khan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }
+			ship = { name = "1st Nellore Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = RAJ } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "RAJ"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "RAJ"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

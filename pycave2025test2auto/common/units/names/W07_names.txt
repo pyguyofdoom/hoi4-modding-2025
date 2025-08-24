@@ -1,0 +1,58 @@
+﻿W07 = {
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Donanma-yi Rojhalat" "Rustem" "Ahmed-i Xani" "Dicle" "Firat" "Geylani" "Donanma-yi Rojawa" "Kurdiye" "Sherefhan" 
+		}
+	}
+
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"Donanma-yi Rojhalat" "Rustem" "Dicle" "Firat" "Geylani" "Donanma-yi Rojawa" "Kurdiye" "Sherefhan" 
+		}
+	}
+
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Donanma-yi Rojhalat" "Rustem" "Ahmed-i Xani" "Dicle" "Firat" "Geylani" "Donanma-yi Rojawa" "Kurdiye" "Sherefhan" 
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Donanma-yi Rojhalat" "Rustem" "Ahmed-i Xani" "Dicle" "Firat" "Geylani" "Donanma-yi Rojawa" "Kurdiye" "Sherefhan" 
+		}
+	}
+
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Donanma-yi Rojhalat" "Rustem" "Ahmed-i Xani" "Dicle" "Firat" "Geylani" "Donanma-yi Rojawa" "Kurdiye" "Sherefhan" 
+		}
+	}
+
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Donanma-yi Rojhalat" "Rustem" "Ahmed-i Xani" "Dicle" "Firat" "Geylani" "Donanma-yi Rojawa" "Kurdiye" "Sherefhan" 
+		}
+	}
+
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"Donanma-yi Rojhalat" "Rustem" "Ahmed-i Xani" "Dicle" "Firat" "Geylani" "Donanma-yi Rojawa" "Kurdiye" "Sherefhan" 
+		}
+	}
+
+}

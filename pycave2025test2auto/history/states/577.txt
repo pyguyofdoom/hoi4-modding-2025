@@ -1,0 +1,34 @@
+
+state={
+	id=577
+	name="STATE_577"
+
+	history={
+		owner = W21
+		victory_points = {
+			12376 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			3653 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = GEO
+		add_core_of = W21
+	}
+
+	provinces={
+		3653 4583 7454 10403 10472 12376 
+	}
+	manpower=3122116
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

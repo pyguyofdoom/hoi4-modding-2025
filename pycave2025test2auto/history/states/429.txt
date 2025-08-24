@@ -1,0 +1,44 @@
+
+state={
+	id=429
+	name="STATE_429"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = W87
+		victory_points = {
+			4989 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			4989 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = SEN
+		add_core_of = W87
+		add_claim_by = X38
+		W16 = {
+			set_province_controller = 2100
+			set_province_controller = 4989
+			set_province_controller = 7972
+			set_province_controller = 12834
+			set_province_controller = 13213
+		}
+	}
+
+	provinces={
+		2100 4989 7972 12834 13213 
+	}
+	manpower=1529776
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

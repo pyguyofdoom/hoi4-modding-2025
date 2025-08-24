@@ -1,0 +1,36 @@
+
+state={
+	id=139
+	name="STATE_139"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = CAL
+		victory_points = {
+			10765 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			2069 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = CAL
+	}
+
+	provinces={
+		1892 1904 2069 4908 4977 5071 7964 8012 8033 8119 10765 10848 12461 12736 12833 12859 13214 13215 13216 
+	}
+	manpower=6001332
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

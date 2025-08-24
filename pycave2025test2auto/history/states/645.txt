@@ -1,0 +1,36 @@
+
+state={
+	id=645
+	name="STATE_645"
+	resources={
+		oil=16.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			7552 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+			7524 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = USA
+		add_core_of = X93
+	}
+
+	provinces={
+		1453 4535 7524 7552 12398 
+	}
+	manpower=607236
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

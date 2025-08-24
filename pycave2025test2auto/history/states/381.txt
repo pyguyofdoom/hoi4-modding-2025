@@ -1,0 +1,30 @@
+
+state={
+	id=381
+	name="STATE_381"
+
+	history={
+		owner = NEP
+		victory_points = {
+			4435 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = NEP
+		add_core_of = RAJ
+	}
+
+	provinces={
+		4435 
+	}
+	manpower=68104
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

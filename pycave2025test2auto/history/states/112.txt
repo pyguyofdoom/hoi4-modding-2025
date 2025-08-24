@@ -1,0 +1,34 @@
+
+state={
+	id=112
+	name="STATE_112"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			12473 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			10087 = {
+				naval_base = 4
+			}
+
+		}
+	}
+
+	provinces={
+		1056 1072 1074 1088 4111 4550 7140 7671 10087 12473 
+	}
+	manpower=1348096
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

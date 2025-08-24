@@ -1,0 +1,39 @@
+
+state={
+	id=297
+	name="STATE_297"
+	resources={
+		aluminium=3.000
+		steel=3.000
+	}
+
+	history={
+		owner = ITA
+		victory_points = {
+			819 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 6
+			955 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = X87
+		add_claim_by = W34
+	}
+
+	provinces={
+		819 851 923 955 9826 
+	}
+	manpower=3855668
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

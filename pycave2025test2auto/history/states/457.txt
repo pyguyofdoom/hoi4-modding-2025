@@ -1,0 +1,34 @@
+
+state={
+	id=457
+	name="STATE_457"
+	resources={
+		oil=2.000
+		steel=25.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			418 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = X61
+	}
+
+	provinces={
+		238 418 453 463 472 486 501 502 511 522 523 546 547 559 570 582 3225 3409 3455 3479 3480 3491 3508 3520 3531 3542 3557 3568 3584 6458 6495 6505 6507 6508 6519 6530 6532 6554 6565 6578 6589 6605 9413 9437 9446 9461 9463 9476 9477 9479 9491 9506 9519 9531 9543 9556 9566 11397 11425 11452 11461 11462 11487 11489 11504 11513 11530 11541 11553 
+	}
+	manpower=7397828
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

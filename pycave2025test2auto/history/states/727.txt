@@ -1,0 +1,35 @@
+
+state={
+	id=727
+	name="STATE_727"
+	resources={
+		oil=1.000
+		steel=7.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			9648 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W38
+		add_core_of = W41
+	}
+
+	provinces={
+		653 668 3673 3674 6673 6687 6691 9646 9648 9650 9679 11612 
+	}
+	manpower=1833404
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

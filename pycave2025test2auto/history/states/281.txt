@@ -1,0 +1,32 @@
+
+state={
+	id=281
+	name="STATE_281"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			4967 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+			4967 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = RAJ
+	}
+
+	provinces={
+		4967 
+	}
+	manpower=82020
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

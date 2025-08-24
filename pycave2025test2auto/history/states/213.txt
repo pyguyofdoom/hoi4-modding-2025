@@ -1,0 +1,36 @@
+
+state={
+	id=213
+	name="STATE_213"
+	resources={
+		aluminium=9.000
+		steel=65.000
+	}
+
+	history={
+		owner = HLR
+		victory_points = {
+			587 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = GER
+		add_core_of = HES
+		add_core_of = HLR
+		add_core_of = HOL
+	}
+
+	provinces={
+		587 3444 3488 3547 6583 9522 9575 11435 11470 13375 
+	}
+	manpower=8339024
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

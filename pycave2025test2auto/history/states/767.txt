@@ -1,0 +1,33 @@
+
+state={
+	id=767
+	name="STATE_767"
+	resources={
+		aluminium=5.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = W49
+		victory_points = {
+			9800 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = W49
+	}
+
+	provinces={
+		726 794 874 918 920 939 3725 3727 3820 3845 3874 3918 3920 6746 6867 6907 9699 9770 9800 11843 13219 13221 13227 13232 
+	}
+	manpower=1361656
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=564
+	name="STATE_564"
+
+	history={
+		owner = W16
+		victory_points = {
+			10232 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+			10232 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = X24
+		add_claim_by = W16
+	}
+
+	provinces={
+		1285 7238 7271 7347 10232 12176 12204 
+	}
+	manpower=108852
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

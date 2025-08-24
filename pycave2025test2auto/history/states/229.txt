@@ -1,0 +1,36 @@
+
+state={
+	id=229
+	name="STATE_229"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = W80
+		victory_points = {
+			1992 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			10831 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W80
+		add_claim_by = NGA
+	}
+
+	provinces={
+		1992 10831 
+	}
+	manpower=3160408
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

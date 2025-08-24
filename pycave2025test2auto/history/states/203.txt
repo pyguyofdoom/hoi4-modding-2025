@@ -1,0 +1,35 @@
+
+state={
+	id=203
+	name="STATE_203"
+
+	history={
+		owner = X36
+		victory_points = {
+			9417 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			9417 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = SOV
+		add_core_of = W67
+		add_core_of = X36
+	}
+
+	provinces={
+		6445 9417 9430 11418 11434 11450 
+	}
+	manpower=609728
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=334
+	name="STATE_334"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			7000 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_core_of = W10
+		add_core_of = W76
+		add_claim_by = KOR
+	}
+
+	provinces={
+		1169 1188 4032 4058 4093 4190 4208 6828 7000 7092 7109 10053 12026 12062 
+	}
+	manpower=34054804
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

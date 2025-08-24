@@ -1,0 +1,41 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 383
+		task_force = {
+			name = "1st Fleet"
+			location = 383
+			ship = { name = "Lorentz Creutz" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Hans Wachtmeister af Johannishus" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Clas Eriksson Fleming" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Axel Nilsson Ryning" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Carl Carlsson Gyllenhielm" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Gustaf Otto Stenbock" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Vidar" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Ale" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Ullr" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+			ship = { name = "Forseti" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SCA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "SCA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "SCA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

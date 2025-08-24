@@ -1,0 +1,35 @@
+
+state={
+	id=668
+	name="STATE_668"
+	resources={
+		oil=2.000
+		rubber=12.000
+	}
+
+	history={
+		owner = W39
+		victory_points = {
+			12798 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+			8252 = {
+				naval_base = 10
+			}
+
+		}
+	}
+
+	provinces={
+		5051 5120 8047 8075 8252 10888 11020 12798 
+	}
+	manpower=3358452
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=790
+	name="STATE_790"
+	impassable = yes
+
+	history={
+		owner = W66
+		add_core_of = W66
+		add_core_of = X20
+	}
+
+	provinces={
+		1143 2064 7216 10127 10869 12099 
+	}
+	manpower=13815
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

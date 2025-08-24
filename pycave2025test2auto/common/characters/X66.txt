@@ -1,0 +1,16 @@
+characters={
+	X66_kazimierz_dabrowski={
+		name=X66_kazimierz_dabrowski
+		portraits={
+			civilian={
+				large="GFX_Baltic_August_Rei"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

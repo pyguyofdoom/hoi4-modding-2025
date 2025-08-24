@@ -1,0 +1,37 @@
+
+state={
+	id=160
+	name="STATE_160"
+	resources={
+		aluminium=16.000
+		steel=35.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			9737 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 1
+			743 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = X23
+	}
+
+	provinces={
+		743 3740 6621 6759 6762 6777 9710 9717 9737 
+	}
+	manpower=2123272
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

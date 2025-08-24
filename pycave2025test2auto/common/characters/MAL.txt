@@ -1,0 +1,16 @@
+characters={
+	MAL_al_mukammal_riayat_shah={
+		name=MAL_al_mukammal_riayat_shah
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

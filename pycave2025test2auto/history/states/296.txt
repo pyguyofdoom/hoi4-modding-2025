@@ -1,0 +1,39 @@
+
+state={
+	id=296
+	name="STATE_296"
+
+	history={
+		owner = ITA
+		victory_points = {
+			9904 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 6
+			9904 = {
+				naval_base = 6
+				landmark_colosseum = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = W34
+	}
+
+	provinces={
+		3885 6862 6926 9794 9904 11751 11846 
+	}
+	manpower=3576728
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

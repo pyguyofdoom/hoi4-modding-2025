@@ -1,0 +1,16 @@
+characters={
+	X51_baterdene_damdinbazar={
+		name=X51_baterdene_damdinbazar
+		portraits={
+			civilian={
+				large="GFX_FNG_Zhang_Zuolin"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

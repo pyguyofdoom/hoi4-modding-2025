@@ -1,0 +1,39 @@
+
+state={
+	id=533
+	name="STATE_533"
+	resources={
+		chromium=2.000
+		rubber=2.000
+		steel=7.000
+		tungsten=18.000
+	}
+
+	history={
+		owner = W10
+		victory_points = {
+			7137 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1070 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = W76
+		add_claim_by = CHI
+	}
+
+	provinces={
+		994 1018 1023 1038 1070 1469 1597 1625 4023 4028 4077 4085 4121 4134 4152 4177 4628 4656 7044 7095 7128 7137 7168 7192 7210 7650 10004 10039 10050 10121 10404 10431 10459 11926 11963 11983 11990 12023 12407 12436 
+	}
+	manpower=6563004
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=605
+	name="STATE_605"
+	resources={
+		aluminium=9.000
+		steel=8.000
+	}
+
+	history={
+		owner = W88
+		victory_points = {
+			11913 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			7014 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = W76
+		add_core_of = W88
+	}
+
+	provinces={
+		996 7014 10034 10076 11913 11982 12052 12076 
+	}
+	manpower=24517272
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

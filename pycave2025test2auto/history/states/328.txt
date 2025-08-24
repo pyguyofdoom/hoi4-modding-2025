@@ -1,0 +1,36 @@
+
+state={
+	id=328
+	name="STATE_328"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			12543 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			1772 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = KOR
+		add_claim_by = W15
+	}
+
+	provinces={
+		1730 1739 1772 1807 1845 4731 4847 7754 7851 10590 10678 12543 12591 12660 
+	}
+	manpower=1635528
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

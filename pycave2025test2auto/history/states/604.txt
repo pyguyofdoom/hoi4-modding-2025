@@ -1,0 +1,37 @@
+
+state={
+	id=604
+	name="STATE_604"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = W21
+		victory_points = {
+			5222 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+			5222 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X17
+		add_claim_by = KEN
+		add_claim_by = X23
+	}
+
+	provinces={
+		5222 
+	}
+	manpower=496708
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

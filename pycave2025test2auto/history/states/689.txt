@@ -1,0 +1,36 @@
+
+state={
+	id=689
+	name="STATE_689"
+	resources={
+		rubber=4.000
+		steel=2.000
+	}
+
+	history={
+		owner = W91
+		victory_points = {
+			7959 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+			7959 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W91
+	}
+
+	provinces={
+		7959 8006 
+	}
+	manpower=3182924
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

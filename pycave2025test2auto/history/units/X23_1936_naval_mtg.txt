@@ -1,0 +1,89 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 485
+		task_force = {
+			name = "1st Fleet"
+			location = 485
+			ship = { name = "1st La Roche Dreadnought" definition = battleship start_experience_factor = 0.33778 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Amiens Dreadnought" definition = battleship start_experience_factor = 0.28962 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Caen Dreadnought" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Brest Dreadnought" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "Corcaigh" definition = battleship start_experience_factor = 0.33914 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "O’Faolain" definition = battleship start_experience_factor = 0.32138 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Caen Dreadnought" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Brest Dreadnought" definition = battleship start_experience_factor = 0.33914 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "Gaillimh" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Brest Dreadnought" definition = battleship start_experience_factor = 0.3486 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "Mannion" definition = battleship start_experience_factor = 0.34965 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "Caomhánach" definition = battleship start_experience_factor = 0.35 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X23 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Pau Battleship" definition = heavy_cruiser start_experience_factor = 0.32136 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Caen Battleship" definition = heavy_cruiser start_experience_factor = 0.27507 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Oviedo Battleship" definition = heavy_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Pau Battleship" definition = heavy_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Oviedo Battleship" definition = heavy_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Pau Battleship" definition = heavy_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Oviedo Battleship" definition = heavy_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Oviedo Battleship" definition = heavy_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Pau Battleship" definition = heavy_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "5th Pau Battleship" definition = heavy_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Carcassonne Battleship" definition = heavy_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Oviedo Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.32151 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Pau Cruiser" definition = light_cruiser start_experience_factor = 0.32862 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Pau Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Oviedo Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "4th Pau Cruiser" definition = light_cruiser start_experience_factor = 0.34615 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Pau Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Róisín" definition = light_cruiser start_experience_factor = 0.34179 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Pau Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Pau Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Máire" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Pau Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st La Rochelle Cruiser" definition = light_cruiser start_experience_factor = 0.32958 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "8th Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Peigi" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Oviedo Cruiser" definition = light_cruiser start_experience_factor = 0.33151 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "10th Pau Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "9th Pau Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Esther" definition = light_cruiser start_experience_factor = 0.33023 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "7th Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Holyhead Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Oviedo Cruiser" definition = light_cruiser start_experience_factor = 0.33881 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.33746 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "5th Pau Cruiser" definition = light_cruiser start_experience_factor = 0.33881 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "11th Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "6th Oviedo Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Pau Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+			ship = { name = "12th Carcassonne Cruiser" definition = light_cruiser start_experience_factor = 0.35 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = X23 version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X23"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "X23"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

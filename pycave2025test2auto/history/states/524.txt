@@ -1,0 +1,32 @@
+
+state={
+	id=524
+	name="STATE_524"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = W10
+		victory_points = {
+			1083 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W76
+	}
+
+	provinces={
+		1083 1099 1125 1171 4105 4173 7035 7104 10044 11937 12019 12061 
+	}
+	manpower=29955972
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

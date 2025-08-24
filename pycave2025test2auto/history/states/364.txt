@@ -1,0 +1,36 @@
+
+state={
+	id=364
+	name="STATE_364"
+	resources={
+		oil=29.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			12313 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			12313 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = X74
+	}
+
+	provinces={
+		1528 1559 1643 4507 4522 7555 7599 12313 12401 
+	}
+	manpower=1724828
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

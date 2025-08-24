@@ -1,0 +1,29 @@
+
+state={
+	id=4
+	name="STATE_4"
+
+	history={
+		owner = AFG
+		victory_points = {
+			1632 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = AFG
+	}
+
+	provinces={
+		756 1632 9605 
+	}
+	manpower=174652
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=404
+	name="STATE_404"
+
+	history={
+		owner = SUD
+		victory_points = {
+			12759 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			4985 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = SUD
+		add_claim_by = W17
+	}
+
+	provinces={
+		1905 4985 5068 8094 8124 10833 10921 12759 12814 
+	}
+	manpower=170024
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

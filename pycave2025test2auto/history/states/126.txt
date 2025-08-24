@@ -1,0 +1,31 @@
+
+state={
+	id=126
+	name="STATE_126"
+
+	history={
+		owner = W94
+		victory_points = {
+			1984 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W17
+		add_core_of = W94
+		add_claim_by = SUD
+	}
+
+	provinces={
+		1984 
+	}
+	manpower=1189072
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

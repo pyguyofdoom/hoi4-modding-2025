@@ -1,0 +1,16 @@
+characters={
+	W28_king_tlacotzin={
+		name=W28_king_tlacotzin
+		portraits={
+			civilian={
+				large="GFX_nat_carib_absolutist"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

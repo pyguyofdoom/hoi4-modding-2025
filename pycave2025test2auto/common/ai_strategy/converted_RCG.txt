@@ -1,0 +1,66 @@
+﻿converted_war_strategies_RCG = {
+	allowed = {
+		tag = RCG
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "HLR"
+		value = 440
+	}
+	ai_strategy = {
+		type = conquer
+		id = "COG"
+		value = 235
+	}
+}
+
+converted_diplo_strategies_RCG = {
+	allowed = {
+		tag = RCG
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "COG"
+		value = 245
+	}
+	ai_strategy = {
+		type = contain
+		id = "HLR"
+		value = 174
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HLR"
+		value = 329
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "COG"
+		value = 232
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X20"
+		value = 181
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W17"
+		value = 42
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TOG"
+		value = 64
+	}
+}

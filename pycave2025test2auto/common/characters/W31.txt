@@ -1,0 +1,56 @@
+characters={
+	W31_rudolf_de_la_rey={
+		name=W31_rudolf_de_la_rey
+		portraits={
+			army={
+				large="GFX_portrait_Philippe_Petain"
+			}
+			army={
+				small="GFX_portrait_Philippe_Petain"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W31_sarel_retief={
+		name=W31_sarel_retief
+		portraits={
+			army={
+				large="GFX_Portrait_France_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_France_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W31_andries_de_wet={
+		name=W31_andries_de_wet
+		portraits={
+			civilian={
+				large="GFX_USA_John_Nance_Garner"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

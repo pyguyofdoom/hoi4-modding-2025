@@ -1,0 +1,33 @@
+
+state={
+	id=53
+	name="STATE_53"
+
+	history={
+		owner = X10
+		victory_points = {
+			7415 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
+			air_base = 7
+			1252 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = X10
+	}
+
+	provinces={
+		1252 1404 2047 2184 4236 4323 5176 5226 7231 7299 7355 7415 7424 10181 10237 10266 10325 12196 12225 12243 
+	}
+	manpower=409564
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=776
+	name="STATE_776"
+	resources={
+		tungsten=33.000
+	}
+
+	history={
+		owner = W59
+		victory_points = {
+			799 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			air_base = 6
+			799 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = POR
+		add_core_of = W59
+	}
+
+	provinces={
+		799 3798 3861 6924 
+	}
+	manpower=889452
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

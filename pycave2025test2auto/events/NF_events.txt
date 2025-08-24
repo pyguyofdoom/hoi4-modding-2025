@@ -1,0 +1,1093 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.1
+	title = "[SOV.GetName] Demands [MON.GetName]!"
+	desc = "Today [SOV.GetName] sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with [SOV.GetName might prove to be fruitful. Our people would be safe with the mighty army of [SOV.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				MON = { is_subject = yes }
+			}
+			modifier = {
+				factor = 0
+				NOT = { tag = MON }
+				SOV = { on_same_continent = no }
+			}
+			modifier = {
+				add = -15
+				SOV = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				SOV = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.2 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				SOV = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				SOV = { has_army_size = { size < 30 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.3 }
+			if = {
+				limit = { is_in_faction_with = MON }
+				remove_from_faction = MON
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.3
+	title = "[FROM.GetName] Refuses!"
+	desc = "[FROM.GetName] Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = FROM
+		}
+		news_event = { id = static_news.3 hours = 6 }
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "[FROM.GetName] accepts!"
+	desc = "[FROM.GetName] accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		every_country = {
+			limit = { is_subject_of = MON }
+			country_event = NFEvents.1
+		}
+		FROM = {
+			every_owned_state = {
+				add_core_of = SOV
+			}
+		}
+		if = {
+			limit = { FROM = { tag = MON } }
+			annex_country = { target = MON transfer_troops = yes }
+			add_political_power = 50
+			add_named_threat = { threat = 2 name = "Russia annexed Mongolia" }
+			news_event = { id = static_news.2 hours = 6 }
+			set_country_flag = MON_annexed
+		}
+		else = {
+			puppet = FROM
+		}
+
+	}
+}
+
+country_event = {
+	id = NFEvents.4
+	title = "[SOV.GetName] Demands [BLC.GetName]!"
+	desc = "[SOV.GetName] has recently been making claims to our bordering states, saying that these states are full of [SOV.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [SOV.GetAdjective] people in the recent years, we cannot give up our lands because a few [SOV.GetAdjective] settled down in our land. In response [SOV.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [SOV.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				SOV = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				SOV = { has_army_size = { size > 39 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.5 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				SOV = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				SOV = { has_army_size = { size < 30 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.6 }
+			if = {
+				limit = { is_in_faction_with = BLC }
+				remove_from_faction = BLC
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.6
+	title = "[BLC.GetName] Refuses!"
+	desc = "[BLC.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = BLC
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.5
+	title = "[BLC.GetName] accepts!"
+	desc = "[BLC.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		54 = { add_core_of = SOV }
+		SOV = { transfer_state = 54 }
+		set_country_flag = BLC_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.7
+	title = "[SOV.GetName] Demands [KHI.GetName]!"
+	desc = "[SOV.GetName] has recently been making claims to our bordering states, saying that these states are full of [SOV.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [SOV.GetAdjective] people in the recent years, we cannot give up our lands because a few [SOV.GetAdjective] settled down in our land. In response [SOV.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [SOV.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				SOV = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				SOV = { has_army_size = { size > 39 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.8 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				SOV = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				SOV = { has_army_size = { size < 30 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.9 }
+			if = {
+				limit = { is_in_faction_with = KHI }
+				remove_from_faction = KHI
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.9
+	title = "[KHI.GetName] Refuses!"
+	desc = "[KHI.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = KHI
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.8
+	title = "[KHI.GetName] accepts!"
+	desc = "[KHI.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		305 = { add_core_of = SOV }
+		SOV = { transfer_state = 305 }
+		set_country_flag = KHI_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.10
+	title = "[SOV.GetName] Demands [LIT.GetName]!"
+	desc = "[SOV.GetName] has recently been making claims to our bordering states, saying that these states are full of [SOV.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [SOV.GetAdjective] people in the recent years, we cannot give up our lands because a few [SOV.GetAdjective] settled down in our land. In response [SOV.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [SOV.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				SOV = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				SOV = { has_army_size = { size > 39 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.11 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				SOV = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				SOV = { has_army_size = { size < 30 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.12 }
+			if = {
+				limit = { is_in_faction_with = LIT }
+				remove_from_faction = LIT
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.12
+	title = "[LIT.GetName] Refuses!"
+	desc = "[LIT.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = LIT
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.11
+	title = "[LIT.GetName] accepts!"
+	desc = "[LIT.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		355 = { add_core_of = SOV }
+		SOV = { transfer_state = 355 }
+		set_country_flag = LIT_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.13
+	title = "[SOV.GetName] Demands [ROM.GetName]!"
+	desc = "[SOV.GetName] has recently been making claims to our bordering states, saying that these states are full of [SOV.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [SOV.GetAdjective] people in the recent years, we cannot give up our lands because a few [SOV.GetAdjective] settled down in our land. In response [SOV.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [SOV.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				SOV = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				SOV = { has_army_size = { size > 39 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.14 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				SOV = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				SOV = { has_army_size = { size < 30 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.15 }
+			if = {
+				limit = { is_in_faction_with = ROM }
+				remove_from_faction = ROM
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.15
+	title = "[ROM.GetName] Refuses!"
+	desc = "[ROM.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = ROM
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.14
+	title = "[ROM.GetName] accepts!"
+	desc = "[ROM.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		445 = { add_core_of = SOV }
+		SOV = { transfer_state = 445 }
+		set_country_flag = ROM_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.16
+	title = "[SOV.GetName] Demands [SCA.GetName]!"
+	desc = "[SOV.GetName] has recently been making claims to our bordering states, saying that these states are full of [SOV.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [SOV.GetAdjective] people in the recent years, we cannot give up our lands because a few [SOV.GetAdjective] settled down in our land. In response [SOV.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [SOV.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				SOV = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				SOV = { has_army_size = { size > 39 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.17 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				SOV = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				SOV = { has_army_size = { size < 30 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.18 }
+			if = {
+				limit = { is_in_faction_with = SCA }
+				remove_from_faction = SCA
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.18
+	title = "[SCA.GetName] Refuses!"
+	desc = "[SCA.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = SCA
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.17
+	title = "[SCA.GetName] accepts!"
+	desc = "[SCA.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		500 = { add_core_of = SOV }
+		SOV = { transfer_state = 500 }
+		499 = { add_core_of = SOV }
+		SOV = { transfer_state = 499 }
+		set_country_flag = SCA_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.19
+	title = "[SOV.GetName] Demands [SIB.GetName]!"
+	desc = "[SOV.GetName] has recently been making claims to our bordering states, saying that these states are full of [SOV.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [SOV.GetAdjective] people in the recent years, we cannot give up our lands because a few [SOV.GetAdjective] settled down in our land. In response [SOV.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [SOV.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				SOV = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				SOV = { has_army_size = { size > 39 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.20 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				SOV = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				SOV = { has_army_size = { size < 30 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.21 }
+			if = {
+				limit = { is_in_faction_with = SIB }
+				remove_from_faction = SIB
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.21
+	title = "[SIB.GetName] Refuses!"
+	desc = "[SIB.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = SIB
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.20
+	title = "[SIB.GetName] accepts!"
+	desc = "[SIB.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		544 = { add_core_of = SOV }
+		SOV = { transfer_state = 544 }
+		set_country_flag = SIB_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.22
+	title = "[SOV.GetName] Demands [UBD.GetName]!"
+	desc = "[SOV.GetName] has recently been making claims to our bordering states, saying that these states are full of [SOV.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [SOV.GetAdjective] people in the recent years, we cannot give up our lands because a few [SOV.GetAdjective] settled down in our land. In response [SOV.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [SOV.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				SOV = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				SOV = { has_army_size = { size > 39 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.23 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				SOV = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				SOV = { has_army_size = { size < 30 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.24 }
+			if = {
+				limit = { is_in_faction_with = UBD }
+				remove_from_faction = UBD
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.24
+	title = "[UBD.GetName] Refuses!"
+	desc = "[UBD.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = UBD
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.23
+	title = "[UBD.GetName] accepts!"
+	desc = "[UBD.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		618 = { add_core_of = SOV }
+		SOV = { transfer_state = 618 }
+		617 = { add_core_of = SOV }
+		SOV = { transfer_state = 617 }
+		set_country_flag = UBD_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.25
+	title = "[SOV.GetName] Demands [X36.GetName]!"
+	desc = "[SOV.GetName] has recently been making claims to our bordering states, saying that these states are full of [SOV.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [SOV.GetAdjective] people in the recent years, we cannot give up our lands because a few [SOV.GetAdjective] settled down in our land. In response [SOV.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [SOV.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				SOV = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				SOV = { has_army_size = { size > 39 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.26 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				SOV = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				SOV = { has_army_size = { size < 30 } }
+			}
+		}
+		SOV = {
+			country_event = { hours = 2 id = NFEvents.27 }
+			if = {
+				limit = { is_in_faction_with = X36 }
+				remove_from_faction = X36
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.27
+	title = "[X36.GetName] Refuses!"
+	desc = "[X36.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = X36
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.26
+	title = "[X36.GetName] accepts!"
+	desc = "[X36.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		202 = { add_core_of = SOV }
+		SOV = { transfer_state = 202 }
+		203 = { add_core_of = SOV }
+		SOV = { transfer_state = 203 }
+		set_country_flag = X36_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.28
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with [SOV.GetName]. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = SOV }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = SOV
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = SOV
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = SOV
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				SOV = {
+					is_faction_leader = no
+				}
+			}
+			SOV = {
+				leave_faction = yes
+				create_faction = "nationalist_league"
+			}
+		}
+		SOV = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.502 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.503 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.29
+	title = "[W10.GetName] Demands [TIB.GetName]!"
+	desc = "[W10.GetName] has recently been making claims to our bordering states, saying that these states are full of [W10.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [W10.GetAdjective] people in the recent years, we cannot give up our lands because a few [W10.GetAdjective] settled down in our land. In response [W10.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [W10.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				W10 = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				W10 = { has_army_size = { size > 39 } }
+			}
+		}
+		W10 = {
+			country_event = { hours = 2 id = NFEvents.30 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				W10 = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				W10 = { has_army_size = { size < 30 } }
+			}
+		}
+		W10 = {
+			country_event = { hours = 2 id = NFEvents.31 }
+			if = {
+				limit = { is_in_faction_with = TIB }
+				remove_from_faction = TIB
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.31
+	title = "[TIB.GetName] Refuses!"
+	desc = "[TIB.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = TIB
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.30
+	title = "[TIB.GetName] accepts!"
+	desc = "[TIB.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		611 = { add_core_of = W10 }
+		W10 = { transfer_state = 611 }
+		610 = { add_core_of = W10 }
+		W10 = { transfer_state = 610 }
+		set_country_flag = TIB_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.32
+	title = "[W10.GetName] Demands [X07.GetName]!"
+	desc = "[W10.GetName] has recently been making claims to our bordering states, saying that these states are full of [W10.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [W10.GetAdjective] people in the recent years, we cannot give up our lands because a few [W10.GetAdjective] settled down in our land. In response [W10.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [W10.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				W10 = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				W10 = { has_army_size = { size > 39 } }
+			}
+		}
+		W10 = {
+			country_event = { hours = 2 id = NFEvents.33 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				W10 = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				W10 = { has_army_size = { size < 30 } }
+			}
+		}
+		W10 = {
+			country_event = { hours = 2 id = NFEvents.34 }
+			if = {
+				limit = { is_in_faction_with = X07 }
+				remove_from_faction = X07
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.34
+	title = "[X07.GetName] Refuses!"
+	desc = "[X07.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = X07
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.33
+	title = "[X07.GetName] accepts!"
+	desc = "[X07.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		50 = { add_core_of = W10 }
+		W10 = { transfer_state = 50 }
+		51 = { add_core_of = W10 }
+		W10 = { transfer_state = 51 }
+		set_country_flag = X07_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.35
+	title = "[W10.GetName] Demands [X73.GetName]!"
+	desc = "[W10.GetName] has recently been making claims to our bordering states, saying that these states are full of [W10.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [W10.GetAdjective] people in the recent years, we cannot give up our lands because a few [W10.GetAdjective] settled down in our land. In response [W10.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [W10.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				W10 = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				W10 = { has_army_size = { size > 39 } }
+			}
+		}
+		W10 = {
+			country_event = { hours = 2 id = NFEvents.36 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				W10 = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				W10 = { has_army_size = { size < 30 } }
+			}
+		}
+		W10 = {
+			country_event = { hours = 2 id = NFEvents.37 }
+			if = {
+				limit = { is_in_faction_with = X73 }
+				remove_from_faction = X73
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.37
+	title = "[X73.GetName] Refuses!"
+	desc = "[X73.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = X73
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.36
+	title = "[X73.GetName] accepts!"
+	desc = "[X73.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		356 = { add_core_of = W10 }
+		W10 = { transfer_state = 356 }
+		358 = { add_core_of = W10 }
+		W10 = { transfer_state = 358 }
+		set_country_flag = X73_demanded
+	}
+}

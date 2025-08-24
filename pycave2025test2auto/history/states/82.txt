@@ -1,0 +1,36 @@
+
+state={
+	id=82
+	name="STATE_82"
+	resources={
+		aluminium=35.000
+		chromium=11.000
+	}
+
+	history={
+		owner = BOS
+		victory_points = {
+			9821 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			9809 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = BOS
+	}
+
+	provinces={
+		937 6913 9809 9821 11858 
+	}
+	manpower=1153512
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	W84_antonius_martena={
+		name=W84_antonius_martena
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/portrait_fra_leon_blum.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

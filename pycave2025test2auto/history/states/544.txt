@@ -1,0 +1,31 @@
+
+state={
+	id=544
+	name="STATE_544"
+
+	history={
+		owner = SIB
+		victory_points = {
+			4492 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = SIB
+		add_core_of = W25
+		add_core_of = W64
+	}
+
+	provinces={
+		4492 7556 7597 10506 10508 10603 12329 12340 12385 12397 12487 12658 
+	}
+	manpower=235100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

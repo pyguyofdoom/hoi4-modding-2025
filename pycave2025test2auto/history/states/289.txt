@@ -1,0 +1,37 @@
+
+state={
+	id=289
+	name="STATE_289"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			11929 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+			9935 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = BAN
+		add_core_of = W61
+		add_core_of = W62
+		add_core_of = X57
+		add_claim_by = NEP
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		2843 4162 4616 7078 7124 7634 7662 9935 9993 10035 10416 10443 11911 11929 12423 13208 
+	}
+	manpower=9869580
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

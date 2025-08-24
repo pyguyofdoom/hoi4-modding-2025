@@ -1,0 +1,36 @@
+
+state={
+	id=563
+	name="STATE_563"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = W16
+		victory_points = {
+			10265 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			4288 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W22
+		add_claim_by = W16
+	}
+
+	provinces={
+		1221 1288 1388 1415 4101 4214 4233 4288 4350 4368 4423 7275 7323 7325 7351 7439 10165 10167 10236 10241 10252 10265 10272 10280 10298 12213 12236 12253 
+	}
+	manpower=3146300
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

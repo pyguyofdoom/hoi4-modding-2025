@@ -1,0 +1,32 @@
+
+state={
+	id=313
+	name="STATE_313"
+
+	history={
+		owner = KOR
+		victory_points = {
+			13037 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+			13037 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = KOR
+	}
+
+	provinces={
+		1399 1515 13037 
+	}
+	manpower=276212
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

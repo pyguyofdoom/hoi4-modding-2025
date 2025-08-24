@@ -1,0 +1,38 @@
+
+state={
+	id=499
+	name="STATE_499"
+	resources={
+		chromium=8.000
+		steel=9.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			11125 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 5
+			11125 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = SCA
+		add_core_of = W56
+	}
+
+	provinces={
+		7 30 82 103 120 124 132 141 158 162 167 193 195 203 2992 3026 3030 3055 3068 3069 3073 3097 3107 3115 3125 3149 3153 3156 3158 3185 3193 6045 6061 6076 6078 6081 6087 6128 6134 6137 6142 6146 6156 6179 6210 6212 9061 9104 9106 9112 9169 9181 9189 9223 9233 11024 11030 11041 11076 11079 11081 11115 11121 11125 11130 11132 11141 11164 11167 11199 11204 
+	}
+	manpower=964244
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

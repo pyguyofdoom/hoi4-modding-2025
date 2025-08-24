@@ -1,0 +1,16 @@
+characters={
+	W87_azemars_espaza={
+		name=W87_azemars_espaza
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

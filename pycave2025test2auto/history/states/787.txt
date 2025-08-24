@@ -1,0 +1,37 @@
+
+state={
+	id=787
+	name="STATE_787"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W66
+		victory_points = {
+			7011 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			air_base = 3
+			11964 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W66
+		add_core_of = X20
+	}
+
+	provinces={
+		992 1068 3996 4055 4076 4145 7011 7091 7117 7164 10005 10073 11964 
+	}
+	manpower=7538056
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

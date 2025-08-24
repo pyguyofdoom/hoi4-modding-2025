@@ -1,0 +1,36 @@
+
+state={
+	id=755
+	name="STATE_755"
+	resources={
+		aluminium=12.000
+		steel=2.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			6606 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			6973 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = ITA
+	}
+
+	provinces={
+		3773 3976 6606 6790 6973 6985 9752 11726 11734 
+	}
+	manpower=1279420
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

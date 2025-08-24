@@ -1,0 +1,811 @@
+focus_tree = {
+	id = SOV_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = The_third_waySOV
+		icon = GFX_goal_support_fascism
+		text = The_third_way
+		x = 35
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 2 name = The_third_way }
+		add_ideas = fascist_influence
+		hidden_effect = {
+			news_event = { id = static_news.1 hours = 5 }
+		}
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = mil_marchSOV
+		icon = GFX_goal_generic_allies_build_infantry
+		text = mil_march
+		prerequisite = { focus = The_third_waySOV }
+		x = 0
+		y = 1
+		relative_position_id = The_third_waySOV
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		}
+	}
+
+	focus = {
+		id = SOV_anschluss_MON
+		icon = GFX_goal_anschluss
+		text = _anschluss_MON
+		prerequisite = { focus = mil_marchSOV }
+		x = 0
+		y = 1
+		relative_position_id = mil_marchSOV
+		cost = 10
+		available = {
+		MON = {
+			has_war = no
+			is_puppet = no
+			is_in_faction = no
+		}
+		is_puppet = no
+		date > 1937.7.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Union with Mongolia" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = MON
+			}
+			MON = {
+				country_event = NFEvents.1
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = expand_the_reichSOV
+		icon = GFX_goal_generic_political_pressure
+		text = expand_the_reich
+		prerequisite = { focus = SOV_anschluss_MON }
+
+		x = 0
+		y = 3
+		relative_position_id = The_third_waySOV
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = expand_the_reich }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = SOV_sudeten_BLC
+		icon = GFX_goal_anschluss
+		text = _sudeten_BLC
+		prerequisite = { focus = expand_the_reichSOV }
+		bypass = {
+	  has_war_with = BLC
+	}
+		x = -7
+		y = 1
+		relative_position_id = expand_the_reichSOV
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Baluchistan" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = BLC
+			}
+			BLC = {
+				country_event = NFEvents.4
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_finish_BLC
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_BLC
+		prerequisite = { focus =  SOV_sudeten_BLC }
+		bypass = {
+		has_war_with = BLC
+	}
+		x = 0
+		y = 1
+		relative_position_id = SOV_sudeten_BLC
+		cost = 10
+		available = {
+		BLC = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Baluchistan" }
+		create_wargoal = {
+			type = annex_everything
+			target = BLC
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_sudeten_KHI
+		icon = GFX_goal_anschluss
+		text = _sudeten_KHI
+		prerequisite = { focus = expand_the_reichSOV }
+		bypass = {
+	  has_war_with = KHI
+	}
+		x = -5
+		y = 1
+		relative_position_id = expand_the_reichSOV
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.9.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Khiva" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = KHI
+			}
+			KHI = {
+				country_event = NFEvents.7
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_finish_KHI
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_KHI
+		prerequisite = { focus =  SOV_sudeten_KHI }
+		bypass = {
+		has_war_with = KHI
+	}
+		x = 0
+		y = 1
+		relative_position_id = SOV_sudeten_KHI
+		cost = 10
+		available = {
+		KHI = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Khiva" }
+		create_wargoal = {
+			type = annex_everything
+			target = KHI
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_sudeten_LIT
+		icon = GFX_goal_anschluss
+		text = _sudeten_LIT
+		prerequisite = { focus = expand_the_reichSOV }
+		bypass = {
+	  has_war_with = LIT
+	}
+		x = -3
+		y = 1
+		relative_position_id = expand_the_reichSOV
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.5.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Lithuania" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = LIT
+			}
+			LIT = {
+				country_event = NFEvents.10
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_finish_LIT
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_LIT
+		prerequisite = { focus =  SOV_sudeten_LIT }
+		bypass = {
+		has_war_with = LIT
+	}
+		x = 0
+		y = 1
+		relative_position_id = SOV_sudeten_LIT
+		cost = 10
+		available = {
+		LIT = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Lithuania" }
+		create_wargoal = {
+			type = annex_everything
+			target = LIT
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_sudeten_ROM
+		icon = GFX_goal_anschluss
+		text = _sudeten_ROM
+		prerequisite = { focus = expand_the_reichSOV }
+		bypass = {
+	  has_war_with = ROM
+	}
+		x = -1
+		y = 1
+		relative_position_id = expand_the_reichSOV
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.3.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Romania" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = ROM
+			}
+			ROM = {
+				country_event = NFEvents.13
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_finish_ROM
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_ROM
+		prerequisite = { focus =  SOV_sudeten_ROM }
+		bypass = {
+		has_war_with = ROM
+	}
+		x = 0
+		y = 1
+		relative_position_id = SOV_sudeten_ROM
+		cost = 10
+		available = {
+		ROM = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Romania" }
+		create_wargoal = {
+			type = annex_everything
+			target = ROM
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_sudeten_SCA
+		icon = GFX_goal_anschluss
+		text = _sudeten_SCA
+		prerequisite = { focus = expand_the_reichSOV }
+		bypass = {
+	  has_war_with = SCA
+	}
+		x = 1
+		y = 1
+		relative_position_id = expand_the_reichSOV
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Scandinavia" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = SCA
+			}
+			SCA = {
+				country_event = NFEvents.16
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_finish_SCA
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_SCA
+		prerequisite = { focus =  SOV_sudeten_SCA }
+		bypass = {
+		has_war_with = SCA
+	}
+		x = 0
+		y = 1
+		relative_position_id = SOV_sudeten_SCA
+		cost = 10
+		available = {
+		SCA = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Scandinavia" }
+		create_wargoal = {
+			type = annex_everything
+			target = SCA
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_sudeten_SIB
+		icon = GFX_goal_anschluss
+		text = _sudeten_SIB
+		prerequisite = { focus = expand_the_reichSOV }
+		bypass = {
+	  has_war_with = SIB
+	}
+		x = 3
+		y = 1
+		relative_position_id = expand_the_reichSOV
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.8.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Siberia" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = SIB
+			}
+			SIB = {
+				country_event = NFEvents.19
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_finish_SIB
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_SIB
+		prerequisite = { focus =  SOV_sudeten_SIB }
+		bypass = {
+		has_war_with = SIB
+	}
+		x = 0
+		y = 1
+		relative_position_id = SOV_sudeten_SIB
+		cost = 10
+		available = {
+		SIB = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Siberia" }
+		create_wargoal = {
+			type = annex_everything
+			target = SIB
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_sudeten_UBD
+		icon = GFX_goal_anschluss
+		text = _sudeten_UBD
+		prerequisite = { focus = expand_the_reichSOV }
+		bypass = {
+	  has_war_with = UBD
+	}
+		x = 5
+		y = 1
+		relative_position_id = expand_the_reichSOV
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.4.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from United Baltic Provinces" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = UBD
+			}
+			UBD = {
+				country_event = NFEvents.22
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_finish_UBD
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_UBD
+		prerequisite = { focus =  SOV_sudeten_UBD }
+		bypass = {
+		has_war_with = UBD
+	}
+		x = 0
+		y = 1
+		relative_position_id = SOV_sudeten_UBD
+		cost = 10
+		available = {
+		UBD = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of United Baltic Provinces" }
+		create_wargoal = {
+			type = annex_everything
+			target = UBD
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_sudeten_X36
+		icon = GFX_goal_anschluss
+		text = _sudeten_X36
+		prerequisite = { focus = expand_the_reichSOV }
+		bypass = {
+	  has_war_with = X36
+	}
+		x = 7
+		y = 1
+		relative_position_id = expand_the_reichSOV
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1938.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from Theodoro" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = X36
+			}
+			X36 = {
+				country_event = NFEvents.25
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = SOV_finish_X36
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_X36
+		prerequisite = { focus =  SOV_sudeten_X36 }
+		bypass = {
+		has_war_with = X36
+	}
+		x = 0
+		y = 1
+		relative_position_id = SOV_sudeten_X36
+		cost = 10
+		available = {
+		date > 1938.2.25
+		X36 = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of Theodoro" }
+		create_wargoal = {
+			type = annex_everything
+			target = X36
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = Fas_SummitSOV
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Fascist_Summit
+		x = 44
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Call for the Fascist Summit" }
+		add_political_power = 150
+		hidden_effect = {
+			if = {
+				limit = { has_government = fascism }
+				every_other_country = {
+					limit = { is_major = yes }
+					news_event = { id = news.501 }
+				}
+			}
+		}
+
+		hidden_effect = {
+			if = {
+				limit = { has_government = communism }
+				every_other_country = {
+					limit = { is_major = yes }
+					news_event = { id = news.500 }
+				}
+			}
+		}
+
+	}
+		ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 10
+			date > 1938.1.1
+		}
+	}
+	}
+
+	focus = {
+		id = Alliance_X03SOV
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_X03
+		prerequisite = { focus = Fas_SummitSOV }
+		bypass = {
+		OR = {
+			NOT = { has_government = X03 }
+			X03 = { is_subject = yes }
+			is_in_faction_with = X03
+			has_war_with = X03
+			NOT = { country_exists = X03 }
+		}
+	}
+		x = 0
+		y = 1
+		relative_position_id = Fas_SummitSOV
+		cost = 10
+		available = {
+		OR = {
+			is_in_faction = no
+			faction_leader = { NOT = { has_war_together_with = ROOT } }
+		}
+		X03 = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+				has_war = no
+			}
+			has_opinion = {
+				target = ROOT
+				value > -50
+			}
+		}
+	}
+		completion_reward = {
+		if = {
+			limit = { X03 = { is_faction_leader = yes } }
+			every_country = {
+				limit = {
+					is_in_faction_with = X03
+					is_subject = no
+				}
+				country_event = { hours = 6 id = NFEvents.28 }
+			}
+		}
+		else = {
+			X03 = { country_event = { hours = 6 id = NFEvents.28 } }
+		}
+		X03 = {
+			add_opinion_modifier = { target = ROOT modifier = positive_50 }
+		}
+	}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+	focus = {
+		id = GP_WarW10SOV
+		icon = GFX_goal_generic_major_war
+		text = GP_WarW10
+		prerequisite = { focus = Alliance_X03SOV }
+		bypass = {
+		has_war_with = W10
+	}
+		x = 0
+		y = 2
+		relative_position_id = Fas_SummitSOV
+		cost = 10
+		available = {
+		has_war = no
+		date > 1939.12.1
+	}
+		completion_reward = {
+		add_named_threat = { threat = 5 name = "War with Shandong" }
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = W10
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = W10 ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				
+			}
+		}
+	}
+	}
+
+}

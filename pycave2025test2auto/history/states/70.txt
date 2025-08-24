@@ -1,0 +1,35 @@
+
+state={
+	id=70
+	name="STATE_70"
+
+	history={
+		owner = X13
+		victory_points = {
+			10464 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			4308 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = W13
+		add_core_of = X13
+		add_core_of = X81
+	}
+
+	provinces={
+		1561 4308 7336 7598 10450 10464 12330 12444 
+	}
+	manpower=281120
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

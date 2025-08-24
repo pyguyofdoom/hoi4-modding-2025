@@ -1,0 +1,16 @@
+characters={
+	W78_chionesu_magaya={
+		name=W78_chionesu_magaya
+		portraits={
+			civilian={
+				large="GFX_Africa_Generic_new_1"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

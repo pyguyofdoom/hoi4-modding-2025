@@ -1,0 +1,101 @@
+﻿converted_war_strategies_W47 = {
+	allowed = {
+		tag = W47
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "X23"
+		value = 1097
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 156
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W50"
+		value = 31
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X65"
+		value = 16
+	}
+}
+
+converted_diplo_strategies_W47 = {
+	allowed = {
+		tag = W47
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "HLR"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "IRE"
+		value = 151
+	}
+	ai_strategy = {
+		type = contain
+		id = "W46"
+		value = 94
+	}
+	ai_strategy = {
+		type = contain
+		id = "SCA"
+		value = 66
+	}
+	ai_strategy = {
+		type = contain
+		id = "W59"
+		value = 4
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "IRE"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W46"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 57
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 38
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W41"
+		value = 109
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W46"
+		value = 104
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "IRE"
+		value = 94
+	}
+}

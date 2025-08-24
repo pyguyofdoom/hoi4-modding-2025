@@ -1,0 +1,30 @@
+
+state={
+	id=578
+	name="STATE_578"
+
+	history={
+		owner = W21
+		victory_points = {
+			7470 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = GEO
+		add_core_of = W21
+	}
+
+	provinces={
+		652 789 864 6935 6976 6991 7470 9858 9886 10399 11853 11880 12318 
+	}
+	manpower=2515880
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=596
+	name="STATE_596"
+
+	history={
+		owner = W21
+		victory_points = {
+			10173 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W71
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1129 2002 2076 4979 7106 8022 10173 10729 10772 12005 12708 12822 
+	}
+	manpower=9358920
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

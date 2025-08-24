@@ -1,0 +1,38 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12049
+		task_force = {
+			name = "1st Fleet"
+			location = 12049
+			ship = { name = "1st Dumyat Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W66 } } }
+			ship = { name = "2nd Dumyat Dreadnought" definition = battleship equipment = { battleship_1 = { amount = 1 owner = W66 } } }
+			ship = { name = "1st Dumyat Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W66 } } }
+			ship = { name = "2nd Dumyat Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = W66 } } }
+			ship = { name = "1st Suez Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W66 } } }
+			ship = { name = "2nd Suez Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W66 } } }
+			ship = { name = "1st Dumyat Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = W66 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "W66"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "W66"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

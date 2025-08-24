@@ -1,0 +1,16 @@
+characters={
+	MRT_mutarrif_al_idrisi={
+		name=MRT_mutarrif_al_idrisi
+		portraits={
+			civilian={
+				large="GFX_JOR_Salih_Jabr"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

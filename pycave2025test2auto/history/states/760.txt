@@ -1,0 +1,43 @@
+
+state={
+	id=760
+	name="STATE_760"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			6521 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+			6521 = {
+				landmark_berlin_reichstag = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+
+		}
+		add_core_of = GER
+		add_core_of = HLR
+		add_core_of = W38
+		add_core_of = W41
+	}
+
+	provinces={
+		375 478 3207 3312 3367 3499 6521 9428 9496 11219 11415 11444 11505 
+	}
+	manpower=2797660
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

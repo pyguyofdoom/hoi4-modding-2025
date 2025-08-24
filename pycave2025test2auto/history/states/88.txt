@@ -1,0 +1,41 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			10980 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+			10980 = {
+				naval_base = 4
+				landmark_cristo_redentor = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		5172 10980 
+	}
+	manpower=6473032
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

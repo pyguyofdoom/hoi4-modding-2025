@@ -1,0 +1,29 @@
+
+state={
+	id=669
+	name="STATE_669"
+
+	history={
+		owner = W89
+		victory_points = {
+			8213 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = W89
+	}
+
+	provinces={
+		5162 8149 8213 10942 10970 12869 13289 13290 13291 
+	}
+	manpower=1099448
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

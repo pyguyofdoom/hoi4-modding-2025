@@ -1,0 +1,30 @@
+
+state={
+	id=143
+	name="STATE_143"
+
+	history={
+		owner = CAT
+		victory_points = {
+			11742 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CAT
+		add_core_of = W49
+	}
+
+	provinces={
+		888 3891 3945 6879 9757 9852 11742 
+	}
+	manpower=687544
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

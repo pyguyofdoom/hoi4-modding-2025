@@ -1,0 +1,516 @@
+tag_fpcad= {
+	OR = {
+		tag = UBD
+	}
+}
+
+tag_fpcae= {
+	OR = {
+		tag = FIJ
+		tag = W13
+	}
+}
+
+tag_fpvad= {
+	OR = {
+	}
+}
+
+tag_fpvae= {
+	OR = {
+	}
+}
+
+tag_fpvnd= {
+	OR = {
+	}
+}
+
+tag_fpvne= {
+	OR = {
+		tag = HAW
+	}
+}
+
+tag_fscad= {
+	OR = {
+		AND = {
+			tag = ENG
+			has_government = democratic
+		}
+		AND = {
+			tag = HLR
+			has_government = democratic
+		}
+		AND = {
+			tag = KHI
+			has_government = communism
+		}
+		AND = {
+			tag = RCG
+			OR = { has_government = communism has_government = fascism has_government = radical has_government = democratic }
+		}
+		AND = {
+			tag = USA
+			has_government = communism
+		}
+		AND = {
+			tag = W76
+			OR = { has_government = democratic has_government = fascism has_government = communism }
+		}
+		tag = X30
+		AND = {
+			tag = X59
+			has_government = democratic
+		}
+	}
+}
+
+tag_fscae= {
+	OR = {
+		tag = BOS
+		tag = BRI
+		tag = BRM
+		AND = {
+			tag = CAL
+			NOT = { has_government = absolutist }
+		}
+		tag = CAT
+		tag = CHI
+		tag = COR
+		tag = FIN
+		tag = FRA
+		tag = GEO
+		tag = HUN
+		tag = KAR
+		tag = KOR
+		tag = KSH
+		tag = LIT
+		tag = MAL
+		tag = MON
+		AND = {
+			tag = MRT
+			NOT = { has_government = absolutist }
+		}
+		tag = NOR
+		tag = NZL
+		tag = PAL
+		tag = PNG
+		tag = POL
+		AND = {
+			tag = RME
+			has_government = democratic
+		}
+		tag = ROM
+		tag = SCA
+		tag = SIB
+		tag = SIE
+		tag = SIL
+		AND = {
+			tag = SOV
+			NOT = { has_government = absolutist }
+		}
+		tag = SWI
+		tag = SYR
+		tag = W04
+		tag = W06
+		tag = W21
+		tag = W32
+		tag = W38
+		tag = WLL
+		tag = X27
+		tag = X33
+		tag = X34
+		AND = {
+			tag = X51
+			NOT = { has_government = fascism }
+		}
+		tag = X67
+		tag = X74
+		tag = X90
+		tag = X92
+		tag = YUG
+	}
+}
+
+tag_fscne= {
+	OR = {
+		tag = DNZ
+		tag = HES
+		AND = {
+			tag = KHI
+			NOT = { has_government = communism }
+		}
+		tag = W30
+		tag = W35
+		tag = X09
+		tag = X37
+		tag = X39
+		tag = X41
+		tag = X66
+		tag = X72
+		tag = X87
+	}
+}
+
+tag_fsvad= {
+	OR = {
+		AND = {
+			tag = RME
+			has_government = communism
+		}
+		tag = W14
+	}
+}
+
+tag_fsvae= {
+	OR = {
+		tag = ALG
+		tag = ARG
+		tag = CAR
+		tag = GER
+		tag = ICE
+		tag = IRE
+		tag = ITA
+		tag = RAJ
+		tag = SAF
+		tag = SAU
+		tag = SPR
+		tag = X04
+		tag = X52
+	}
+}
+
+tag_fsvnd= {
+	OR = {
+	}
+}
+
+tag_fsvne= {
+	OR = {
+		tag = X94
+		tag = X96
+	}
+}
+
+tag_mpcad= {
+	OR = {
+		tag = HOL
+		tag = KEN
+		tag = SUD
+		tag = W11
+		tag = W12
+		tag = W23
+		tag = W33
+		tag = W37
+		tag = X17
+		tag = X25
+		tag = X26
+		tag = X44
+		tag = X70
+		tag = X81
+	}
+}
+
+tag_mpcae= {
+	OR = {
+	}
+}
+
+tag_mpvad= {
+	OR = {
+		tag = X97
+	}
+}
+
+tag_mpvae= {
+	OR = {
+		AND = {
+			tag = USA
+			NOT = { has_government = absolutist has_government = communism }
+		}
+	}
+}
+
+tag_mscad= {
+	OR = {
+		AND = {
+			tag = CAL
+			has_government = absolutist
+		}
+		AND = {
+			tag = ENG
+			NOT = { has_government = absolutist has_government = democratic }
+		}
+		AND = {
+			tag = HLR
+			NOT = { has_government = democratic }
+		}
+		AND = {
+			tag = USA
+			has_government = absolutist
+		}
+		tag = W20
+		AND = {
+			tag = X59
+			NOT = { has_government = democratic }
+		}
+	}
+}
+
+tag_mscae= {
+	OR = {
+		tag = BAN
+		tag = BLC
+		tag = BLZ
+		tag = BRA
+		tag = CAM
+		tag = CHA
+		tag = CMR
+		tag = COG
+		tag = DEN
+		tag = GAB
+		tag = JAP
+		tag = LEB
+		tag = MOR
+		AND = {
+			tag = MRT
+			has_government = absolutist
+		}
+		tag = NEP
+		tag = NGA
+		tag = NGR
+		tag = POR
+		tag = QAT
+		AND = {
+			tag = RCG
+			OR = { has_government = neutrality has_government = absolutist }
+		}
+		tag = RWA
+		tag = SEN
+		tag = SIA
+		tag = TAN
+		tag = TIB
+		tag = TOG
+		tag = TZN
+		tag = VIN
+		tag = W10
+		tag = W17
+		tag = W25
+		tag = W31
+		tag = W77
+		tag = X19
+		tag = X24
+		tag = X40
+		tag = X45
+		tag = X46
+		AND = {
+			tag = X51
+			has_government = fascism
+		}
+		tag = X57
+		tag = X73
+		tag = X75
+		tag = X77
+		tag = X89
+	}
+}
+
+tag_mscnd= {
+	OR = {
+		tag = X12
+	}
+}
+
+tag_mscne= {
+	OR = {
+		tag = BHR
+		tag = BRU
+		tag = TAH
+		tag = W00
+		tag = W01
+		tag = W02
+		tag = W03
+		tag = W05
+		tag = W07
+		tag = W08
+		tag = W09
+		tag = W15
+		tag = W16
+		tag = W18
+		tag = W19
+		tag = W22
+		tag = W24
+		tag = W26
+		tag = W27
+		tag = W28
+		tag = W29
+		tag = W36
+		tag = W39
+		tag = W40
+		tag = W41
+		tag = W42
+		tag = W43
+		tag = W44
+		tag = W45
+		tag = W46
+		tag = W47
+		tag = W48
+		tag = W49
+		tag = W50
+		tag = W51
+		tag = W52
+		tag = W53
+		tag = W54
+		tag = W55
+		tag = W56
+		tag = W57
+		tag = W58
+		tag = W59
+		tag = W60
+		tag = W61
+		tag = W62
+		tag = W63
+		tag = W64
+		tag = W65
+		tag = W66
+		tag = W67
+		tag = W68
+		tag = W69
+		tag = W70
+		tag = W71
+		tag = W72
+		tag = W73
+		tag = W74
+		tag = W75
+		tag = W78
+		tag = W79
+		tag = W80
+		tag = W81
+		tag = W82
+		tag = W83
+		tag = W84
+		tag = W85
+		tag = W86
+		tag = W87
+		tag = W88
+		tag = W89
+		tag = W90
+		tag = W91
+		tag = W92
+		tag = W93
+		tag = W94
+		tag = X01
+		tag = X10
+		tag = X11
+		tag = X13
+		tag = X14
+		tag = X15
+		tag = X16
+		tag = X18
+		tag = X21
+		tag = X22
+		tag = X23
+		tag = X28
+		tag = X29
+		tag = X31
+		tag = X32
+		tag = X36
+		tag = X38
+		tag = X42
+		tag = X47
+		tag = X48
+		tag = X49
+		tag = X50
+		tag = X53
+		tag = X54
+		tag = X55
+		tag = X56
+		tag = X58
+		tag = X60
+		tag = X61
+		tag = X62
+		tag = X63
+		tag = X64
+		tag = X65
+		tag = X68
+		tag = X69
+		tag = X71
+		tag = X76
+		tag = X78
+		tag = X79
+		tag = X80
+		tag = X82
+		tag = X83
+		tag = X84
+		tag = X85
+		tag = X86
+		tag = X88
+		tag = X91
+		tag = X93
+		tag = X98
+		tag = X99
+	}
+}
+
+tag_msvad= {
+	OR = {
+		AND = {
+			tag = ENG
+			has_government = absolutist
+		}
+		AND = {
+			tag = GER
+			has_government = absolutist
+		}
+		AND = {
+			tag = RME
+			NOT = { has_government = democratic has_government = communism }
+		}
+		AND = {
+			tag = SOV
+			has_government = absolutist
+		}
+		AND = {
+			tag = W76
+			NOT = { has_government = democratic has_government = communism has_government = fascism }
+		}
+		tag = X20
+	}
+}
+
+tag_msvae= {
+	OR = {
+		tag = AFG
+		tag = ANG
+		AND = {
+			tag = COG
+			NOT = { has_government = democratic }
+		}
+		tag = X00
+		tag = X95
+	}
+}
+
+tag_msvnd= {
+	OR = {
+	}
+}
+
+tag_msvne= {
+	OR = {
+		tag = ISR
+		tag = OMA
+		tag = UAE
+		tag = W34
+		tag = X02
+		tag = X03
+		tag = X05
+		tag = X06
+		tag = X07
+		tag = X08
+		tag = X35
+		tag = X43
+	}
+}
+

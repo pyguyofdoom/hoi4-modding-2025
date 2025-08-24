@@ -1,0 +1,16 @@
+characters={
+	W94_charalampos_foumis={
+		name=W94_charalampos_foumis
+		portraits={
+			civilian={
+				large="GFX_Italy_Alcide_de_Gasperi"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

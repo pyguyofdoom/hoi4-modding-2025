@@ -1,0 +1,37 @@
+
+state={
+	id=397
+	name="STATE_397"
+	resources={
+		aluminium=16.000
+		chromium=2.000
+	}
+
+	history={
+		owner = NOR
+		victory_points = {
+			122 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			air_base = 2
+			6176 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = NOR
+	}
+
+	provinces={
+		14 53 65 100 122 137 144 199 3049 3059 3090 3094 3114 3129 3188 3192 6072 6080 6145 6151 6176 6184 6216 9036 9047 9096 9103 9170 9174 9196 9204 9296 11029 11101 11176 11198 11367 
+	}
+	manpower=1307752
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=107
+	name="STATE_107"
+	resources={
+		chromium=56.000
+		steel=1.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			947 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+			11829 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X20
+	}
+
+	provinces={
+		785 856 947 981 3786 3851 3856 6864 6871 6912 9799 9887 11778 11811 11829 11831 11867 
+	}
+	manpower=1437992
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

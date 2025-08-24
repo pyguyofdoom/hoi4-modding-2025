@@ -1,0 +1,36 @@
+
+state={
+	id=382
+	name="STATE_382"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = X90
+		victory_points = {
+			12600 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			air_base = 0
+			7364 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X90
+	}
+
+	provinces={
+		490 1657 3208 4666 6740 7364 10176 11682 12147 12600 13196 13314 
+	}
+	manpower=772508
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

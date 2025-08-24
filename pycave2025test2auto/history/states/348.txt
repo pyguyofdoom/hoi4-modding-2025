@@ -1,0 +1,32 @@
+
+state={
+	id=348
+	name="STATE_348"
+
+	history={
+		owner = W86
+		victory_points = {
+			13026 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			13025 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = W86
+	}
+
+	provinces={
+		13025 13026 
+	}
+	manpower=206012
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

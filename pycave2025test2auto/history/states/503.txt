@@ -1,0 +1,32 @@
+
+state={
+	id=503
+	name="STATE_503"
+
+	history={
+		owner = SCA
+		victory_points = {
+			6389 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			6389 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		3231 3368 6257 6389 9320 
+	}
+	manpower=1241024
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

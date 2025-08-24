@@ -1,0 +1,39 @@
+
+state={
+	id=756
+	name="STATE_756"
+	resources={
+		aluminium=27.000
+		chromium=4.000
+		steel=38.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			6788 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			6788 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = X39
+	}
+
+	provinces={
+		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11730 11891 
+	}
+	manpower=2201372
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

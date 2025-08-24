@@ -1,0 +1,29 @@
+
+state={
+	id=738
+	name="STATE_738"
+
+	history={
+		owner = W41
+		victory_points = {
+			11672 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W41
+	}
+
+	provinces={
+		577 3728 6761 9548 9685 11652 11655 11672 11689 
+	}
+	manpower=2499544
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

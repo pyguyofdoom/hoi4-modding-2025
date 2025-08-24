@@ -1,0 +1,39 @@
+
+state={
+	id=646
+	name="STATE_646"
+	resources={
+		aluminium=20.000
+		steel=28.000
+	}
+
+	history={
+		owner = W35
+		victory_points = {
+			11584 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 3
+			dockyard = 2
+			air_base = 8
+			628 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = W35
+		add_claim_by = W41
+	}
+
+	provinces={
+		603 628 656 3604 3657 3776 6656 9582 11584 
+	}
+	manpower=5190616
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

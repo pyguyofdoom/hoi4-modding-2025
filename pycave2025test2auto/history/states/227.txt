@@ -1,0 +1,36 @@
+
+state={
+	id=227
+	name="STATE_227"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = W80
+		victory_points = {
+			2050 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+			2050 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = NGA
+		add_core_of = W80
+	}
+
+	provinces={
+		2050 12731 
+	}
+	manpower=6864996
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

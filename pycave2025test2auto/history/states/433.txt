@@ -1,0 +1,37 @@
+
+state={
+	id=433
+	name="STATE_433"
+
+	history={
+		owner = W87
+		victory_points = {
+			1751 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+			1751 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = W27
+		add_core_of = W87
+		add_core_of = X83
+		W21 = {
+			set_province_controller = 1751
+		}
+	}
+
+	provinces={
+		1751 
+	}
+	manpower=472692
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

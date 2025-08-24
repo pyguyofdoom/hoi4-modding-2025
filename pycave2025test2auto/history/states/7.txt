@@ -1,0 +1,41 @@
+
+state={
+	id=7
+	name="STATE_7"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		owner = X03
+		victory_points = {
+			10922 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 7
+			10837 = {
+				landmark_sadabad_complex = {
+					level = 1
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+				}
+			}
+
+		}
+		add_core_of = W07
+		add_core_of = X03
+	}
+
+	provinces={
+		7969 8093 10837 10922 12704 12818 
+	}
+	manpower=1882928
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

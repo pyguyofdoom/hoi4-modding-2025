@@ -1,0 +1,32 @@
+
+state={
+	id=437
+	name="STATE_437"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = W07
+		victory_points = {
+			2097 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = W07
+	}
+
+	provinces={
+		1600 1631 1938 2097 3795 3916 4951 5014 6826 8123 10106 10793 10804 10811 12046 12372 12413 12855 
+	}
+	manpower=2264524
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

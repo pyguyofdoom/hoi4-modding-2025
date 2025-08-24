@@ -1,0 +1,35 @@
+
+state={
+	id=670
+	name="STATE_670"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = W89
+		victory_points = {
+			12969 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			2156 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W89
+	}
+
+	provinces={
+		2156 8199 12969 
+	}
+	manpower=1641500
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

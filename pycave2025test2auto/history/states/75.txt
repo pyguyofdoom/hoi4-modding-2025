@@ -1,0 +1,29 @@
+
+state={
+	id=75
+	name="STATE_75"
+
+	history={
+		owner = BOS
+		victory_points = {
+			11581 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = BOS
+	}
+
+	provinces={
+		624 3592 3596 3627 9611 11581 11594 
+	}
+	manpower=930476
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

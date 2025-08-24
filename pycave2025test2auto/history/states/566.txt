@@ -1,0 +1,29 @@
+
+state={
+	id=566
+	name="STATE_566"
+
+	history={
+		owner = W17
+		victory_points = {
+			10827 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W17
+	}
+
+	provinces={
+		1960 2016 4961 5060 7925 8052 8084 10739 10795 10827 10851 12744 
+	}
+	manpower=1751165
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

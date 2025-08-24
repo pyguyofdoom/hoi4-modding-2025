@@ -1,0 +1,16 @@
+characters={
+	W92_evzen_hrdlicka={
+		name=W92_evzen_hrdlicka
+		portraits={
+			civilian={
+				large="GFX_LAT_Margers_Skujenieks"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

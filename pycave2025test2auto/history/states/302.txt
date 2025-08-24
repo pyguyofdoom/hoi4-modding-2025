@@ -1,0 +1,29 @@
+
+state={
+	id=302
+	name="STATE_302"
+
+	history={
+		owner = X55
+		victory_points = {
+			7912 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 8
+
+		}
+		add_core_of = X55
+	}
+
+	provinces={
+		2009 7912 13243 13244 13245 
+	}
+	manpower=1883860
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

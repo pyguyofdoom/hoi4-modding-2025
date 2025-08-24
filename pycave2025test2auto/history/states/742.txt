@@ -1,0 +1,39 @@
+
+state={
+	id=742
+	name="STATE_742"
+
+	history={
+		owner = W41
+		victory_points = {
+			6332 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			air_base = 1
+			6332 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = POL
+		add_core_of = W38
+		add_core_of = W41
+		add_claim_by = LIT
+		add_claim_by = SCA
+		add_claim_by = SOV
+		add_claim_by = UBD
+	}
+
+	provinces={
+		266 281 348 395 3288 3384 6332 6375 9327 9346 9372 9398 11245 11265 11386 
+	}
+	manpower=3121084
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	SEN_guilheiumes_claris={
+		name=SEN_guilheiumes_claris
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

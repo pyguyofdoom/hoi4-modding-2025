@@ -1,0 +1,21 @@
+
+state={
+	id=699
+	name="STATE_699"
+	impassable = yes
+
+	history={
+		owner = W91
+		add_core_of = NGR
+		add_core_of = W91
+	}
+
+	provinces={
+		8028 10758 10780 10805 
+	}
+	manpower=1782608
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

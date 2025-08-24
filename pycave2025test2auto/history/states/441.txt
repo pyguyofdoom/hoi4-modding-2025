@@ -1,0 +1,37 @@
+
+state={
+	id=441
+	name="STATE_441"
+	resources={
+		oil=3.000
+		steel=1.000
+	}
+
+	history={
+		owner = W07
+		victory_points = {
+			12832 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			10797 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = W07
+		add_core_of = W43
+	}
+
+	provinces={
+		5089 10797 12832 
+	}
+	manpower=453488
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

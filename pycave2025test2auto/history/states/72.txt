@@ -1,0 +1,37 @@
+
+state={
+	id=72
+	name="STATE_72"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = X14
+		victory_points = {
+			4409 3 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			4409 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = BRU
+		add_core_of = X14
+	}
+
+	provinces={
+		2170 2222 4409 7227 8221 10310 12955 
+	}
+	manpower=196616
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

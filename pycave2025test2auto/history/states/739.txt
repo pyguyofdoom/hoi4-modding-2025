@@ -1,0 +1,34 @@
+
+state={
+	id=739
+	name="STATE_739"
+	resources={
+		aluminium=18.000
+		steel=12.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			11260 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W38
+		add_core_of = W41
+	}
+
+	provinces={
+		444 3473 3572 6236 9252 9387 11260 11288 11478 
+	}
+	manpower=1422412
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

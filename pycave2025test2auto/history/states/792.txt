@@ -1,0 +1,30 @@
+
+state={
+	id=792
+	name="STATE_792"
+
+	history={
+		owner = W66
+		victory_points = {
+			1028 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W66
+		add_core_of = X20
+	}
+
+	provinces={
+		1028 7073 10097 12071 
+	}
+	manpower=381612
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

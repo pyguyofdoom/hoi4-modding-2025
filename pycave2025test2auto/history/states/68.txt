@@ -1,0 +1,35 @@
+
+state={
+	id=68
+	name="STATE_68"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = BLZ
+		victory_points = {
+			13087 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+			13087 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = BLZ
+	}
+
+	provinces={
+		12878 13087 13092 
+	}
+	manpower=443412
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

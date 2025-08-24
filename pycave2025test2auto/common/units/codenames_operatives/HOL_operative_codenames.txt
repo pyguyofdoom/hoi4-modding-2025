@@ -1,0 +1,28 @@
+HOL_OPERATIVE_CODENAME_HISTORICAL = {
+	name = HOL_OPERATIVE_CODENAME_HISTORICAL
+
+	for_countries = { ANG CAR CHA CMR COG GAB HLR HOL NGR RWA SAF SIE TZN W31 W39 W80 W81 W82 W83 W84 W89 W90 W91 X69 X94 }
+
+	type = codename
+
+	fallback_name = "Agent %d"
+	unique = {
+		"Bossche Bollen"
+		"Banketstaaf"
+		"Sukerbole"
+		"Mus"
+		"Wesp"
+		"Leeuw"
+		"Havik"
+		"Boterkoek"
+		"Boernmeisjes"
+		"Krakelingen"
+		"Kruidnoten"
+		"Pindakoeken"
+		"Slagroomtaart"
+		"Speculaas"
+		"Oliebollen"
+		"Kletskoppen"
+		"Sinterklaas"
+	}
+}

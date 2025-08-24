@@ -1,0 +1,38 @@
+
+state={
+	id=146
+	name="STATE_146"
+	resources={
+		aluminium=3.000
+		steel=129.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			351 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 7
+			11317 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = X23
+		add_core_of = X92
+		add_claim_by = DEN
+	}
+
+	provinces={
+		351 6268 9269 9315 9332 9379 9397 11270 11297 11299 11317 
+	}
+	manpower=5670784
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

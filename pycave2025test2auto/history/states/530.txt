@@ -1,0 +1,29 @@
+
+state={
+	id=530
+	name="STATE_530"
+
+	history={
+		owner = W10
+		victory_points = {
+			4504 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W76
+	}
+
+	provinces={
+		1010 1474 1884 4325 4504 4532 7521 7549 7577 8095 9939 10616 10763 10819 
+	}
+	manpower=8707880
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

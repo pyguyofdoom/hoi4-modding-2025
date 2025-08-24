@@ -1,0 +1,35 @@
+
+state={
+	id=570
+	name="STATE_570"
+
+	history={
+		owner = W19
+		victory_points = {
+			1098 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			4564 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = W13
+		add_core_of = W19
+		add_core_of = X81
+	}
+
+	provinces={
+		1098 1289 1484 1505 1518 4262 4307 4493 4537 4564 7311 10153 10169 10197 12358 
+	}
+	manpower=988044
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

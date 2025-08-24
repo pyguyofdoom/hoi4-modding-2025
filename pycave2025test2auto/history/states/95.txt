@@ -1,0 +1,36 @@
+
+state={
+	id=95
+	name="STATE_95"
+	resources={
+		aluminium=2.000
+		steel=4.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			9990 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			3901 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X20
+	}
+
+	provinces={
+		3901 3958 3968 6972 9856 9990 10027 12066 12098 
+	}
+	manpower=854924
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

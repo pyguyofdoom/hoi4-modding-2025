@@ -1,0 +1,37 @@
+
+state={
+	id=234
+	name="STATE_234"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W83
+		victory_points = {
+			8248 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+			8219 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = ANG
+		add_core_of = W83
+		add_core_of = X88
+	}
+
+	provinces={
+		5158 8219 8248 12981 13373 
+	}
+	manpower=2101056
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

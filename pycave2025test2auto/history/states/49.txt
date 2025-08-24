@@ -1,0 +1,31 @@
+
+state={
+	id=49
+	name="STATE_49"
+
+	history={
+		owner = X07
+		victory_points = {
+			7441 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = BRM
+		add_core_of = X07
+		add_core_of = X85
+	}
+
+	provinces={
+		1170 1566 1607 2061 4175 4210 4585 4626 4654 7400 7441 7562 7603 7647 7909 7974 12256 12317 12363 12449 
+	}
+	manpower=2089940
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

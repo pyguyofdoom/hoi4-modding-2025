@@ -1,0 +1,33 @@
+
+state={
+	id=705
+	name="STATE_705"
+
+	history={
+		owner = W90
+		victory_points = {
+			7290 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 10
+			13080 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W23
+		add_core_of = W90
+	}
+
+	provinces={
+		7290 13080 
+	}
+	manpower=196404
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

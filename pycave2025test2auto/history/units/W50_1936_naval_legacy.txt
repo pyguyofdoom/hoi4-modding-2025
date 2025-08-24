@@ -1,0 +1,36 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 11207
+		task_force = {
+			name = "2nd Fleet"
+			location = 11207
+			ship = { name = "4th Aberdeen Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = W50 } } }
+			ship = { name = "3rd Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W50 } } }
+			ship = { name = "4th Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W50 } } }
+			ship = { name = "5th Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W50 } } }
+			ship = { name = "5th Dumfries Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = W50 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "W50"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "W50"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

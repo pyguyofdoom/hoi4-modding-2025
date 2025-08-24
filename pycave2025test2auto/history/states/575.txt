@@ -1,0 +1,35 @@
+
+state={
+	id=575
+	name="STATE_575"
+
+	history={
+		owner = W20
+		victory_points = {
+			10074 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			4014 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W20
+		add_claim_by = ITA
+		add_claim_by = X20
+	}
+
+	provinces={
+		1009 1156 3857 4014 4159 7059 7147 10074 12047 13256 
+	}
+	manpower=2573980
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

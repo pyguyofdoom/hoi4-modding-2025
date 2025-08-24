@@ -1,0 +1,76 @@
+characters={
+	X73_naritsaranuwatiwong_suriyawongse={
+		name=X73_naritsaranuwatiwong_suriyawongse
+		portraits={
+			army={
+				large="GFX_Asia_Generic_land_new_1"
+			}
+			army={
+				small="GFX_Asia_Generic_land_new_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X73_chulalongkorn_phonphayuhasena={
+		name=X73_chulalongkorn_phonphayuhasena
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X73_phya_nitithada={
+		name=X73_phya_nitithada
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_5"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_5"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X73_king_nangklao={
+		name=X73_king_nangklao
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

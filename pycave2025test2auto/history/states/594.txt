@@ -1,0 +1,36 @@
+
+state={
+	id=594
+	name="STATE_594"
+	resources={
+		chromium=4.000
+		steel=2.000
+	}
+
+	history={
+		owner = W21
+		victory_points = {
+			5043 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W21
+		add_claim_by = RAJ
+		add_claim_by = SAU
+		add_claim_by = W71
+	}
+
+	provinces={
+		1978 4558 4990 4998 5043 5075 5105 7847 7975 8013 8044 8066 8098 10813 12717 12761 12763 
+	}
+	manpower=2828704
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

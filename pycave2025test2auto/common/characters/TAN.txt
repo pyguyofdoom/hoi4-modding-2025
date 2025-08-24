@@ -1,0 +1,36 @@
+characters={
+	TAN_burhan_beg={
+		name=TAN_burhan_beg
+		portraits={
+			army={
+				large="GFX_OTT_Osman_Fuad"
+			}
+			army={
+				small="GFX_OTT_Osman_Fuad"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TAN_timur_khan={
+		name=TAN_timur_khan
+		portraits={
+			civilian={
+				large="GFX_Ottoman_Abdulmecid"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

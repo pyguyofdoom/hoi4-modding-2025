@@ -1,0 +1,36 @@
+
+state={
+	id=588
+	name="STATE_588"
+	resources={
+		aluminium=3.000
+		oil=6.000
+		steel=3.000
+	}
+
+	history={
+		owner = W21
+		victory_points = {
+			4983 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = GEO
+		add_core_of = W21
+		add_core_of = X03
+	}
+
+	provinces={
+		1963 4983 5067 8074 10828 
+	}
+	manpower=1059328
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

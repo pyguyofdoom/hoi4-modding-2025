@@ -1,0 +1,32 @@
+
+state={
+	id=770
+	name="STATE_770"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = W49
+		victory_points = {
+			3816 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W49
+	}
+
+	provinces={
+		790 798 813 871 948 3816 3909 3954 6878 6901 7213 9812 9813 9842 11737 
+	}
+	manpower=1173404
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

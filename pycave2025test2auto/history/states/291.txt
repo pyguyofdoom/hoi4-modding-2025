@@ -1,0 +1,36 @@
+
+state={
+	id=291
+	name="STATE_291"
+	resources={
+		aluminium=18.000
+	}
+
+	history={
+		owner = ICE
+		victory_points = {
+			12674 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 2
+			air_base = 8
+			12674 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = ICE
+	}
+
+	provinces={
+		4861 12674 12689 13266 13267 13268 13271 
+	}
+	manpower=78200
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

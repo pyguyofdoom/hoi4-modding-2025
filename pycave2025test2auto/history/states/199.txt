@@ -1,0 +1,36 @@
+
+state={
+	id=199
+	name="STATE_199"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = DEN
+		victory_points = {
+			9347 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			6349 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = DEN
+	}
+
+	provinces={
+		374 3271 6349 9347 
+	}
+	manpower=903448
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

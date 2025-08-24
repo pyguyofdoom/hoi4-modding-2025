@@ -1,0 +1,37 @@
+
+state={
+	id=772
+	name="STATE_772"
+	resources={
+		aluminium=12.000
+		chromium=1.000
+		tungsten=22.000
+	}
+
+	history={
+		owner = W50
+		victory_points = {
+			11055 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 5
+			11207 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W50
+	}
+
+	provinces={
+		131 200 3159 3178 6046 6062 6104 6205 9075 9090 9161 11055 11064 11136 11161 11207 11266 13269 13270 
+	}
+	manpower=1027820
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

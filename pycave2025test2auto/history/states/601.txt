@@ -1,0 +1,38 @@
+
+state={
+	id=601
+	name="STATE_601"
+	resources={
+		rubber=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = W88
+		victory_points = {
+			4196 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 7
+			10093 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = W88
+		add_core_of = X79
+	}
+
+	provinces={
+		1006 1094 1138 1166 1193 4053 4070 4099 4113 4169 4196 7027 7071 7099 7131 10010 10012 10042 10054 10069 10084 10093 11961 11986 12057 12084 
+	}
+	manpower=36384156
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

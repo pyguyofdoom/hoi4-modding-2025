@@ -1,0 +1,146 @@
+﻿capital = 618
+set_research_slots = 3
+
+oob = "W44_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_baltic
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 90
+	democratic = 7
+	neutrality = 3
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_90 }
+add_opinion_modifier = { target = BLZ modifier = positive_70 }
+add_opinion_modifier = { target = BOS modifier = negative_40 }
+add_opinion_modifier = { target = BRA modifier = positive_90 }
+add_opinion_modifier = { target = CAL modifier = negative_10 }
+add_opinion_modifier = { target = CAT modifier = negative_50 }
+add_opinion_modifier = { target = COG modifier = negative_200 }
+add_opinion_modifier = { target = COR modifier = positive_100 }
+add_opinion_modifier = { target = HLR modifier = positive_105 }
+add_opinion_modifier = { target = ITA modifier = negative_40 }
+add_opinion_modifier = { target = KEN modifier = negative_200 }
+add_opinion_modifier = { target = KOR modifier = negative_35 }
+add_opinion_modifier = { target = RAJ modifier = positive_100 }
+add_opinion_modifier = { target = ROM modifier = positive_105 }
+add_opinion_modifier = { target = SAF modifier = positive_100 }
+add_opinion_modifier = { target = SAU modifier = positive_15 }
+add_opinion_modifier = { target = SCA modifier = negative_170 }
+add_opinion_modifier = { target = SOV modifier = negative_110 }
+add_opinion_modifier = { target = SUD modifier = negative_145 }
+add_opinion_modifier = { target = TZN modifier = negative_200 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = W04 modifier = negative_45 }
+add_opinion_modifier = { target = W07 modifier = negative_20 }
+add_opinion_modifier = { target = W10 modifier = negative_25 }
+add_opinion_modifier = { target = W21 modifier = positive_15 }
+add_opinion_modifier = { target = W27 modifier = negative_200 }
+add_opinion_modifier = { target = W35 modifier = positive_120 }
+add_opinion_modifier = { target = W37 modifier = negative_200 }
+add_opinion_modifier = { target = W39 modifier = positive_95 }
+add_opinion_modifier = { target = W41 modifier = positive_120 }
+add_opinion_modifier = { target = W49 modifier = negative_20 }
+add_opinion_modifier = { target = W59 modifier = positive_100 }
+add_opinion_modifier = { target = W65 modifier = negative_50 }
+add_opinion_modifier = { target = W72 modifier = negative_10 }
+add_opinion_modifier = { target = X02 modifier = negative_200 }
+add_opinion_modifier = { target = X14 modifier = negative_25 }
+add_opinion_modifier = { target = X20 modifier = negative_35 }
+add_opinion_modifier = { target = X23 modifier = positive_90 }
+add_opinion_modifier = { target = X44 modifier = negative_200 }
+add_opinion_modifier = { target = X55 modifier = positive_100 }
+add_opinion_modifier = { target = X74 modifier = negative_35 }
+add_opinion_modifier = { target = X90 modifier = negative_10 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_latvian
+}
+
+recruit_character = W44_alberts_kucys
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Anna Petrovs"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W44 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Kalnins"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W44 }
+	}
+
+	create_operative_leader = {
+		name = "Anna Ozolinš"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { W44 }
+	}
+
+	create_operative_leader = {
+		name = "Mark Caps"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W44 }
+	}
+
+	create_operative_leader = {
+		name = "Emils Kalnins"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { W44 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

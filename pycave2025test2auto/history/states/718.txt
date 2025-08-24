@@ -1,0 +1,35 @@
+
+state={
+	id=718
+	name="STATE_718"
+	resources={
+		steel=18.000
+	}
+
+	history={
+		owner = W41
+		victory_points = {
+			3522 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = GER
+		add_core_of = HLR
+		add_core_of = W38
+		add_core_of = W41
+	}
+
+	provinces={
+		3522 6441 6487 6582 9238 9375 9456 9560 11359 11468 11545 
+	}
+	manpower=4108836
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

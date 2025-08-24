@@ -1,0 +1,32 @@
+
+state={
+	id=252
+	name="STATE_252"
+
+	history={
+		owner = W83
+		victory_points = {
+			4879 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			12921 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = W83
+	}
+
+	provinces={
+		4879 7770 8136 10957 10978 12519 12921 13217 
+	}
+	manpower=476556
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

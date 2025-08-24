@@ -1,0 +1,36 @@
+
+state={
+	id=431
+	name="STATE_431"
+
+	history={
+		owner = W87
+		victory_points = {
+			12891 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			12747 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = W87
+		W16 = {
+			set_province_controller = 12747
+			set_province_controller = 12891
+		}
+	}
+
+	provinces={
+		12747 12891 
+	}
+	manpower=349464
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

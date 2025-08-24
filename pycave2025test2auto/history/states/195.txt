@@ -1,0 +1,37 @@
+
+state={
+	id=195
+	name="STATE_195"
+	resources={
+		aluminium=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = DEN
+		victory_points = {
+			6196 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			6196 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = W50
+		add_claim_by = DEN
+	}
+
+	provinces={
+		6196 
+	}
+	manpower=9404
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

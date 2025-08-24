@@ -1,0 +1,20 @@
+
+state={
+	id=258
+	name="STATE_258"
+	impassable = yes
+
+	history={
+		owner = W80
+		add_core_of = W80
+	}
+
+	provinces={
+		4902 5136 10893 
+	}
+	manpower=6504
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

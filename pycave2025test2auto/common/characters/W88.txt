@@ -1,0 +1,16 @@
+characters={
+	W88_besarion_khvitia={
+		name=W88_besarion_khvitia
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

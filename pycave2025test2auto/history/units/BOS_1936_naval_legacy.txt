@@ -1,0 +1,32 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 9780
+		task_force = {
+			name = "2nd Fleet"
+			location = 9780
+			ship = { name = "1st Dubrovnik Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BOS } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "BOS"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "BOS"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

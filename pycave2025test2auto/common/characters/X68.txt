@@ -1,0 +1,16 @@
+characters={
+	X68_shu_xiuquan={
+		name=X68_shu_xiuquan
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_China_weng_wenhao.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

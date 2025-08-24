@@ -1,0 +1,32 @@
+
+state={
+	id=325
+	name="STATE_325"
+
+	history={
+		owner = KOR
+		victory_points = {
+			7197 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+			7046 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = KOR
+	}
+
+	provinces={
+		4094 4179 7046 7197 9965 11997 12028 
+	}
+	manpower=4462492
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

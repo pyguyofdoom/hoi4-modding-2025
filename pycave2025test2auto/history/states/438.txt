@@ -1,0 +1,36 @@
+
+state={
+	id=438
+	name="STATE_438"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = W07
+		victory_points = {
+			8085 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			air_base = 0
+			2089 = {
+				naval_base = 4
+			}
+
+		}
+		add_core_of = W07
+	}
+
+	provinces={
+		78 2004 2089 7977 7994 8001 8085 10744 10876 12726 12839 12879 13366 13367 13368 
+	}
+	manpower=1042476
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

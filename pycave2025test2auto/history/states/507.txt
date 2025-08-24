@@ -1,0 +1,30 @@
+
+state={
+	id=507
+	name="STATE_507"
+
+	history={
+		owner = W09
+		victory_points = {
+			12730 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = W09
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1116 1996 10810 12730 
+	}
+	manpower=120400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

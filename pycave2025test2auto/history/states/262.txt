@@ -1,0 +1,33 @@
+
+state={
+	id=262
+	name="STATE_262"
+
+	history={
+		owner = HLR
+		victory_points = {
+			321 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			9388 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = GER
+		add_core_of = HLR
+	}
+
+	provinces={
+		268 293 321 349 3340 9294 9388 11276 11305 13257 
+	}
+	manpower=1100628
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

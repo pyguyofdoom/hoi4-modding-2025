@@ -1,0 +1,32 @@
+
+state={
+	id=389
+	name="STATE_389"
+	resources={
+		steel=71.000
+	}
+
+	history={
+		owner = X90
+		victory_points = {
+			12588 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X86
+	}
+
+	provinces={
+		1734 7896 11667 12550 12588 12597 12693 
+	}
+	manpower=244996
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

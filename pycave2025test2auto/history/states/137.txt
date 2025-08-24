@@ -1,0 +1,33 @@
+
+state={
+	id=137
+	name="STATE_137"
+
+	history={
+		owner = CAL
+		victory_points = {
+			3513 4 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+			12211 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = CAL
+	}
+
+	provinces={
+		505 528 1414 3471 3513 4274 4328 4347 4380 4826 7398 7721 7865 10151 10183 10305 10625 11495 11733 12183 12211 12281 12553 
+	}
+	manpower=3670240
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

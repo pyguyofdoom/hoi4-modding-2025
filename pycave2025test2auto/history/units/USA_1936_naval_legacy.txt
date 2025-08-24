@@ -1,0 +1,57 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 6892
+		task_force = {
+			name = "4th Fleet"
+			location = 6892
+			ship = { name = "Arkansas" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "New York" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Michigan" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "South Carolina" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Delaware" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "North Dakota" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Florida" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Utah" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Indiana" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Massachusetts" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Oregon" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Iowa" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Kearsarge" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Illinois" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Maine" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Texas" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Alabama" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Galveston" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Tacoma" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Cleveland" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Des Moines" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Denver" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Columbia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Minneapolis" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Chattanooga" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+			ship = { name = "Milwaukee" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = USA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "USA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "USA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,76 @@
+characters={
+	W40_badi_wad_rajab={
+		name=W40_badi_wad_rajab
+		portraits={
+			army={
+				large="GFX_Ethiopia_Kassa_Haile_Darge"
+			}
+			army={
+				small="GFX_Ethiopia_Kassa_Haile_Darge"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	W40_nawwar_muhammad={
+		name=W40_nawwar_muhammad
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W40_idris_ibn_badi={
+		name=W40_idris_ibn_badi
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_4"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_4"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	W40_king_sabir_al_din_ii={
+		name=W40_king_sabir_al_din_ii
+		portraits={
+			civilian={
+				large="GFX_SOM_Cismaan_III_Maxamuud"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

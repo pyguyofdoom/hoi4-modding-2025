@@ -1,0 +1,38 @@
+
+state={
+	id=208
+	name="STATE_208"
+	resources={
+		oil=1.000
+		steel=5.000
+	}
+
+	history={
+		owner = HLR
+		victory_points = {
+			9498 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 6
+			68 = {
+				naval_base = 6
+			}
+
+		}
+		add_core_of = HLR
+		add_core_of = HOL
+		add_claim_by = X23
+	}
+
+	provinces={
+		68 391 3211 3314 6241 9363 9498 11456 
+	}
+	manpower=2079500
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

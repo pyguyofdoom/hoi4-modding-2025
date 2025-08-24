@@ -1,0 +1,16 @@
+characters={
+	IRE_jack_mcgarry={
+		name=IRE_jack_mcgarry
+		portraits={
+			civilian={
+				large="gfx/leaders/NZL/Portrait_NewZealand_Peter_Fraser.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=130
+	name="STATE_130"
+	resources={
+		chromium=9.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			890 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			904 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = X20
+	}
+
+	provinces={
+		890 904 3905 11866 
+	}
+	manpower=184108
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

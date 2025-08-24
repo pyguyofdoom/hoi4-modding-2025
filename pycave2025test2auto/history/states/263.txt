@@ -1,0 +1,37 @@
+
+state={
+	id=263
+	name="STATE_263"
+	resources={
+		aluminium=11.000
+		steel=24.000
+	}
+
+	history={
+		owner = HLR
+		victory_points = {
+			6282 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+			11372 = {
+				naval_base = 8
+			}
+
+		}
+		add_core_of = GER
+		add_core_of = HLR
+	}
+
+	provinces={
+		537 6282 6309 6334 6390 9277 9306 9334 9361 11316 11343 11372 
+	}
+	manpower=1188848
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

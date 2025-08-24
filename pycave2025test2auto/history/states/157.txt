@@ -1,0 +1,36 @@
+
+state={
+	id=157
+	name="STATE_157"
+	resources={
+		aluminium=2.000
+		steel=30.000
+	}
+
+	history={
+		owner = X23
+		victory_points = {
+			6657 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+			6657 = {
+				naval_base = 10
+			}
+
+		}
+		add_core_of = X23
+	}
+
+	provinces={
+		595 629 3598 6657 6792 9597 11565 11582 11869 
+	}
+	manpower=1385240
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}
