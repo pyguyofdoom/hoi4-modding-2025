@@ -3,8 +3,8 @@ state={
 	id=195
 	name="STATE_195"
 	resources={
-		aluminium=1.000
-		tungsten=1.000
+		
+		tungsten=10.000
 	}
 
 	history={
@@ -24,6 +24,7 @@ state={
 		}
 		add_core_of = W50
 		add_claim_by = DEN
+		add_core_of = SCA
 	}
 
 	provinces={

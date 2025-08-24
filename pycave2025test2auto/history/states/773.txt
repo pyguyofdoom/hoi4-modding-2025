@@ -3,10 +3,10 @@ state={
 	id=773
 	name="STATE_773"
 	resources={
-		aluminium=2.000
-		chromium=1.000
+		
+		chromium=30.000
 		steel=36.000
-		tungsten=4.000
+		tungsten=10.000
 	}
 
 	history={
@@ -16,9 +16,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
+			industrial_complex = 6
 			arms_factory = 2
-			dockyard = 2
+			dockyard = 4
 			air_base = 2
 			11218 = {
 				naval_base = 10
@@ -26,6 +26,7 @@ state={
 
 		}
 		add_core_of = W50
+		add_core_of = SCA
 	}
 
 	provinces={
@@ -33,7 +34,7 @@ state={
 	}
 	manpower=3739592
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=metropolis
 
 	local_supplies=10.0
 }

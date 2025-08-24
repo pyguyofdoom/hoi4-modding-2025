@@ -23,9 +23,9 @@ state={
 		add_core_of = W38
 		add_core_of = W41
 		add_claim_by = LIT
-		add_claim_by = SCA
+		
 		add_claim_by = SOV
-		add_claim_by = UBD
+		add_core_of = SCA
 	}
 
 	provinces={

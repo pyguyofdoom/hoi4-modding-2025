@@ -142,7 +142,7 @@ add_doctrine_cost_reduction = {
 }
 
 set_country_flag = conv_scandinavia
-set_convoys = 7
+set_convoys = 150
 
 set_politics = {
     ruling_party = fascism
@@ -282,6 +282,7 @@ add_ideas = {
 	partial_economic_mobilisation
 	limited_exports
 	culture_swedish
+	hamstrung_economy
 }
 set_stability = 0.60
 set_war_support = 0.60

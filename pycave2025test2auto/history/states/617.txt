@@ -13,7 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
+			industrial_complex = 5
 			arms_factory = 1
 			dockyard = 1
 			air_base = 7
@@ -23,6 +23,7 @@ state={
 
 		}
 		add_core_of = UBD
+		add_core_of = SCA
 	}
 
 	provinces={
@@ -30,7 +31,7 @@ state={
 	}
 	manpower=724316
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
 
 	local_supplies=10.0
 }

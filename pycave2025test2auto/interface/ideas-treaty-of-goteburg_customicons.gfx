@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Rapid Militarization
+	SpriteType = { 
+		name = "GFX_idea_BhkWnjQR-1081"
+		texturefile = "gfx/interface/ideas/treaty-of-goteburg-ideas/BhkWnjQR-1081.dds"
+	}
+
+	##Icon For: Hamstrung economy
+	SpriteType = { 
+		name = "GFX_idea_hamstrung_economy-1061"
+		texturefile = "gfx/interface/ideas/treaty-of-goteburg-ideas/hamstrung_economy-1061.dds"
+	}
+
+ 
+ }

@@ -10,7 +10,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 0
+			industrial_complex = 2
 			arms_factory = 1
 			dockyard = 1
 			air_base = 1
@@ -20,6 +20,7 @@ state={
 
 		}
 		add_core_of = DEN
+		add_core_of = SCA
 	}
 
 	provinces={

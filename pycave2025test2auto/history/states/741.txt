@@ -25,7 +25,7 @@ state={
 		add_core_of = W41
 		add_claim_by = GER
 		add_claim_by = HLR
-		add_claim_by = SCA
+		add_core_of = SCA
 	}
 
 	provinces={

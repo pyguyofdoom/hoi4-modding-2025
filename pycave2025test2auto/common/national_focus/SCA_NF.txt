@@ -1,648 +1,277 @@
 focus_tree = {
 	id = SCA_focus
-	
-	country = {
-		factor = 0
-		
-		modifier = {
-			add = 10
-			tag = SCA
-		}
-	}
-	
-	default = no
-	
 	shared_focus = army_effort
 	shared_focus = aviation_effort
 	shared_focus = naval_effort
 	shared_focus = industrial_effort
 	shared_focus = political_effort
-
+	
+	
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SCA
+		}
+	}
+	#Crowning of the new Fylkir
 	focus = {
-		id = border_disputesSCANOR
-		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesNOR
+		id = SCA_crowning_of_the_new_fylkir
+		icon = GFX_SCA_crowning_of_the_new_fylkir-645922
 		x = 28
 		y = 0
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			NOR = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 399
-			}
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-			add_war_support = 0.05
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = NOR value > 0 }
-			}
-			modifier = {
-				factor = 0
-				NOR = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = NOR
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				NOR = { surrender_progress > 0.2 }
-			}
+			add_political_power = 150
 		}
 	}
 
+	#Cast off the Treaty
 	focus = {
-		id = assert_claimsSCANOR
-		icon = GFX_goal_generic_territory_or_war
-		text = assert_claimsNOR
-		prerequisite = { focus = border_disputesSCANOR }
-		x = 0
+		id = SCA_cast_off_the_treaty
+		icon = GFX_SCA_cast_off_the_treaty-270
+		x = 28
 		y = 1
-		relative_position_id = border_disputesSCANOR
-		cost = 10
-		available = {
-			date > 1936.9.1
-			is_subject = no
-			has_war = no
-			NOR = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 399
-			}
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
 		}
+		prerequisite = { focus = SCA_crowning_of_the_new_fylkir  }
+		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_state_claim = 399
-			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			hidden_effect = {
-				NOR = { country_event = { id = reconquest_news.1 } }
-			}
-		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = NOR value > 0 }
-			}
-			modifier = {
-				factor = 0
-				NOR = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = NOR
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				NOR = { surrender_progress > 0.2 }
-			}
+			remove_ideas = hamstrung_economy
+			
+			
+			
+			
 		}
 	}
 
+	#Rapid Militarization
 	focus = {
-		id = prepare_for_warSCANOR
-		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warNOR
-		prerequisite = { focus = assert_claimsSCANOR }
-		bypass = {
-			has_war_with = NOR
+		id = SCA_rapid_militarization
+		icon = GFX_SCA_rapid_militarization-60
+		x = 28
+		y = 2
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
 		}
-		x = 0
-		y = 1
-		relative_position_id = assert_claimsSCANOR
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			NOR = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 399
-			}
-		}
+		prerequisite = { focus = SCA_cast_off_the_treaty  }
+		ai_will_do = { factor = 1 }
 		completion_reward = {
-			add_manpower = 10000
-		}
-		ai_will_do = {
-			factor = 0
+			add_ideas = rapid_militarization
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 9
+			add_building_construction = {
+			type = industrial_complex
+			level = 6
+			instant_build = yes
+			}
+			
+			
+			
+			
+			
+			
+			}
+	
 		}
 	}
-
+	#Destiny
 	focus = {
-		id = neighbor_warSCANOR
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warNOR
-		prerequisite = { focus = prepare_for_warSCANOR }
-		bypass = {
-			has_war_with = NOR
+		id = SCA_destiny
+		icon = GFX_SCA_destiny-645967
+		x = 28
+		y = 3
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
 		}
-		x = 0
-		y = 1
-		relative_position_id = prepare_for_warSCANOR
-		cost = 10
+		prerequisite = { focus = SCA_rapid_militarization  }
+		ai_will_do = { factor = 1 }
 		available = {
-			is_subject = no
-			has_war = no
-			NOR = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 399
+			available = {
+			date > 1936.11.29
 			}
 		}
 		completion_reward = {
 			declare_war_on = {
-				target = NOR
-				type = take_state_focus
-				generator = { 399 }
+			    target = DEN
+			    type = annex_everything
 			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	focus = {
-		id = border_disputesSCADEN
-		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesDEN
-		x = 30
-		y = 0
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			DEN = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 199
-			}
-		}
-		completion_reward = {
-			add_war_support = 0.05
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = DEN value > 0 }
-			}
-			modifier = {
-				factor = 0
-				DEN = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = DEN
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				DEN = { surrender_progress > 0.2 }
-			}
-		}
-	}
-
-	focus = {
-		id = assert_claimsSCADEN
-		icon = GFX_goal_generic_territory_or_war
-		text = assert_claimsDEN
-		prerequisite = { focus = border_disputesSCADEN }
-		x = 0
-		y = 1
-		relative_position_id = border_disputesSCADEN
-		cost = 10
-		available = {
-			date > 1936.9.1
-			is_subject = no
-			has_war = no
-			DEN = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 199
-			}
-		}
-		completion_reward = {
-			add_state_claim = 199
-			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			hidden_effect = {
-				DEN = { country_event = { id = reconquest_news.1 } }
-			}
-		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = DEN value > 0 }
-			}
-			modifier = {
-				factor = 0
-				DEN = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = DEN
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				DEN = { surrender_progress > 0.2 }
-			}
-		}
-	}
-
-	focus = {
-		id = prepare_for_warSCADEN
-		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warDEN
-		prerequisite = { focus = assert_claimsSCADEN }
-		bypass = {
-			has_war_with = DEN
-		}
-		x = 0
-		y = 1
-		relative_position_id = assert_claimsSCADEN
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			DEN = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 199
-			}
-		}
-		completion_reward = {
-			add_manpower = 10000
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	focus = {
-		id = neighbor_warSCADEN
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warDEN
-		prerequisite = { focus = prepare_for_warSCADEN }
-		bypass = {
-			has_war_with = DEN
-		}
-		x = 0
-		y = 1
-		relative_position_id = prepare_for_warSCADEN
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			DEN = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 199
-			}
-		}
-		completion_reward = {
 			declare_war_on = {
-				target = DEN
-				type = take_state_focus
-				generator = { 199 }
+			    target = NOR
+			    type = annex_everything
 			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	focus = {
-		id = border_disputesSCAFIN
-		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesFIN
-		x = 32
-		y = 0
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			FIN = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 205
-			}
-		}
-		completion_reward = {
-			add_war_support = 0.05
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = FIN value > 0 }
-			}
-			modifier = {
-				factor = 0
-				FIN = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = FIN
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				FIN = { surrender_progress > 0.2 }
-			}
-		}
-	}
-
-	focus = {
-		id = assert_claimsSCAFIN
-		icon = GFX_goal_generic_territory_or_war
-		text = assert_claimsFIN
-		prerequisite = { focus = border_disputesSCAFIN }
-		x = 0
-		y = 1
-		relative_position_id = border_disputesSCAFIN
-		cost = 10
-		available = {
-			date > 1936.7.1
-			is_subject = no
-			has_war = no
-			FIN = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 205
-			}
-		}
-		completion_reward = {
-			add_state_claim = 205
-			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			hidden_effect = {
-				FIN = { country_event = { id = reconquest_news.1 } }
-			}
-		}
-		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				has_government = democratic
-			}
-
-			modifier = {
-				factor = 0
-				has_government = neutrality
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = FIN value > 0 }
-			}
-			modifier = {
-				factor = 0
-				FIN = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = FIN
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				FIN = { surrender_progress > 0.2 }
-			}
-		}
-	}
-
-	focus = {
-		id = prepare_for_warSCAFIN
-		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warFIN
-		prerequisite = { focus = assert_claimsSCAFIN }
-		bypass = {
-			has_war_with = FIN
-		}
-		x = 0
-		y = 1
-		relative_position_id = assert_claimsSCAFIN
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			FIN = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 205
-			}
-		}
-		completion_reward = {
-			add_manpower = 10000
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	focus = {
-		id = neighbor_warSCAFIN
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warFIN
-		prerequisite = { focus = prepare_for_warSCAFIN }
-		bypass = {
-			has_war_with = FIN
-		}
-		x = 0
-		y = 1
-		relative_position_id = prepare_for_warSCAFIN
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			FIN = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 205
-			}
-		}
-		completion_reward = {
 			declare_war_on = {
-				target = FIN
-				type = take_state_focus
-				generator = { 205 }
+			    target = UBD
+			    type = annex_everything
 			}
+			declare_war_on = {
+			    target = LIT
+			    type = annex_everything
+			}
+			declare_war_on = {
+			    target = KAR
+			    type = annex_everything
+			}
+			declare_war_on = {
+			    target = FIN
+			    type = annex_everything
+			}
+			declare_war_on = {
+			    target = X65
+			    type = annex_everything
+			}
+			declare_war_on = {
+			    target = W50
+			    type = annex_everything
+			}
+			declare_war_on = {
+			    target = ICE
+			    type = annex_everything
+			}
+			
+			add_timed_idea = {
+			    idea = war_of_unity
+			    days = 365
+			}
+			
+			
+			
+			
 		}
-		ai_will_do = {
-			factor = 0
+		will_lead_to_war_with = This leads to war with every godamn norse nation left standing. Are you ready to reclaim destiny?
+	}
+	#Woe to the vanquished
+	focus = {
+		id = SCA_woe_to_the_vanquished
+		icon = GFX_SCA_woe_to_the_vanquished-59
+		x = 28
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_destiny  }
+		ai_will_do = { factor = 1 }
+		available = {
+			at_peace = yes
+			
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = arms_factory
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 15
+			add_building_construction = {
+			type = arms_factory
+			level = 15
+			instant_build = yes
+			}
+			random_owned_controlled_state = {
+			limit = {
+			free_building_slots = {
+			building = industrial_complex
+			size > 0
+			include_locked = yes
+			}
+			}
+			add_extra_state_shared_building_slots = 10
+			add_building_construction = {
+			type = industrial_complex
+			level = 10
+			instant_build = yes
+			}
+			
+			
+		}
+	}
+	}
+	}
+	
+
+	#The Holmgang
+	focus = {
+		id = SCA_the_holmgang
+		icon = GFX_SCA_the_holmgang-646346
+		x = 28
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_woe_to_the_vanquished  }
+		completion_reward = {
+			add_stability = -0.05
+			add_war_support = 0.15
+			
+			
 		}
 	}
 
+	#Final Preperations
+	focus = {
+		id = SCA_final_preperations
+		icon = GFX_SCA_final_preperations-645990
+		x = 28
+		y = 6
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_the_holmgang  }
+		completion_reward = {
+		
+			add_timed_idea = {
+					idea = final_prep
+					days = 365
+				}
+			}
+	}
+
+	#The Fourth Great War
+	focus = {
+		id = SCA_the_fourth_great_war
+		icon = GFX_focus_spa_the_war_of_vengeance
+		x = 28
+		y = 7
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_final_preperations  }
+		ai_will_do = { factor = 1 }
+		available = {
+			available = {
+			date > 1936.11.29
+			}
+		}
+		completion_reward = {
+			add_idea = historical_claims_focus
+			add_political_power = 100
+			declare_war_on = {
+			    target = HLR
+			    type = annex_everything
+			}
+	}
+
+	}
 }
