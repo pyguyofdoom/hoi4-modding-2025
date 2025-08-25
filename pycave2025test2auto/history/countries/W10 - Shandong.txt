@@ -129,18 +129,14 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 3
-	communism = 0
-	democratic = 32
+	communism = 20
+	democratic = 12
 	fascism = 61
 	neutrality = 4
 	radical = 0
 }
 
-give_guarantee = X23
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = X23 } }
-	diplomatic_relation = { country = X23 relation = non_aggression_pact }
-}
+
 
 add_opinion_modifier = { target = AFG modifier = negative_43 }
 add_opinion_modifier = { target = ALG modifier = negative_45 }

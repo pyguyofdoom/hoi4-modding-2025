@@ -155,23 +155,7 @@ set_popularities = {
 	fascism = 100
 }
 
-give_guarantee = W21
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = W21 } }
-	diplomatic_relation = { country = W21 relation = non_aggression_pact }
-}
 
-give_guarantee = X23
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = X23 } }
-	diplomatic_relation = { country = X23 relation = non_aggression_pact }
-}
-
-give_guarantee = X90
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = X90 } }
-	diplomatic_relation = { country = X90 relation = non_aggression_pact }
-}
 
 add_opinion_modifier = { target = AFG modifier = negative_200 }
 add_opinion_modifier = { target = ALG modifier = negative_100 }

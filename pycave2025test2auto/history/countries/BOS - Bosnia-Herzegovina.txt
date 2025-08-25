@@ -136,17 +136,7 @@ set_popularities = {
 	radical = 1
 }
 
-give_guarantee = HLR
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = HLR } }
-	diplomatic_relation = { country = HLR relation = non_aggression_pact }
-}
 
-give_guarantee = USA
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = USA } }
-	diplomatic_relation = { country = USA relation = non_aggression_pact }
-}
 
 add_opinion_modifier = { target = AFG modifier = positive_5 }
 add_opinion_modifier = { target = ALG modifier = negative_45 }

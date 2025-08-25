@@ -194,59 +194,6 @@ if = {
     add_to_tech_sharing_group = W41_research
 }
 
-give_guarantee = CAM
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = CAM } }
-	diplomatic_relation = { country = CAM relation = non_aggression_pact }
-}
-
-give_guarantee = CAT
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = CAT } }
-	diplomatic_relation = { country = CAT relation = non_aggression_pact }
-}
-
-give_guarantee = COR
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = COR } }
-	diplomatic_relation = { country = COR relation = non_aggression_pact }
-}
-
-give_guarantee = FIN
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = FIN } }
-	diplomatic_relation = { country = FIN relation = non_aggression_pact }
-}
-
-give_guarantee = LIT
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = LIT } }
-	diplomatic_relation = { country = LIT relation = non_aggression_pact }
-}
-
-give_guarantee = MON
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = MON } }
-	diplomatic_relation = { country = MON relation = non_aggression_pact }
-}
-
-give_guarantee = ROM
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = ROM } }
-	diplomatic_relation = { country = ROM relation = non_aggression_pact }
-}
-
-give_guarantee = W35
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = W35 } }
-	diplomatic_relation = { country = W35 relation = non_aggression_pact }
-}
-
-give_guarantee = W39
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = W39 } }
-	diplomatic_relation = { country = W39 relation = non_aggression_pact }
-}
 
 add_opinion_modifier = { target = AFG modifier = negative_80 }
 add_opinion_modifier = { target = ALG modifier = negative_140 }

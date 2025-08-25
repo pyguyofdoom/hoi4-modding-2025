@@ -194,23 +194,6 @@ if = {
     add_to_tech_sharing_group = W39_research
 }
 
-give_guarantee = KAR
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = KAR } }
-	diplomatic_relation = { country = KAR relation = non_aggression_pact }
-}
-
-give_guarantee = W25
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = W25 } }
-	diplomatic_relation = { country = W25 relation = non_aggression_pact }
-}
-
-give_guarantee = W41
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = W41 } }
-	diplomatic_relation = { country = W41 relation = non_aggression_pact }
-}
 
 give_guarantee = X74
 if = {

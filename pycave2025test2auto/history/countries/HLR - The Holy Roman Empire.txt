@@ -213,53 +213,6 @@ if = {
     add_to_tech_sharing_group = HLR_research
 }
 
-give_guarantee = BOS
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = BOS } }
-	diplomatic_relation = { country = BOS relation = non_aggression_pact }
-}
-
-give_guarantee = DEN
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = DEN } }
-	diplomatic_relation = { country = DEN relation = non_aggression_pact }
-}
-
-give_guarantee = ITA
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = ITA } }
-	diplomatic_relation = { country = ITA relation = non_aggression_pact }
-}
-
-give_guarantee = KOR
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = KOR } }
-	diplomatic_relation = { country = KOR relation = non_aggression_pact }
-}
-
-give_guarantee = SAF
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = SAF } }
-	diplomatic_relation = { country = SAF relation = non_aggression_pact }
-}
-
-give_guarantee = SOV
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = SOV } }
-	diplomatic_relation = { country = SOV relation = non_aggression_pact }
-}
-
-give_guarantee = X14
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = X14 } }
-	diplomatic_relation = { country = X14 relation = non_aggression_pact }
-}
-
-give_guarantee = X86
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = X86 } }
-	diplomatic_relation = { country = X86 relation = non_aggression_pact }
-}
 
 add_opinion_modifier = { target = AFG modifier = positive_150 }
 add_opinion_modifier = { target = ALG modifier = negative_150 }

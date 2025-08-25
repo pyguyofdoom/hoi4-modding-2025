@@ -265,7 +265,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			add_idea = historical_claims_focus
+			add_ideas = historical_claims_focus
 			add_political_power = 100
 			declare_war_on = {
 			    target = HLR
