@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SAU
+		owner = W66
 		victory_points = {
 			11979 1 
 		}
@@ -22,6 +22,7 @@ state={
 
 		}
 		add_core_of = SAU
+		add_core_of = X20
 	}
 
 	provinces={
@@ -29,7 +30,7 @@ state={
 	}
 	manpower=51080
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 
 	local_supplies=10.0
 }

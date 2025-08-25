@@ -10,7 +10,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 4
+			industrial_complex = 6
 			arms_factory = 2
 			dockyard = 2
 			air_base = 8
@@ -21,7 +21,7 @@ state={
 		}
 		add_core_of = W20
 		add_claim_by = ITA
-		add_claim_by = X20
+		add_core_of = X20
 	}
 
 	provinces={
