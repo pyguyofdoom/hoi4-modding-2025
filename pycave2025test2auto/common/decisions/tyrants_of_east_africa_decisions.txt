@@ -1,0 +1,41 @@
+tyrants_of_east_africa = {
+	thelibyandebaclesolved = {
+		days_remove = 1
+		fire_only_once = yes
+		available = {
+			TAG = X20
+			W94 = { has_war = no }
+		
+		
+		}
+		complete_effect = {
+			set_autonomy = {
+				target = W94
+				autonomous_state = autonomy_integrated_puppet
+				freedom_level = 0.4
+			}
+
+
+		}
+	}
+	restoration_of_the_eastafrican_mandate = {
+		days_remove = 1
+		fire_only_once = yes
+		available = {
+			TAG = X20
+			W93 = { has_war = no }
+		
+		
+		}
+		complete_effect = {
+			
+			set_autonomy = {
+				target = W93
+				autonomous_state = autonomy_integrated_puppet
+				freedom_level = 0.4
+			}
+
+		}
+	}
+	
+}

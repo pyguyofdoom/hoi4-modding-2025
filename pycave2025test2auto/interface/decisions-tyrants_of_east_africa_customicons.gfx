@@ -1,0 +1,8 @@
+spriteTypes = { 
+	##Icon For Category: Tyrants of East Africa
+	SpriteType = { 
+		name = "decision_category_icon_tyrants_of_east_africa"
+		texturefile = "gfx/interface/decisions/decision_category_icon_tyrants_of_east_africa.dds"
+	}
+
+}

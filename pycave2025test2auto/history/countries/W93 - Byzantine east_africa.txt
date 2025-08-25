@@ -161,6 +161,10 @@ declare_war_on = {
 		target = SUD #tag
 		type = annex_everything #cb
 	}
+declare_war_on = {
+		target = TZN #tag
+		type = annex_everything #cb
+	}
 
 
 

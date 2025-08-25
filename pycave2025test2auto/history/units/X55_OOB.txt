@@ -240,4 +240,60 @@ instant_effect = {
 	}
 }
 units = {
+	division = {
+		name = "1. Infantry Brigade"
+		location = 7912
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 7912
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 7912
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 7912
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 7912
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 7912
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 7912
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Infantry Brigade"
+		location = 7912
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+		start_equipment_factor = 0.25
+	}
 }

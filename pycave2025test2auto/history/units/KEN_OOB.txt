@@ -208,4 +208,74 @@ instant_effect = {
 	}
 }
 units = {
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 1939
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.25
+	}
 }
