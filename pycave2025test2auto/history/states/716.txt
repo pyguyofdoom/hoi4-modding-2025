@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = W17
 		add_core_of = W40
+		add_core_of = W94
 	}
 
 	provinces={

@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = W17
 		add_claim_by = SUD
+		add_core_of = W94
 	}
 
 	provinces={

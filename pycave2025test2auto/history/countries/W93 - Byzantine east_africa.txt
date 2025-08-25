@@ -147,6 +147,25 @@ set_war_support = 0.50
 
 recruit_character = W93_charalampos_foumis
 
+
+declare_war_on = {
+		target = W37 #tag
+		type = annex_everything #cb
+	}
+
+declare_war_on = {
+		target = KEN #tag
+		type = annex_everything #cb
+	}
+declare_war_on = {
+		target = SUD #tag
+		type = annex_everything #cb
+	}
+
+
+
+
+
 if = {
 	limit = {
 		has_dlc = "La Resistance"

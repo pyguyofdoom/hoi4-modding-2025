@@ -130,37 +130,7 @@ set_popularities = {
 }
 
 # DIPLOMACY
-if = {
-    limit = {
-        has_dlc = "Together for Victory"
-    }
-    set_autonomy = {
-        target = SUD
-        autonomous_state = autonomy_integrated_puppet
-    }
-    set_autonomy = {
-        target = W93
-        autonomous_state = autonomy_integrated_puppet
-    }
-    set_autonomy = {
-        target = W94
-        autonomous_state = autonomy_integrated_puppet
-    }
-    else = {
-        set_autonomy = {
-            target = SUD
-            autonomous_state = autonomy_puppet
-        }
-        set_autonomy = {
-            target = W93
-            autonomous_state = autonomy_puppet
-        }
-        set_autonomy = {
-            target = W94
-            autonomous_state = autonomy_puppet
-        }
-    }
-}
+
 
 if = {
     limit = {has_dlc = "Together for Victory" }
@@ -168,11 +138,7 @@ if = {
     add_to_tech_sharing_group = X20_research
 }
 
-give_guarantee = SUD
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = SUD } }
-	diplomatic_relation = { country = SUD relation = non_aggression_pact }
-}
+
 
 add_opinion_modifier = { target = AFG modifier = negative_140 }
 add_opinion_modifier = { target = ALG modifier = negative_198 }

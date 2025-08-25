@@ -4,7 +4,7 @@ state={
 	name="STATE_401"
 
 	history={
-		owner = SUD
+		owner = W93
 		victory_points = {
 			5010 3 
 		}
@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = SUD
 		add_claim_by = W17
+		add_core_of = W93
 	}
 
 	provinces={
