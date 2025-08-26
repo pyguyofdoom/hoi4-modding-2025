@@ -175,14 +175,14 @@ add_opinion_modifier = { target = X99 modifier = negative_120 }
 
 
 add_ideas = {
-	uncivilized
-	limited_conscription
-	civilian_economy
+	mongol_remnants
+	extensive_conscription
+	war_economy
 	export_focus
 	culture_mongol
 }
 set_stability = 0.60
-set_war_support = 0.60
+set_war_support = 0.95
 
 recruit_character = AFG_dogsomyn_jamyan
 recruit_character = AFG_batbayar_bodoo

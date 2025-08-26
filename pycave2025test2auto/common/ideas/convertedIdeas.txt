@@ -497,7 +497,43 @@ ideas = {
 				fascism_acceptance = 85
 			}
 		}
+		mongol_remnants = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				fascism_drift = 0.1
+				cavalry_attack_factor = 0.25
+				cavalry_defence_factor = 0.1
+				supply_consumption_factor = -0.9
 
+			}
+		}
+		kurdish_resistance = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			
+			picture = generic_fascism_drift_bonus
+			modifier = {
+				
+				army_core_defence_factor = 0.2
+				army_core_attack_factor = 0.1
+				attack_bonus_against_W21 = 0.1	
+				
+
+
+			}
+			targeted_modifier = {
+				tag = W21
+				attack_bonus_against = 0.15
+				
+			}
+		}
 		fascist_influence_weak = {
 			name = fascist_influence
 			removal_cost = -1

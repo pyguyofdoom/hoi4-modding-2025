@@ -13,7 +13,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
+			industrial_complex = 2
 			arms_factory = 0
 			dockyard = 1
 			air_base = 0
@@ -23,6 +23,7 @@ state={
 
 		}
 		add_core_of = W07
+		add_core_of = W21
 	}
 
 	provinces={
@@ -30,7 +31,7 @@ state={
 	}
 	manpower=1042476
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

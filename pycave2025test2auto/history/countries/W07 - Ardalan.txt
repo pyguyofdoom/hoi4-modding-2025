@@ -243,9 +243,10 @@ add_ideas = {
 	low_economic_mobilisation
 	export_focus
 	culture_kurdish
+	kurdish_resistance
 }
 set_stability = 0.60
-set_war_support = 0.63
+set_war_support = 0.93
 
 recruit_character = W07_hafid_barzani
 recruit_character = W07_reshid_shilak

@@ -11,12 +11,13 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
-			arms_factory = 0
+			arms_factory = 1
 			air_base = 10
 
 		}
 		add_core_of = W07
 		add_core_of = W43
+		add_core_of = W21
 	}
 
 	provinces={
@@ -24,7 +25,7 @@ state={
 	}
 	manpower=982260
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 
 	local_supplies=10.0
 }

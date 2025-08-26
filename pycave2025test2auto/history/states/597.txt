@@ -30,6 +30,7 @@ state={
 		add_claim_by = GEO
 		add_claim_by = W21
 		add_claim_by = X79
+		add_core_of = W10
 	}
 
 	provinces={

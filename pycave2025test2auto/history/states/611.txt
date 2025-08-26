@@ -16,6 +16,7 @@ state={
 
 		}
 		add_core_of = TIB
+		add_core_of = W10
 	}
 
 	provinces={

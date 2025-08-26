@@ -3,7 +3,7 @@ state={
 	id=7
 	name="STATE_7"
 	resources={
-		chromium=3.000
+		chromium=30.000
 	}
 
 	history={
@@ -28,6 +28,7 @@ state={
 		}
 		add_core_of = W07
 		add_core_of = X03
+		add_core_of = W21
 	}
 
 	provinces={

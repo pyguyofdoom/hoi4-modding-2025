@@ -142,7 +142,7 @@ add_doctrine_cost_reduction = {
 }
 
 set_country_flag = conv_transcaucasia
-set_convoys = 12
+set_convoys = 120
 
 set_politics = {
     ruling_party = democratic
@@ -165,25 +165,17 @@ if = {
     limit = {
         has_dlc = "Together for Victory"
     }
-    set_autonomy = {
-        target = W07
-        autonomous_state = autonomy_colony
-        freedom_level = 0.4
-    }
+    
     set_autonomy = {
         target = W88
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
-    set_autonomy = {
-        target = X03
-        autonomous_state = autonomy_colony
-        freedom_level = 0.4
-    }
+    
     else = {
-        puppet = W07
+        
         puppet = W88
-        puppet = X03
+        
     }
 }
 
@@ -192,6 +184,8 @@ if = {
 
     add_to_tech_sharing_group = W21_research
 }
+
+
 
 
 add_opinion_modifier = { target = AFG modifier = negative_200 }

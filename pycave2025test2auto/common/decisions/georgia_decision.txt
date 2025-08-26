@@ -1,0 +1,56 @@
+georgia_decision = {
+	mongol_invasion = {
+		days_mission_timeout = 60
+		fire_only_once = yes
+		allowed = {
+			original_tag = W21
+		}
+		visible = {
+			TAG = W21
+			
+		}
+		available = {
+			NOT = { country_exists = W21 }
+		}
+		timeout_effect = {
+			AFG = {
+				declare_war_on = {
+					target = W21 #tag
+					type = annex_everything #cb
+				}
+			}
+
+		}
+	}
+	brothers_war = {
+		days_mission_timeout = 30
+		fire_only_once = yes
+		allowed = {
+			original_tag = W21
+		}
+		visible = {
+			TAG = W21
+			
+		}
+		available = {
+			NOT = { country_exists = W21 }
+		}
+		timeout_effect = {
+			X03 = {
+				declare_war_on = {
+					target = W21 #tag
+					type = annex_everything #cb
+				}
+			}
+			W07 = {
+				declare_war_on = {
+					target = W21 #tag
+					type = annex_everything #cb
+				}
+			}
+
+		}
+	}
+	
+	
+}

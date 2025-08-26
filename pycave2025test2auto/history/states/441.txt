@@ -3,8 +3,8 @@ state={
 	id=441
 	name="STATE_441"
 	resources={
-		oil=3.000
-		steel=1.000
+		oil=30.000
+		
 	}
 
 	history={
@@ -14,7 +14,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
+			industrial_complex = 3
 			arms_factory = 0
 			air_base = 0
 			10797 = {
@@ -24,6 +24,7 @@ state={
 		}
 		add_core_of = W07
 		add_core_of = W43
+		add_core_of = W21
 	}
 
 	provinces={
@@ -31,7 +32,7 @@ state={
 	}
 	manpower=453488
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 
 	local_supplies=10.0
 }

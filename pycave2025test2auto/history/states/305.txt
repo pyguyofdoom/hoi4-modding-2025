@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = MON
 		add_core_of = W25
+		add_core_of = W10
 	}
 
 	provinces={
