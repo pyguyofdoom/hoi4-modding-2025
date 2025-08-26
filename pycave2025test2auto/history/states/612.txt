@@ -5,12 +5,12 @@ state={
 	resources={
 		aluminium=5.000
 		chromium=4.000
-		steel=4.000
-		tungsten=1.000
+		steel=40.000
+		
 	}
 
 	history={
-		owner = W25
+		owner = MON
 		victory_points = {
 			1591 10 
 		}
@@ -21,7 +21,7 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = W25
+		add_core_of = MON
 		add_core_of = W64
 	}
 

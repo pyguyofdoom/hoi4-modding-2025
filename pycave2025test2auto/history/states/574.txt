@@ -2,7 +2,9 @@
 state={
 	id=574
 	name="STATE_574"
-
+	resources={
+		oil=20.000
+	}
 	history={
 		owner = KEN
 		victory_points = {
