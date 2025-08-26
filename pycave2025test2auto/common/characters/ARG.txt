@@ -223,7 +223,7 @@ characters={
 		name=ARG_narcisse_de_st._just
 		portraits={
 			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+				large="gfx/leaders/Pizza/borker.dds"
 			}
 		}
 		country_leader={

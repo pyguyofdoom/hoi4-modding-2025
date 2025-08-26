@@ -20,19 +20,7 @@ state={
 		}
 		add_core_of = CAT
 		add_core_of = W04
-		KOR = {
-			set_province_controller = 3799
-			set_province_controller = 3873
-			set_province_controller = 6817
-			set_province_controller = 6856
-			set_province_controller = 6906
-			set_province_controller = 6959
-			set_province_controller = 9896
-			set_province_controller = 13222
-		}
-		W21 = {
-			set_province_controller = 10109
-		}
+		
 	}
 
 	provinces={

@@ -4,12 +4,12 @@ state={
 	name="STATE_693"
 	resources={
 		aluminium=5.000
-		rubber=1.000
-		steel=1.000
+		rubber=30
+		steel=10
 	}
 
 	history={
-		owner = W91
+		owner = W87
 		victory_points = {
 			12751 0 
 		}
@@ -20,7 +20,7 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = W91
+		add_core_of = W87
 	}
 
 	provinces={

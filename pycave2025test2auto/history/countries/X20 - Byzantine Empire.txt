@@ -258,6 +258,7 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 	limited_exports
+	patriarchs
 	culture_greek
 }
 set_stability = 0.60

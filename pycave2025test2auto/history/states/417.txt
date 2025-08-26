@@ -22,28 +22,7 @@ state={
 
 		}
 		add_core_of = W04
-		KOR = {
-			set_province_controller = 950
-			set_province_controller = 1090
-			set_province_controller = 1176
-			set_province_controller = 1192
-			set_province_controller = 4095
-			set_province_controller = 7068
-			set_province_controller = 10063
-			set_province_controller = 10111
-			set_province_controller = 12083
-		}
-		W16 = {
-			set_province_controller = 9979
-			set_province_controller = 10009
-		}
-		W21 = {
-			set_province_controller = 747
-			set_province_controller = 4065
-			set_province_controller = 7196
-			set_province_controller = 11956
-			set_province_controller = 12038
-		}
+		
 	}
 
 	provinces={

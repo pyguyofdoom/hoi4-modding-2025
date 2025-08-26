@@ -2,6 +2,9 @@ tyrants_of_east_africa = {
 	thelibyandebaclesolved = {
 		days_remove = 1
 		fire_only_once = yes
+		visible = {
+			TAG = X20
+		}
 		available = {
 			TAG = X20
 			W94 = { has_war = no }
@@ -21,6 +24,9 @@ tyrants_of_east_africa = {
 	restoration_of_the_eastafrican_mandate = {
 		days_remove = 1
 		fire_only_once = yes
+		visible = {
+			TAG = X20
+		}
 		available = {
 			TAG = X20
 			W93 = { has_war = no }

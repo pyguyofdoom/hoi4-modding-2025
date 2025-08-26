@@ -13,23 +13,14 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
+			industrial_complex = 5
 			arms_factory = 0
 			air_base = 0
 
 		}
 		add_core_of = POR
 		add_claim_by = W04
-		W16 = {
-			set_province_controller = 845
-			set_province_controller = 889
-			set_province_controller = 938
-			set_province_controller = 3969
-			set_province_controller = 6818
-			set_province_controller = 6996
-			set_province_controller = 9787
-			set_province_controller = 11885
-		}
+		
 	}
 
 	provinces={
@@ -37,7 +28,7 @@ state={
 	}
 	manpower=665716
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 
 	local_supplies=10.0
 }

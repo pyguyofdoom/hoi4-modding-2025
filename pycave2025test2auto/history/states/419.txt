@@ -13,9 +13,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
-			arms_factory = 0
-			dockyard = 1
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 2
 			air_base = 6
 			11805 = {
 				naval_base = 10
@@ -23,13 +23,7 @@ state={
 
 		}
 		add_core_of = W04
-		W16 = {
-			set_province_controller = 844
-			set_province_controller = 924
-			set_province_controller = 970
-			set_province_controller = 11768
-			set_province_controller = 11805
-		}
+		
 	}
 
 	provinces={
@@ -37,7 +31,7 @@ state={
 	}
 	manpower=1459388
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 
 	local_supplies=10.0
 }

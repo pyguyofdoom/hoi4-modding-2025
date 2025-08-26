@@ -19,20 +19,7 @@ state={
 
 		}
 		add_core_of = W04
-		W16 = {
-			set_province_controller = 3790
-			set_province_controller = 3846
-			set_province_controller = 3866
-			set_province_controller = 3886
-			set_province_controller = 3926
-			set_province_controller = 6880
-			set_province_controller = 6884
-			set_province_controller = 6933
-			set_province_controller = 6986
-			set_province_controller = 9765
-			set_province_controller = 9819
-			set_province_controller = 9869
-		}
+		
 	}
 
 	provinces={

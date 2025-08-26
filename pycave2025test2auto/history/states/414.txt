@@ -20,33 +20,7 @@ state={
 		}
 		add_core_of = CAT
 		add_core_of = W04
-		KOR = {
-			set_province_controller = 858
-			set_province_controller = 896
-			set_province_controller = 3938
-			set_province_controller = 3986
-			set_province_controller = 6914
-			set_province_controller = 11820
-		}
-		W16 = {
-			set_province_controller = 977
-			set_province_controller = 3794
-			set_province_controller = 3858
-			set_province_controller = 9767
-		}
-		W21 = {
-			set_province_controller = 3953
-			set_province_controller = 6800
-			set_province_controller = 6832
-			set_province_controller = 6896
-			set_province_controller = 9778
-			set_province_controller = 9828
-			set_province_controller = 9881
-			set_province_controller = 11863
-			set_province_controller = 12081
-			set_province_controller = 13224
-			set_province_controller = 13229
-		}
+		
 	}
 
 	provinces={
