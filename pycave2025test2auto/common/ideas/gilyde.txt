@@ -1,0 +1,77 @@
+ideas = {
+	country = {
+
+		men_of_iron = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_factory_start_efficiency_factor	= 0.1
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.1
+				local_resources_factor = 0.15
+				
+			}
+		}
+		dark_knight = {
+			picture = generic_military_industry
+			allowed = {
+				always = no
+			}
+			modifier = {
+				political_power_gain=0.05
+				democratic_acceptance = -50
+
+				
+			}
+		}
+		counterrevolution = {
+			picture = ast_volunteer_defence_corps
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_factor = -0.1
+				war_support_weekly = 0.001
+				
+			}
+		}
+		korea_must_die = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			
+			picture = POL_sanation_right_opposition_4
+			modifier = {
+				winter_attrition_factor	= -0.5
+				
+			}
+			targeted_modifier = {
+				tag = KOR
+				attack_bonus_against = 0.15
+				
+				
+			}
+		}
+		russia_must_die = {
+			removal_cost = -1
+			allowed = {
+				always = no
+			}
+			
+			picture = POL_sanation_left_opposition_4
+			modifier = {
+				winter_attrition_factor	= -0.5
+				
+			}
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.15
+				
+				
+			}
+		}
+	}	
+}

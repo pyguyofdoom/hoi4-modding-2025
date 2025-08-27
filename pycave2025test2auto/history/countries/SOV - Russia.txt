@@ -1,4 +1,4 @@
-﻿capital = 468
+﻿capital = 455
 set_major = yes
 set_cosmetic_tag = SOV_union
 set_research_slots = 4
@@ -250,11 +250,14 @@ add_opinion_modifier = { target = X99 modifier = negative_200 }
 
 add_ideas = {
 	great_power
-	trotskyite_plot
 	limited_conscription
 	partial_economic_mobilisation
 	limited_exports
 	culture_ukrainian
+	men_of_iron
+	dark_knight
+	counterrevolution
+	korea_must_die
 }
 set_stability = 0.60
 set_war_support = 0.57
