@@ -203,7 +203,7 @@ characters={
 		name=BRA_louis_pantaleon
 		portraits={
 			civilian={
-				large="gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+				large="gfx/leaders/Pizza/log.dds"
 			}
 		}
 		country_leader={
