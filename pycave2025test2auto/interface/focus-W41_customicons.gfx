@@ -1,0 +1,115 @@
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_W41_impliment_kickocracy-4"
+		texturefile = "gfx/interface/goals/GFX_W41_impliment_kickocracy-4.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_W41_impliment_kickocracy-4_shine"
+		texturefile = "gfx/interface/goals/GFX_W41_impliment_kickocracy-4.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_W41_impliment_kickocracy-4.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_W41_impliment_kickocracy-4.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_W41_kicking_depression_down_the_stairs-646254"
+		texturefile = "gfx/interface/goals/GFX_W41_kicking_depression_down_the_stairs-646254.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_W41_kicking_depression_down_the_stairs-646254_shine"
+		texturefile = "gfx/interface/goals/GFX_W41_kicking_depression_down_the_stairs-646254.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_W41_kicking_depression_down_the_stairs-646254.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_W41_kicking_depression_down_the_stairs-646254.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_W41_the_golden_millenium-61"
+		texturefile = "gfx/interface/goals/GFX_W41_the_golden_millenium-61.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_W41_the_golden_millenium-61_shine"
+		texturefile = "gfx/interface/goals/GFX_W41_the_golden_millenium-61.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_W41_the_golden_millenium-61.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_W41_the_golden_millenium-61.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+}

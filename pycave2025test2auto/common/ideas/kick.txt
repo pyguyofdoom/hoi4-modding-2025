@@ -1,0 +1,108 @@
+ideas = {
+	country = {
+
+		kick_depression = {
+			picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.5
+				consumer_goods_factor = 0.50
+				conscription_factor = -0.85
+				join_faction_tension = 0.20
+				local_resources_factor = -0.3
+			}
+		}
+		kick_depression_2 = {
+			picture = usa_great_depression_2
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.3
+				consumer_goods_factor = 0.3
+				conscription_factor = -0.65
+				join_faction_tension = 0.10
+				local_resources_factor = -0.2
+			}
+		}
+		kick_depression_3 = {
+			picture = usa_great_depression
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.15
+				consumer_goods_factor = 0.15
+				conscription_factor = -0.45
+				
+				local_resources_factor = -0.05
+			}
+		}
+		boh_legion = {
+			picture = GER_attack_usa
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_infantry_attack_factor = 0.1
+				army_org_factor = 0.075
+				army_artillery_attack_factor = 0.05
+
+			}
+		}
+		boh_century = {
+			picture = ITA_new_roman_empire_ns
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.1
+				starting_compliance = 0.1
+				stability_factor = 0.15
+				industrial_capacity_factory	= 0.05
+			}
+		}
+	}	
+}

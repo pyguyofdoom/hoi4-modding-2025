@@ -325,6 +325,7 @@ recruit_character = KOR_noh_joon
 recruit_character = KOR_roi_seungmin
 recruit_character = KOR_seonwoo_yong_rim
 recruit_character = KOR_bahk_jaehyun
+recruit_character = KOR_forceghost
 
 if = {
 	limit = {

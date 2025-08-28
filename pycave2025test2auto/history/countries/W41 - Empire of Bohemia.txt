@@ -1,7 +1,7 @@
 ﻿capital = 730
 set_major = yes
 set_research_slots = 4
-add_named_threat = { threat = 1.2805 name = infamy }
+add_named_threat = { threat = 0 name = infamy }
 
 oob = "W41_OOB"
 if = {
@@ -325,12 +325,13 @@ add_to_faction = W39
 add_ideas = {
 	great_power
 	volunteer_only
-	low_economic_mobilisation
+	undisturbed_isolation
 	export_focus
 	culture_czech
+	kick_depression
 }
-set_stability = 0.60
-set_war_support = 0.58
+set_stability = 0.75
+set_war_support = 0.10
 
 recruit_character = W41_vaclav_gellner
 recruit_character = W41_olbram_schubert

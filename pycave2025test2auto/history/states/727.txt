@@ -3,9 +3,9 @@ state={
 	id=727
 	name="STATE_727"
 	resources={
-		oil=1.000
+		
 		steel=7.000
-		tungsten=8.000
+		tungsten=80.000
 	}
 
 	history={
@@ -15,7 +15,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 2
+			industrial_complex = 8
 			arms_factory = 0
 			air_base = 0
 
@@ -29,7 +29,7 @@ state={
 	}
 	manpower=1833404
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 
 	local_supplies=10.0
 }

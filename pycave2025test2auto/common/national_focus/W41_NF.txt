@@ -296,5 +296,150 @@ focus_tree = {
 		factor = 10
 	}
 	}
+	#Impliment Kickocracy
+	focus = {
+		id = W41_impliment_kickocracy
+		icon = GFX_goal_generic_national_unity
+		x = 33
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = W41_reform_the_banking_system  }
+		available = {
+			has_war_support > 0.30
+			
+			
+			
+		}
+		completion_reward={
+			swap_ideas = {
+			remove_idea = kick_depression_2
+			add_idea = kick_depression_3
+			}
+		}
+	}
+
+	#Of Our Bones, the Hills
+	focus = {
+		id = W41_ofourbonesthehills
+		icon = GFX_focus_generic_support_the_left_right
+		x = 35
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = W41_the_battered_giant  }
+		available = {
+			has_war_support > 0.20
+		}
+		completion_reward = {
+			add_manpower = 250000
+			
+			
+			
+		}
+	}
+
+	#Reform the Banking System
+	focus = {
+		id = W41_reform_the_banking_system
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 33
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = W41_the_battered_giant  }
+		available = {
+			has_war_support > 0.20
+			
+			
+		}
+		completion_reward={
+			swap_ideas = {
+			remove_idea = kick_depression
+			add_idea = kick_depression_2
+			}
+		}
+	}
+
+	#The Battered Giant
+	focus = {
+		id = W41_the_battered_giant
+		icon = GFX_goal_generic_fortify_city
+		x = 33
+		y = 0
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 100
+		}
+	}
+
+	#Kicking Depression Down the Stairs
+	focus = {
+		id = W41_kicking_depression_down_the_stairs
+		icon = GFX_goal_generic_army_doctrines
+		x = 33
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = W41_impliment_kickocracy  }
+		available = {
+			has_war_support > 0.4
+			
+			
+		}
+		completion_reward = {
+			
+			remove_ideas = kick_depression_3
+			
+			
+			
+		}
+	}
+
+	#The Golden Millenium
+	focus = {
+		id = W41_the_golden_millenium
+		icon = GFX_goal_support_democracy
+		x = 34
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = W41_kicking_depression_down_the_stairs  } prerequisite = { focus = W41_legacy_of_the_bohemian_legion  }
+		completion_reward={
+			add_ideas = boh_century
+			}
+	}
+
+	#Legacy of the Bohemian Legion
+	focus = {
+		id = W41_legacy_of_the_bohemian_legion
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		x = 35
+		y = 3
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = W41_ofourbonesthehills  }
+		completion_reward = {
+			add_war_support = 0.05
+			add_ideas = boh_legion
+			
+		}
+	}
 
 }

@@ -1,6 +1,6 @@
 ﻿capital = 537
 set_research_slots = 2
-add_named_threat = { threat = 0.8037 name = infamy }
+add_named_threat = { threat = 0.0 name = infamy }
 
 oob = "X59_OOB"
 

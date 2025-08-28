@@ -239,22 +239,22 @@ characters={
 		}
 	}
 
-	KOR_seonwoo_yong_rim={
-		name=KOR_seonwoo_yong_rim
+	KOR_forceghost={
+		name=KOR_forceghost
 		portraits={
 			navy={
-				large="GFX_Portrait_Asia_Generic_navy_3"
+				large="gfx/leaders/Pizza/forceyi.dds"
 			}
 			navy={
-				small="GFX_Portrait_Asia_Generic_navy_3"
+				small="gfx/leaders/Pizza/forceyi.dds"
 			}
 		}
 		navy_leader={
 			skill=2
-			attack_skill=1
-			defense_skill=1
+			attack_skill=6
+			defense_skill=6
 			maneuvering_skill=3
-			coordination_skill=1
+			coordination_skill=6
 			legacy_id=0
 		}
 	}
@@ -268,9 +268,12 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism
+			traits = { triumphant_revolutionary }
 			expire="1965.1.1.1"
 			id=-1
+			
 		}
+		
 	}
 
 }
