@@ -3,7 +3,7 @@ state={
 	id=399
 	name="STATE_399"
 	resources={
-		aluminium=3.000
+		aluminium=30.000
 		steel=24.000
 	}
 
@@ -14,12 +14,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 0
+			industrial_complex = 2
 			arms_factory = 0
 			air_base = 0
 
 		}
 		add_core_of = NOR
+		add_core_of = SCA
 	}
 
 	provinces={
@@ -27,7 +28,7 @@ state={
 	}
 	manpower=169440
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 
 	local_supplies=10.0
 }

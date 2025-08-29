@@ -24,6 +24,7 @@ state={
 
 		}
 		add_core_of = NOR
+		add_core_of = SCA
 	}
 
 	provinces={

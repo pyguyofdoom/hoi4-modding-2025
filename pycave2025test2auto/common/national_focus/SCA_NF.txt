@@ -168,7 +168,8 @@ focus_tree = {
 		prerequisite = { focus = SCA_destiny  }
 		ai_will_do = { factor = 1 }
 		available = {
-			at_peace = yes
+			SCA = { has_war = no }
+
 			
 		}
 		completion_reward = {
