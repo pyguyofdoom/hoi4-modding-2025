@@ -303,7 +303,7 @@ if = {
 add_ideas = {
 	great_power
 	volunteer_only
-	low_economic_mobilisation
+	civilian_economy
 	export_focus
 	culture_korean
 	russia_must_die

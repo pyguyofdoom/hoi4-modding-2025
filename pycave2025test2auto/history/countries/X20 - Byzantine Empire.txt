@@ -256,7 +256,7 @@ add_opinion_modifier = { target = X99 modifier = negative_193 }
 
 add_ideas = {
 	limited_conscription
-	partial_economic_mobilisation
+	low_economic_mobilisation
 	limited_exports
 	patriarchs
 	culture_greek

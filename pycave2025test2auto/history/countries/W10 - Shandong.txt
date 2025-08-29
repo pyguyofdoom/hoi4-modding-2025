@@ -252,7 +252,7 @@ add_ideas = {
 	great_power
 	W10_monarch
 	limited_conscription
-	partial_economic_mobilisation
+	low_economic_mobilisation
 	limited_exports
 	culture_beifaren
 }

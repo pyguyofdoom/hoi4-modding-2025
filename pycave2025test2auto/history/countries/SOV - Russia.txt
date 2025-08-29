@@ -251,7 +251,7 @@ add_opinion_modifier = { target = X99 modifier = negative_200 }
 add_ideas = {
 	great_power
 	limited_conscription
-	partial_economic_mobilisation
+	low_economic_mobilisation
 	limited_exports
 	culture_ukrainian
 	men_of_iron

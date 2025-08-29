@@ -300,7 +300,7 @@ add_opinion_modifier = { target = X99 modifier = negative_200 }
 add_ideas = {
 	W21_monarch
 	volunteer_only
-	low_economic_mobilisation
+	civilian_economy
 	export_focus
 	culture_georgian
 }

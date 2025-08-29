@@ -331,7 +331,7 @@ if = {
 add_ideas = {
 	great_power
 	X23_monarch
-	disarmed_nation
+	limited_conscription
 	civilian_economy
 	export_focus
 	culture_breton
