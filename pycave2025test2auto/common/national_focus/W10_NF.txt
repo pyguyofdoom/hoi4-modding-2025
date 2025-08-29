@@ -48,7 +48,7 @@ focus_tree = {
 		cost = 10
 		available = {
 		is_puppet = no
-		date > 1938.1.1
+		date > 1936.1.1
 
 	}
 		completion_reward = {
@@ -67,7 +67,7 @@ focus_tree = {
 		factor = 10
 		modifier = {
 			factor = 0
-			date < 1937.6.6
+			date < 1936.6.6
 		}
 	}
 	}
@@ -98,18 +98,18 @@ focus_tree = {
 		factor = 10
 		modifier = {
 			factor = 0
-			date < 1937.6.6
+			date < 1936.6.6
 		}
 	}
 	}
 
 	focus = {
-		id = W10_sudeten_X07
+		id = W10_sudeten_W70
 		icon = GFX_goal_anschluss
-		text = _sudeten_X07
+		text = sudeten_W70
 		prerequisite = { focus = expand_the_reichW10 }
 		bypass = {
-	  has_war_with = X07
+	  has_war_with = W70
 	}
 		x = 0
 		y = 1
@@ -117,17 +117,17 @@ focus_tree = {
 		cost = 10
 		available = {
 		is_puppet = no
-		date > 1938.1.1
+		date > 1936.1.1
 
 	}
 		completion_reward = {
-		add_named_threat = { threat = 2 name = "Demand Territory from Ava" }
+		add_named_threat = { threat = 2 name = "Demand Territory from Kumul" }
 		army_experience = 10
 		if = {
 			limit = {
-				country_exists = X07
+				country_exists = W70
 			}
-			X07 = {
+			W70 = {
 				country_event = NFEvents.32
 			}
 		}
@@ -136,31 +136,31 @@ focus_tree = {
 		factor = 10
 		modifier = {
 			factor = 0
-			date < 1937.6.6
+			date < 1936.6.6
 		}
 	}
 	}
 
 	focus = {
-		id = W10_finish_X07
+		id = W10_finish_W70
 		icon = GFX_goal_generic_territory_or_war
-		text = _finish_X07
-		prerequisite = { focus =  W10_sudeten_X07 }
+		text = finish_W70
+		prerequisite = { focus =  W10_sudeten_W70 }
 		bypass = {
-		has_war_with = X07
+		has_war_with = W70
 	}
 		x = 0
 		y = 1
-		relative_position_id = W10_sudeten_X07
+		relative_position_id = W10_sudeten_W70
 		cost = 10
 		available = {
 		X07 = { is_in_faction = no }
 	}
 		completion_reward = {
-		add_named_threat = { threat = 3 name = "Fate of Ava" }
+		add_named_threat = { threat = 3 name = "Fate of Kumul" }
 		create_wargoal = {
 			type = annex_everything
-			target = X07
+			target = W70
 		}
 	}
 		ai_will_do = {
@@ -173,12 +173,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = W10_sudeten_X73
+		id = W10_sudeten_W88
 		icon = GFX_goal_anschluss
-		text = _sudeten_X73
+		text = sudeten_W88
 		prerequisite = { focus = expand_the_reichW10 }
 		bypass = {
-	  has_war_with = X73
+	  has_war_with = W88
 	}
 		x = 2
 		y = 1
@@ -190,13 +190,13 @@ focus_tree = {
 
 	}
 		completion_reward = {
-		add_named_threat = { threat = 2 name = "Demand Territory from Lan Na" }
+		add_named_threat = { threat = 2 name = "Demand Territory from Transcaucasian China" }
 		army_experience = 10
 		if = {
 			limit = {
-				country_exists = X73
+				country_exists = W88
 			}
-			X73 = {
+			W88 = {
 				country_event = NFEvents.35
 			}
 		}
@@ -211,25 +211,25 @@ focus_tree = {
 	}
 
 	focus = {
-		id = W10_finish_X73
+		id = W10_finish_W88
 		icon = GFX_goal_generic_territory_or_war
-		text = _finish_X73
-		prerequisite = { focus =  W10_sudeten_X73 }
+		text = finish_W88
+		prerequisite = { focus =  W10_sudeten_W88 }
 		bypass = {
-		has_war_with = X73
+		has_war_with = W88
 	}
 		x = 0
 		y = 1
-		relative_position_id = W10_sudeten_X73
+		relative_position_id = W10_sudeten_W88
 		cost = 10
 		available = {
-		X73 = { is_in_faction = no }
+		W88 = { is_in_faction = no }
 	}
 		completion_reward = {
-		add_named_threat = { threat = 3 name = "Fate of Lan Na" }
+		add_named_threat = { threat = 3 name = "Fate of Transcaucasian China" }
 		create_wargoal = {
 			type = annex_everything
-			target = X73
+			target = W88
 		}
 	}
 		ai_will_do = {
@@ -242,24 +242,24 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GP_WarSOVW10
+		id = GP_WarKORW10
 		icon = GFX_goal_generic_major_war
-		text = GP_WarSOV
+		text = GP_WarKOR
 		bypass = {
-		has_war_with = SOV
+		has_war_with = KOR
 	}
 		x = 30
 		y = 0
 		cost = 10
 		available = {
 		has_war = no
-		date > 1939.12.1
+		date > 1937.12.1
 	}
 		completion_reward = {
 		add_named_threat = { threat = 5 name = "War with Russia" }
 		declare_war_on = {
 			type = puppet_wargoal_focus
-			target = SOV
+			target = KOR
 		}
 	}
 		ai_will_do = {

@@ -926,7 +926,7 @@ country_event = {
 
 country_event = {
 	id = NFEvents.32
-	title = "[W10.GetName] Demands [X07.GetName]!"
+	title = "[W10.GetName] Demands [W70.GetName]!"
 	desc = "[W10.GetName] has recently been making claims to our bordering states, saying that these states are full of [W10.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [W10.GetAdjective] people in the recent years, we cannot give up our lands because a few [W10.GetAdjective] settled down in our land. In response [W10.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [W10.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
 	picture = GFX_report_event_hitler_parade
 
@@ -966,8 +966,8 @@ country_event = {
 		W10 = {
 			country_event = { hours = 2 id = NFEvents.34 }
 			if = {
-				limit = { is_in_faction_with = X07 }
-				remove_from_faction = X07
+				limit = { is_in_faction_with = W70 }
+				remove_from_faction = W70
 			}
 		}
 	}
@@ -975,8 +975,8 @@ country_event = {
 
 country_event = {
 	id = NFEvents.34
-	title = "[X07.GetName] Refuses!"
-	desc = "[X07.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	title = "[W70.GetName] Refuses!"
+	desc = "[W70.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
 	picture = GFX_report_event_german_troops
 
 	is_triggered_only = yes
@@ -985,32 +985,31 @@ country_event = {
 		name = "It's time for war"
 		create_wargoal = {
 			type = annex_everything
-			target = X07
+			target = X70
 		}
 	}
 }
 
 country_event = {
 	id = NFEvents.33
-	title = "[X07.GetName] accepts!"
-	desc = "[X07.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	title = "[W70.GetName] accepts!"
+	desc = "[W70.GetName] accepted our proposed demands, the added lands will push us to greatness!"
 	picture = GFX_report_event_german_speech
 
 	is_triggered_only = yes
 
 	option = {
 		name = "A stronger Union!"
-		50 = { add_core_of = W10 }
-		W10 = { transfer_state = 50 }
-		51 = { add_core_of = W10 }
-		W10 = { transfer_state = 51 }
-		set_country_flag = X07_demanded
+		795 = { add_core_of = W10 }
+		W10 = { transfer_state = 795 }
+		
+		set_country_flag = W70_demanded
 	}
 }
 
 country_event = {
 	id = NFEvents.35
-	title = "[W10.GetName] Demands [X73.GetName]!"
+	title = "[W10.GetName] Demands [W88.GetName]!"
 	desc = "[W10.GetName] has recently been making claims to our bordering states, saying that these states are full of [W10.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [W10.GetAdjective] people in the recent years, we cannot give up our lands because a few [W10.GetAdjective] settled down in our land. In response [W10.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [W10.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
 	picture = GFX_report_event_hitler_parade
 
@@ -1050,8 +1049,8 @@ country_event = {
 		W10 = {
 			country_event = { hours = 2 id = NFEvents.37 }
 			if = {
-				limit = { is_in_faction_with = X73 }
-				remove_from_faction = X73
+				limit = { is_in_faction_with = W88 }
+				remove_from_faction = W88
 			}
 		}
 	}
@@ -1059,8 +1058,8 @@ country_event = {
 
 country_event = {
 	id = NFEvents.37
-	title = "[X73.GetName] Refuses!"
-	desc = "[X73.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	title = "[W88.GetName] Refuses!"
+	desc = "[W88.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
 	picture = GFX_report_event_german_troops
 
 	is_triggered_only = yes
@@ -1069,25 +1068,31 @@ country_event = {
 		name = "It's time for war"
 		create_wargoal = {
 			type = annex_everything
-			target = X73
+			target = W88
 		}
 	}
 }
 
 country_event = {
 	id = NFEvents.36
-	title = "[X73.GetName] accepts!"
-	desc = "[X73.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	title = "[W88.GetName] accepts!"
+	desc = "[W88.GetName] accepted our proposed demands, the added lands will push us to greatness!"
 	picture = GFX_report_event_german_speech
 
 	is_triggered_only = yes
 
 	option = {
 		name = "A stronger Union!"
-		356 = { add_core_of = W10 }
-		W10 = { transfer_state = 356 }
-		358 = { add_core_of = W10 }
-		W10 = { transfer_state = 358 }
-		set_country_flag = X73_demanded
+		605 = { add_core_of = W10 }
+		W10 = { transfer_state = 605 }
+		601 = { add_core_of = W10 }
+		W10 = { transfer_state = 601 }
+		567 = { add_core_of = W10 }
+		W10 = { transfer_state = 567 }
+		606 = { add_core_of = W10 }
+		W10 = { transfer_state = 606 }
+		600 = { add_core_of = W10 }
+		W10 = { transfer_state = 600 }
+		set_country_flag = W88_demanded
 	}
 }

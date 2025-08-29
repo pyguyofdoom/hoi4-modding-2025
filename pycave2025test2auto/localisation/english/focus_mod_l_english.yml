@@ -1495,3 +1495,8 @@
  war_planX90_desc:0 "We know it, they know it - war is inevitable. They'll certainly be prepared and we must make sure we are as well."
  war_planX99:0 "War Plan [X99.GetName]"
  war_planX99_desc:0 "We know it, they know it - war is inevitable. They'll certainly be prepared and we must make sure we are as well."
+ GP_WarKOR:0 "Push the Koreans to the Sea!"
+ sudeten_W70:0 "Demand Territory From Kumul"
+ sudeten_W88:0 "Demand Territory From The Georgians"
+ finish_W70:0 "Annex Kumul"
+ finish_W88:0 "Annex the Georgian Hermitage"
