@@ -303,6 +303,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	culture_georgian
+	mountain_men
 }
 set_stability = 0.60
 set_war_support = 0.61

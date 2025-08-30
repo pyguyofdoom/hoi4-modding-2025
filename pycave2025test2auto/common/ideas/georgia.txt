@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+
+		mountain_men = {
+			picture = generic_mountain_warfare
+			allowed = {
+				always = no
+			}
+			modifier = {
+				land_night_attack = 0.1
+				special_forces_attack_factor = 0.05
+				mountaineers_special_forces_contribution_factor = -0.3
+
+
+				
+			}
+		}
+		
+		
+	}	
+}
