@@ -2,7 +2,10 @@
 state={
 	id=141
 	name="STATE_141"
-
+	resources={
+		aluminium=15.000
+		steel = 7
+	}
 	history={
 		owner = CAT
 		victory_points = {

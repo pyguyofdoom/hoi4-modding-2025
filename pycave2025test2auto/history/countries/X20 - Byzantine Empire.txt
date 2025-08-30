@@ -260,6 +260,7 @@ add_ideas = {
 	limited_exports
 	patriarchs
 	culture_greek
+	suez_need
 }
 set_stability = 0.60
 set_war_support = 0.50

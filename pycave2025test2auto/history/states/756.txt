@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = W41
+		owner = W35
 		victory_points = {
 			6788 10 
 		}
@@ -26,6 +26,7 @@ state={
 		}
 		add_core_of = ITA
 		add_core_of = X39
+		add_core_of = W35
 	}
 
 	provinces={

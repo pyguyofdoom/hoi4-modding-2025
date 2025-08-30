@@ -19,6 +19,7 @@ state={
 
 		}
 		add_core_of = W49
+		add_core_of = W04
 	}
 
 	provinces={
@@ -26,7 +27,7 @@ state={
 	}
 	manpower=579276
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 
 	local_supplies=10.0
 }

@@ -1500,3 +1500,7 @@
  sudeten_W88:0 "Demand Territory From The Georgians"
  finish_W70:0 "Annex Kumul"
  finish_W88:0 "Annex the Georgian Hermitage"
+ Alliance_SCA:0 "Alliance with Scandinavia"
+ Alliance_SCA_desc:0 "We have often had positive relations with the scandinavians, and now we stand at a crossroads. Communist insurgents, decaying liberal superpowers, and enemies on all sides. We need a strong ally, and while Scandinavia is still a shadow of its former self they will do just fine."
+ GP_WarKORRUS:0 "Last Dance of the Bikal"
+ GP_WarKORRUS_desc:0 "We are done waiting. It is time to meet destiny, one way, or another." 

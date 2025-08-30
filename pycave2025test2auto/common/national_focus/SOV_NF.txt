@@ -76,7 +76,7 @@ focus_tree = {
 			is_in_faction = no
 		}
 		is_puppet = no
-		date > 1937.7.1
+		date > 1936.6.1
 
 	}
 		completion_reward = {
@@ -133,7 +133,7 @@ focus_tree = {
 		cost = 10
 		available = {
 		is_puppet = no
-		date > 1938.1.1
+		date > 1937.1.1
 
 	}
 		completion_reward = {
@@ -188,74 +188,9 @@ focus_tree = {
 	}
 	}
 
-	focus = {
-		id = SOV_sudeten_KHI
-		icon = GFX_goal_anschluss
-		text = _sudeten_KHI
-		prerequisite = { focus = expand_the_reichSOV }
-		bypass = {
-	  has_war_with = KHI
-	}
-		x = -5
-		y = 1
-		relative_position_id = expand_the_reichSOV
-		cost = 10
-		available = {
-		is_puppet = no
-		date > 1938.9.1
+	
 
-	}
-		completion_reward = {
-		add_named_threat = { threat = 2 name = "Demand Territory from Khiva" }
-		army_experience = 10
-		if = {
-			limit = {
-				country_exists = KHI
-			}
-			KHI = {
-				country_event = NFEvents.7
-			}
-		}
-	}
-		ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			date < 1937.6.6
-		}
-	}
-	}
-
-	focus = {
-		id = SOV_finish_KHI
-		icon = GFX_goal_generic_territory_or_war
-		text = _finish_KHI
-		prerequisite = { focus =  SOV_sudeten_KHI }
-		bypass = {
-		has_war_with = KHI
-	}
-		x = 0
-		y = 1
-		relative_position_id = SOV_sudeten_KHI
-		cost = 10
-		available = {
-		KHI = { is_in_faction = no }
-	}
-		completion_reward = {
-		add_named_threat = { threat = 3 name = "Fate of Khiva" }
-		create_wargoal = {
-			type = annex_everything
-			target = KHI
-		}
-	}
-		ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			date < 1937.6.6
-		}
-	}
-	}
+	
 
 	focus = {
 		id = SOV_sudeten_LIT
@@ -271,7 +206,7 @@ focus_tree = {
 		cost = 10
 		available = {
 		is_puppet = no
-		date > 1938.5.1
+		date > 1937.5.1
 
 	}
 		completion_reward = {
@@ -340,7 +275,7 @@ focus_tree = {
 		cost = 10
 		available = {
 		is_puppet = no
-		date > 1938.3.1
+		date > 1937.3.1
 
 	}
 		completion_reward = {
@@ -409,7 +344,7 @@ focus_tree = {
 		cost = 10
 		available = {
 		is_puppet = no
-		date > 1938.1.1
+		date > 1937.1.1
 
 	}
 		completion_reward = {
@@ -464,74 +399,9 @@ focus_tree = {
 	}
 	}
 
-	focus = {
-		id = SOV_sudeten_SIB
-		icon = GFX_goal_anschluss
-		text = _sudeten_SIB
-		prerequisite = { focus = expand_the_reichSOV }
-		bypass = {
-	  has_war_with = SIB
-	}
-		x = 3
-		y = 1
-		relative_position_id = expand_the_reichSOV
-		cost = 10
-		available = {
-		is_puppet = no
-		date > 1938.8.1
+	
 
-	}
-		completion_reward = {
-		add_named_threat = { threat = 2 name = "Demand Territory from Siberia" }
-		army_experience = 10
-		if = {
-			limit = {
-				country_exists = SIB
-			}
-			SIB = {
-				country_event = NFEvents.19
-			}
-		}
-	}
-		ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			date < 1937.6.6
-		}
-	}
-	}
-
-	focus = {
-		id = SOV_finish_SIB
-		icon = GFX_goal_generic_territory_or_war
-		text = _finish_SIB
-		prerequisite = { focus =  SOV_sudeten_SIB }
-		bypass = {
-		has_war_with = SIB
-	}
-		x = 0
-		y = 1
-		relative_position_id = SOV_sudeten_SIB
-		cost = 10
-		available = {
-		SIB = { is_in_faction = no }
-	}
-		completion_reward = {
-		add_named_threat = { threat = 3 name = "Fate of Siberia" }
-		create_wargoal = {
-			type = annex_everything
-			target = SIB
-		}
-	}
-		ai_will_do = {
-		factor = 10
-		modifier = {
-			factor = 0
-			date < 1937.6.6
-		}
-	}
-	}
+	
 
 	focus = {
 		id = SOV_sudeten_UBD
@@ -547,7 +417,7 @@ focus_tree = {
 		cost = 10
 		available = {
 		is_puppet = no
-		date > 1938.4.1
+		date > 1937.4.1
 
 	}
 		completion_reward = {
@@ -616,7 +486,7 @@ focus_tree = {
 		cost = 10
 		available = {
 		is_puppet = no
-		date > 1938.1.1
+		date > 1937.1.1
 
 	}
 		completion_reward = {
@@ -653,7 +523,7 @@ focus_tree = {
 		relative_position_id = SOV_sudeten_X36
 		cost = 10
 		available = {
-		date > 1938.2.25
+		date > 1937.2.25
 		X36 = { is_in_faction = no }
 	}
 		completion_reward = {
@@ -713,17 +583,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = Alliance_X03SOV
+		id = Alliance_SCASOV
 		icon = GFX_goal_generic_allies_build_infantry
-		text = Alliance_X03
+		text = Alliance_SCA
 		prerequisite = { focus = Fas_SummitSOV }
 		bypass = {
 		OR = {
-			NOT = { has_government = X03 }
-			X03 = { is_subject = yes }
-			is_in_faction_with = X03
-			has_war_with = X03
-			NOT = { country_exists = X03 }
+			NOT = { has_government = SCA }
+			SCA = { is_subject = yes }
+			is_in_faction_with = SCA
+			has_war_with = SCA
+			NOT = { country_exists = SCA }
 		}
 	}
 		x = 0
@@ -735,7 +605,7 @@ focus_tree = {
 			is_in_faction = no
 			faction_leader = { NOT = { has_war_together_with = ROOT } }
 		}
-		X03 = {
+		SCA = {
 			OR = {
 				is_faction_leader = yes
 				is_in_faction = no
@@ -749,19 +619,19 @@ focus_tree = {
 	}
 		completion_reward = {
 		if = {
-			limit = { X03 = { is_faction_leader = yes } }
+			limit = { SCA = { is_faction_leader = yes } }
 			every_country = {
 				limit = {
-					is_in_faction_with = X03
+					is_in_faction_with = SCA
 					is_subject = no
 				}
 				country_event = { hours = 6 id = NFEvents.28 }
 			}
 		}
 		else = {
-			X03 = { country_event = { hours = 6 id = NFEvents.28 } }
+			SCA = { country_event = { hours = 6 id = NFEvents.28 } }
 		}
-		X03 = {
+		SCA = {
 			add_opinion_modifier = { target = ROOT modifier = positive_50 }
 		}
 	}
@@ -771,12 +641,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GP_WarW10SOV
+		id = GP_WarKORSOV
 		icon = GFX_goal_generic_major_war
-		text = GP_WarW10
-		prerequisite = { focus = Alliance_X03SOV }
+		text = GP_WarKORRUS
+		prerequisite = { focus = Alliance_SCASOV }
 		bypass = {
-		has_war_with = W10
+		has_war_with = KOR
 	}
 		x = 0
 		y = 2
@@ -784,20 +654,20 @@ focus_tree = {
 		cost = 10
 		available = {
 		has_war = no
-		date > 1939.12.1
+		date > 1937.12.1
 	}
 		completion_reward = {
-		add_named_threat = { threat = 5 name = "War with Shandong" }
+		add_named_threat = { threat = 5 name = "War with Korea" }
 		declare_war_on = {
 			type = puppet_wargoal_focus
-			target = W10
+			target = KOR
 		}
 	}
 		ai_will_do = {
 		factor = 5
 		modifier = {
 			factor = 0
-			strength_ratio = { tag = W10 ratio < 1 }
+			strength_ratio = { tag = KOR ratio < 1 }
 		}
 		modifier = {
 			factor = 0

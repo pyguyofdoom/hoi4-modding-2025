@@ -7,10 +7,32 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				stability_weekly = 0.001
+				stability_weekly = 0.002
 				war_support_factor = -0.05
 			}
 		}
+		suez_need = {
+			picture = FRA_factory_strikes
+			allowed = {
+				always = no
+			}
+			modifier = {
+				stability_weekly = -0.001
+				consumer_goods_factor = 0.3
 
+			}
+		}
+		colonial_corruption = {
+			picture = chi_army_corruption
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_attack_factor = -0.15
+				army_org_factor = -0.3
+
+
+			}
+		}
 	}	
 }

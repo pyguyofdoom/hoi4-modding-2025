@@ -196,7 +196,7 @@ add_opinion_modifier = { target = SAF modifier = negative_30 }
 add_opinion_modifier = { target = SAU modifier = negative_200 }
 add_opinion_modifier = { target = SIA modifier = negative_50 }
 add_opinion_modifier = { target = SIB modifier = negative_70 }
-add_opinion_modifier = { target = SOV modifier = negative_199 }
+add_opinion_modifier = { target = SOV modifier = negative_19 }
 add_opinion_modifier = { target = SUD modifier = negative_200 }
 add_opinion_modifier = { target = SYR modifier = negative_70 }
 add_opinion_modifier = { target = TIB modifier = negative_75 }

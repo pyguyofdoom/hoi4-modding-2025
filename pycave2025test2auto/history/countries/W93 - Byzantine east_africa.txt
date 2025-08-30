@@ -142,6 +142,10 @@ add_ideas = {
 	limited_exports
 	culture_greek
 }
+add_timed_idea = {
+	idea = colonial_corruption
+	days = 720
+}
 set_stability = 0.60
 set_war_support = 0.50
 

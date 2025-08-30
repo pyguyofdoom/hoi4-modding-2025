@@ -3,12 +3,12 @@ state={
 	id=293
 	name="STATE_293"
 	resources={
-		aluminium=4.000
-		steel=4.000
+		aluminium=14.000
+		steel=14.000
 	}
 
 	history={
-		owner = ITA
+		owner = W35
 		victory_points = {
 			778 1 
 		}
@@ -24,6 +24,7 @@ state={
 		}
 		add_core_of = ITA
 		add_core_of = X39
+		add_core_of = W35
 	}
 
 	provinces={

@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = CAT
 		add_core_of = W49
+		add_core_of = W04
 	}
 
 	provinces={

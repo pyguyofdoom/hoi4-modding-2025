@@ -1203,6 +1203,7 @@ focus_tree = {
 			subtract_from_variable = { revanchism = 0.000135 }
 			add_to_variable = { revanchism_stab = 0.000013 }
 			add_ideas = generic_national_unification
+			remove_ideas = suez_need
 		}
 		ai_will_do = {
 			factor = 100

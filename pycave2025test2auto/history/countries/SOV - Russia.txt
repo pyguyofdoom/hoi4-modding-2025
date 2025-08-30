@@ -178,7 +178,7 @@ add_opinion_modifier = { target = RCG modifier = negative_195 }
 add_opinion_modifier = { target = ROM modifier = negative_168 }
 add_opinion_modifier = { target = SAF modifier = negative_200 }
 add_opinion_modifier = { target = SAU modifier = negative_200 }
-add_opinion_modifier = { target = SCA modifier = negative_199 }
+add_opinion_modifier = { target = SCA modifier = negative_19 }
 add_opinion_modifier = { target = SIA modifier = negative_200 }
 add_opinion_modifier = { target = SIB modifier = negative_88 }
 add_opinion_modifier = { target = SUD modifier = negative_200 }

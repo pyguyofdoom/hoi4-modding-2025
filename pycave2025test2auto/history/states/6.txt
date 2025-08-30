@@ -5,7 +5,7 @@ state={
 	impassable = yes
 
 	history={
-		owner = ALG
+		owner = W65
 		add_core_of = ALG
 	}
 

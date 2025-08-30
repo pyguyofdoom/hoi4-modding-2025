@@ -4,7 +4,7 @@ state={
 	name="STATE_771"
 
 	history={
-		owner = W49
+		owner = CAT
 		victory_points = {
 			10024 1 
 		}
@@ -20,6 +20,7 @@ state={
 
 		}
 		add_core_of = W49
+		add_core_of = W04
 	}
 
 	provinces={
@@ -27,7 +28,7 @@ state={
 	}
 	manpower=666852
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 
 	local_supplies=10.0
 }

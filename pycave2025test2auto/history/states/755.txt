@@ -4,18 +4,18 @@ state={
 	name="STATE_755"
 	resources={
 		aluminium=12.000
-		steel=2.000
+		steel=20.000
 	}
 
 	history={
-		owner = W41
+		owner = W35
 		victory_points = {
 			6606 0 
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
-			arms_factory = 0
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 0
 			6973 = {
 				naval_base = 10
@@ -23,6 +23,7 @@ state={
 
 		}
 		add_core_of = ITA
+		add_core_of = W35
 	}
 
 	provinces={
@@ -30,7 +31,7 @@ state={
 	}
 	manpower=1279420
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

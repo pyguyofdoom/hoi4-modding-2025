@@ -7,6 +7,11 @@ thelibyandebaclesolved:0 "The Libyan debacle, solved"
 thelibyandebaclesolved_desc:0 "While governor-general Foumis is an excellent general, he is a damn terrible administrator. Suadense rebels almost made it to Halaib before we were able to mobilize troops. With the crisis resolved, we can bring back responsible administration to Sudan. "
 patriarchs:0 "Patriarchs of the Hellenes"
 patriarchs_desc:0 "Our patriarchs extol the great works of our hellenic past, and are a great boon to our national identity. However, many in the church have excerted their influence to fight our warmongering ways. Unfortunately for them, the time of demokracy is long past."
+suez_need:0 "The Suez Revolt"
+suez_need_desc:0 "The Suez is a shining beacon of our might, but is a current blight on our reputation. Communist rebels took control of Alexandria just a few years ago, and since then have blocked ships from passing through. We must reclaim the region quickly." 
+colonial_corruption:0 "Corrupt Army"
+colonial_corruption_desc:0 "With recent revolts depriving us of most native corps officers, we have had to make do with inexperienced and easily swayed leadership. These issues should pass given time. If we have time." 
+
 
 
 #putting the malay stuff here just because its the exact same format
@@ -25,3 +30,10 @@ india_stronk_desc:0 "The national revolution was a success! After kicking out ou
 
 mountain_men:0 "The GSOC"
 mountain_men_desc:0 "The endless mountains we inhabit are the perfect place to train the next generation of hero. Throughout our history, our people have chosen to use these mountains as the backdrop to wage defensive wars of attrition. No more. In an age of rolling steel and thunder from above, we will go on the offense with the meanest and greenest special forces corps on earth." 
+
+#fuck you provence goes here too 
+prov_decision:0 "Iberian Grandstand"
+najera_beatdown:0 "Najera on the offense"
+najera_beatdown_desc:0 "The state of Najera has existed as a buffer state between our own and that of the Celts for over 600 years. Leon-Castile has been the site of many great battles against catholic crusaders in the past, and even today remnants of the old holy orders remain in the mountains. Sensing our weakness, the Najerans have rallied to assault us one last time, possibly with Celtic support from abroad."
+catalonia_beatdown:0 "The last Iberians" 
+catalonia_beatdown_desc:0 "The Catalonian state is an anomaly in Europe. While in most other regions resistance by the native peoples died out long ago, in Catalonia this resistance is stronger than ever. Rebels rally to the cause daily against hungry Occitanian and Basque invaders. This revanchist regime must be put down, before they put us down!" 

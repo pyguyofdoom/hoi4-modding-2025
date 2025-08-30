@@ -308,7 +308,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = W41_reform_the_banking_system  }
 		available = {
-			has_war_support > 0.30
+			has_war_support > 0.25
 			
 			
 			
@@ -319,6 +319,9 @@ focus_tree = {
 			add_idea = kick_depression_3
 			}
 		}
+		ai_will_do = {
+		factor = 10
+	}
 	}
 
 	#Of Our Bones, the Hills
@@ -341,6 +344,9 @@ focus_tree = {
 			
 			
 		}
+		ai_will_do = {
+		factor = 10
+	}
 	}
 
 	#Reform the Banking System
@@ -355,7 +361,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = W41_the_battered_giant  }
 		available = {
-			has_war_support > 0.20
+			has_war_support > 0.15
 			
 			
 		}
@@ -381,6 +387,9 @@ focus_tree = {
 			add_war_support = 0.05
 			add_political_power = 100
 		}
+		ai_will_do = {
+		factor = 10
+	}
 	}
 
 	#Kicking Depression Down the Stairs
@@ -406,6 +415,9 @@ focus_tree = {
 			
 			
 		}
+		ai_will_do = {
+		factor = 10
+	}
 	}
 
 	#The Golden Millenium
@@ -422,6 +434,9 @@ focus_tree = {
 		completion_reward={
 			add_ideas = boh_century
 			}
+		ai_will_do = {
+		factor = 10
+	}
 	}
 
 	#Legacy of the Bohemian Legion
@@ -440,6 +455,9 @@ focus_tree = {
 			add_ideas = boh_legion
 			
 		}
+		ai_will_do = {
+		factor = 10
+	}
 	}
 
 }
