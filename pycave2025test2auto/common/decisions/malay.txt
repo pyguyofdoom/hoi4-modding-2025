@@ -1,0 +1,46 @@
+malaya_category = {
+	westvassals = {
+		days_remove = 1
+		fire_only_once = yes
+		visible = {
+			TAG = W16
+		}
+		available = {
+			TAG = W16
+			has_political_power > 100
+			date > 1937.01.01
+
+		
+		
+		}
+		complete_effect = {
+			annex_country = { target = X58 transfer_troops = yes }
+			annex_country = { target = X32 transfer_troops = yes }
+			annex_country = { target = W00 transfer_troops = yes }
+			add_political_power = -100
+
+		}
+	}
+	eastvassals = {
+		days_remove = 1
+		fire_only_once = yes
+		visible = {
+			TAG = W16
+		}
+		available = {
+			TAG = W16
+			has_political_power > 200
+			date > 1937.01.01
+
+		
+		}
+		complete_effect = {
+			
+			annex_country = { target = W19 transfer_troops = yes }
+			annex_country = { target = W72 transfer_troops = yes }
+			add_political_power = -200
+
+		}
+	}
+	
+}

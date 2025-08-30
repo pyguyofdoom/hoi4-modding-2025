@@ -4,7 +4,7 @@ state={
 	name="STATE_548"
 	resources={
 		oil=2.000
-		rubber=9.000
+		rubber=190.000
 	}
 
 	history={
@@ -14,7 +14,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
+			industrial_complex = 4
 			arms_factory = 0
 			air_base = 5
 			7387 = {
@@ -32,7 +32,7 @@ state={
 	}
 	manpower=279448
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 
 	local_supplies=10.0
 }

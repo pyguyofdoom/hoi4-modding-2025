@@ -20,7 +20,7 @@ set_technology = {
 	fuel_silos = 1
 	gw_artillery = 1
 	infantry_weapons = 1
-	infantry_weapons1 = 1
+	
 	interwar_antiair = 1
 	interwar_artillery = 1
 	motorised_infantry = 1
@@ -217,6 +217,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	culture_marathi
+	india_stronk
 }
 set_stability = 0.60
 set_war_support = 0.61

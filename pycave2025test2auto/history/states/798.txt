@@ -24,6 +24,7 @@ state={
 
 		}
 		add_core_of = W72
+		add_core_of = W16
 	}
 
 	provinces={

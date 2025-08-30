@@ -20,6 +20,7 @@ state={
 		}
 		add_core_of = W19
 		add_core_of = X80
+		add_core_of = W16
 	}
 
 	provinces={
@@ -27,7 +28,7 @@ state={
 	}
 	manpower=4698460
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=megalopolis
 
 	local_supplies=10.0
 }

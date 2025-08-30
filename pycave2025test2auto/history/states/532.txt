@@ -19,6 +19,7 @@ state={
 
 		}
 		add_core_of = CAM
+		add_core_of = W16
 	}
 
 	provinces={

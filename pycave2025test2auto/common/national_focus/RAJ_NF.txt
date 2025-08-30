@@ -456,7 +456,7 @@ focus_tree = {
 		y = 1
 		cost = 10
 		available = {
-			date > 1939.2.6
+			date > 1938.2.6
 			NOT = { is_in_faction_with = W21 }
 			NOT = { has_war_with = W21 }
 		}

@@ -5,7 +5,7 @@ state={
 	resources={
 		aluminium=4.000
 		chromium=13.000
-		steel=16.000
+		steel=40.000
 	}
 
 	history={
@@ -15,7 +15,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
+			industrial_complex = 5
 			arms_factory = 1
 			air_base = 10
 			10088 = {
@@ -33,7 +33,7 @@ state={
 	}
 	manpower=3069952
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 
 	local_supplies=10.0
 }
