@@ -43,7 +43,10 @@ ideas = {
 			}
 			modifier = {
 				army_attack_factor = -0.15
-				army_org_factor = -0.25
+				army_org_factor = -0.3
+				army_speed_factor = -0.2
+				max_dig_in = -2
+
 
 
 			}
