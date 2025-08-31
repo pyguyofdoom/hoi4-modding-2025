@@ -313,7 +313,7 @@ add_ideas = {
 	culture_malay
 }
 set_stability = 0.60
-set_war_support = 0.60
+set_war_support = 0.15
 
 recruit_character = W16_riayat_riayat_shah
 recruit_character = W16_yusuf_bendahara

@@ -220,7 +220,7 @@ add_ideas = {
 	india_stronk
 }
 set_stability = 0.60
-set_war_support = 0.61
+set_war_support = 0.2
 
 recruit_character = RAJ_balaji_narayan
 recruit_character = RAJ_rajaram_baji_rao

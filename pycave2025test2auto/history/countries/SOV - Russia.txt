@@ -260,7 +260,7 @@ add_ideas = {
 	korea_must_die
 }
 set_stability = 0.60
-set_war_support = 0.37
+set_war_support = 0.27
 
 recruit_character = SOV_semion_hrekov
 recruit_character = SOV_lavr_hamula
