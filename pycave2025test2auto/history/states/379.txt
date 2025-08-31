@@ -16,6 +16,7 @@ state={
 
 		}
 		add_core_of = X86
+		add_core_of = USA
 	}
 
 	provinces={

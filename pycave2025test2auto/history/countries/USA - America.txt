@@ -147,8 +147,8 @@ set_politics = {
 
 set_popularities = {
 	absolutist = 4
-	communism = 3
-	democratic = 75
+	communism = 33
+	democratic = 45
 	fascism = 12
 	neutrality = 4
 	radical = 2
@@ -266,6 +266,9 @@ add_ideas = {
 	volunteer_only
 	civilian_economy
 	export_focus
+	Vikingcorp
+	Hatewestindies
+	Commierun
 	culture_nyasverigian
 }
 set_stability = 0.60

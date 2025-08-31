@@ -342,7 +342,7 @@ if = {
 add_ideas = {
 	disarmed_nation
 	great_power
-	
+	worldmongers
 	civilian_economy
 	export_focus
 	culture_dutch

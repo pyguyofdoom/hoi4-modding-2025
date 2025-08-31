@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+
+		worldmongers = {
+			picture = ARG_public_works_investment
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1 
+				global_building_slots_factor = 0.15
+
+			
+
+
+				
+			}
+		}
+		
+		
+	}	
+}

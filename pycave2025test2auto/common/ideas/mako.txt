@@ -1,0 +1,61 @@
+ideas = {
+	country = {
+
+		Vikingcorp = {
+			picture = liberty_ships_focus
+			allowed = {
+				always = no
+			}
+			modifier = {
+				production_speed_dockyard_factor = 0.2
+				consumer_goods_factor = 0.1
+
+
+			
+
+
+				
+			}
+		}
+		Hatewestindies = {
+			picture = tur_sectarian_woes
+			allowed = {
+				always = no
+			}
+			targeted_modifier = {
+				tag = W39
+				attack_bonus_against = 0.1
+				
+			}
+				
+			}
+		Commierun = {
+			picture = generic_communist_army
+			allowed = {
+				always = no
+			}
+			modifier = {
+			communism_drift = 0.03
+			weekly_manpower = 500
+			army_leader_start_level = 1 
+
+			}
+				
+			}
+		Navalbuildup = {
+			picture = liberty_ships_focus
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_dockyard = 0.3
+
+				
+
+				
+			}
+		}
+		}
+		
+	}	
+}
