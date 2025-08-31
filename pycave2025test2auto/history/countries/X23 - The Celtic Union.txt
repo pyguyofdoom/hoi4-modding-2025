@@ -337,7 +337,7 @@ add_ideas = {
 	culture_breton
 }
 set_stability = 0.60
-set_war_support = 0.60
+set_war_support = 0.2
 
 recruit_character = X23_pierre_fournier
 recruit_character = X23_fransez_chastain

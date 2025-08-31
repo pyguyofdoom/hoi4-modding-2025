@@ -273,7 +273,7 @@ add_ideas = {
 	culture_dongren
 }
 set_stability = 0.60
-set_war_support = 0.60
+set_war_support = 0.22
 
 recruit_character = CAL_wang_hu
 recruit_character = CAL_kong_dong

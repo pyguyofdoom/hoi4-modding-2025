@@ -15,7 +15,39 @@ ideas = {
 				
 			}
 		}
-		
+		#yeah idk why this is all here
+		china_expand = {
+			picture = usa_great_depression_3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+				consumer_goods_factor = 0.50
+				conscription_factor = -0.45
+				local_resources_factor = -0.15
+			}
+		}
+		china_corruption = {
+			picture = chi_army_corruption
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_attack_factor = -0.15
+				army_org_factor = -0.25
+
+
+			}
+		}
 		
 	}	
 }

@@ -309,7 +309,7 @@ add_ideas = {
 	russia_must_die
 }
 set_stability = 0.60
-set_war_support = 0.60
+set_war_support = 0.15
 
 recruit_character = KOR_peom_song
 recruit_character = KOR_ch'ang_shin

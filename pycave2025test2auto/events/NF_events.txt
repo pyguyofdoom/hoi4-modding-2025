@@ -1087,8 +1087,8 @@ country_event = {
 		W10 = { transfer_state = 605 }
 		601 = { add_core_of = W10 }
 		W10 = { transfer_state = 601 }
-		567 = { add_core_of = W10 }
-		W10 = { transfer_state = 567 }
+		597 = { add_core_of = W10 }
+		W10 = { transfer_state = 597 }
 		606 = { add_core_of = W10 }
 		W10 = { transfer_state = 606 }
 		600 = { add_core_of = W10 }

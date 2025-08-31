@@ -269,7 +269,7 @@ add_ideas = {
 	culture_nyasverigian
 }
 set_stability = 0.60
-set_war_support = 0.60
+set_war_support = 0.26
 
 recruit_character = USA_asgeir_magnusson
 recruit_character = USA_stefan_asgeirsson

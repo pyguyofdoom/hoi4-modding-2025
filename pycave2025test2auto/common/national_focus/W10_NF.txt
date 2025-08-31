@@ -205,7 +205,7 @@ focus_tree = {
 		factor = 10
 		modifier = {
 			factor = 0
-			date < 1937.6.6
+			date < 1938.6.6
 		}
 	}
 	}
@@ -236,7 +236,7 @@ focus_tree = {
 		factor = 10
 		modifier = {
 			factor = 0
-			date < 1937.6.6
+			date < 1938.6.6
 		}
 	}
 	}
@@ -253,7 +253,7 @@ focus_tree = {
 		cost = 10
 		available = {
 		has_war = no
-		date > 1937.12.1
+		date > 1937.6.1
 	}
 		completion_reward = {
 		add_named_threat = { threat = 5 name = "War with Russia" }
@@ -263,17 +263,12 @@ focus_tree = {
 		}
 	}
 		ai_will_do = {
-		factor = 5
+		factor = 10
 		modifier = {
 			factor = 0
-			strength_ratio = { tag = SOV ratio < 1 }
+			strength_ratio = { tag = KOR ratio < 1 }
 		}
-		modifier = {
-			factor = 0
-			OR = {
-				
-			}
-		}
+		
 	}
 	}
 

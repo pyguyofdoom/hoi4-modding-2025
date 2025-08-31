@@ -253,7 +253,7 @@ add_ideas = {
 	culture_bosniak
 }
 set_stability = 0.60
-set_war_support = 0.60
+set_war_support = 0.3
 
 recruit_character = BOS_safet_peco
 recruit_character = BOS_naser_ljubicic

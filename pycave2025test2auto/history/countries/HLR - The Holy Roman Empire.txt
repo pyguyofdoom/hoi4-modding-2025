@@ -144,7 +144,7 @@ add_doctrine_cost_reduction = {
 
 set_country_flag = conv_france
 starting_train_buffer = 2
-set_convoys = 5
+set_convoys = 50
 
 set_politics = {
     ruling_party = democratic
@@ -348,7 +348,7 @@ add_ideas = {
 	culture_dutch
 }
 set_stability = 0.60
-set_war_support = 0.47
+set_war_support = 0.15
 
 recruit_character = HLR_lodewijk_reijersen
 recruit_character = HLR_constantijn_van_swieten

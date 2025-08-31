@@ -306,7 +306,7 @@ add_ideas = {
 	mountain_men
 }
 set_stability = 0.60
-set_war_support = 0.61
+set_war_support = 0.41
 
 recruit_character = W21_ivane_avalishvili
 recruit_character = W21_jansung_kandelaki
