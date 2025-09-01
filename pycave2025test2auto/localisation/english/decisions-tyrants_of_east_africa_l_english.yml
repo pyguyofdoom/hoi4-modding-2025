@@ -50,9 +50,11 @@ worldmongers_desc:0 "We may not have the most resources or industrial might, but
 
 Vikingcorp:0 "Viking Trade Company"
 Vikingcorp_desc:0 "The most powerful corporation in the nation is the VTC. They are largely known for their shipbuilding and transportation industries. The last administration nationalized the VTC in return for a small pittance to the CEO."
-Hatewestindies:0 "§RUndying §RHatred"
+Hatewestindies:0 "§RUndying §RHatred§!"
 Hatewestindies_desc:0 "Our relations with the West Indies have been strained at the best of times. Rivals under colonial empires, rivals after independence, rivals after the 3d time they blocked our rightful annexation of Louisiana. They cannot seem to leave us alone on the continent, and our people grow restless at the constant intervention. The West Indies must be taught a lesson in respect."
 Commierun:0 "Leftist Haven"
 Commierun_desc:0 "With most communist regimes around the world being toppled, the majority of great communist intellectuals have fled here to the US. Our nation has become a beacon of hope for leftist pariahs everywhere, even if we are a simple democracy. This has also allowed communist brigades-in-exile to form, boosting both our officer corps and fledgling military." 
 Navalbuildup:0 "Naval Buildup"
 Navalbuildup_desc:0 "They say Rome was not built in a day. You know what? Neither was this fleet." 
+
+gilyde_trait:0 "§RThe Ukranian Vozhd§!" 

@@ -261,13 +261,16 @@ characters={
 
 	SOV_arkadyy_omelianovych_pavlenko={
 		name=SOV_arkadyy_omelianovych_pavlenko
+		
 		portraits={
 			civilian={
-				large="gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+				large="gfx/leaders/Pizza/Olek.dds"
 			}
 		}
 		country_leader={
 			ideology=fascism_ideology
+			desc = SOV_arkadyy_omelianovych_pavlenko_desc
+			traits = { gilyde_trait }
 			expire="1965.1.1.1"
 			id=-1
 		}
