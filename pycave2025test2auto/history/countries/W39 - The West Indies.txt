@@ -346,7 +346,7 @@ add_ideas = {
 	culture_nieuwereld
 }
 set_stability = 0.60
-set_war_support = 0.60
+set_war_support = 0.2
 
 recruit_character = W39_louis_van_der_pol
 recruit_character = W39_christiaan_kristofferson
