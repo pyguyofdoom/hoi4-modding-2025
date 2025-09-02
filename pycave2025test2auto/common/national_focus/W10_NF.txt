@@ -22,7 +22,7 @@ focus_tree = {
 		id = expand_the_reichW10
 		icon = GFX_goal_generic_political_pressure
 		text = expand_the_reich
-		x = 28
+		x = 30
 		y = 0
 		cost = 10
 		completion_reward = {
@@ -248,7 +248,7 @@ focus_tree = {
 		bypass = {
 		has_war_with = KOR
 	}
-		x = 30
+		x = 33
 		y = 0
 		cost = 10
 		available = {
