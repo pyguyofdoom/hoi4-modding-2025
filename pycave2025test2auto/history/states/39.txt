@@ -3,9 +3,9 @@ state={
 	id=39
 	name="STATE_39"
 	resources={
-		oil=3.000
-		steel=2.000
-		tungsten=37.000
+		
+		steel=20.000
+		tungsten=150.000
 	}
 
 	history={

@@ -5,8 +5,8 @@ state={
 	resources={
 		aluminium=7.000
 		chromium=4.000
-		steel=8.000
-		tungsten=2.000
+		steel=25.000
+		tungsten=4.000
 	}
 
 	history={
@@ -16,7 +16,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 5
 			arms_factory = 0
 			air_base = 1
 			5168 = {
@@ -24,6 +24,7 @@ state={
 			}
 
 		}
+		add_core_of = W39
 	}
 
 	provinces={

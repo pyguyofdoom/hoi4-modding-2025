@@ -4,7 +4,7 @@ state={
 	name="STATE_677"
 	resources={
 		aluminium=8.000
-		chromium=5.000
+		chromium=50.000
 		steel=4.000
 		tungsten=3.000
 	}
@@ -16,7 +16,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 0
+			industrial_complex = 3
 			arms_factory = 0
 			air_base = 1
 			10999 = {
@@ -24,6 +24,7 @@ state={
 			}
 
 		}
+		add_core_of = W39
 	}
 
 	provinces={
@@ -31,7 +32,7 @@ state={
 	}
 	manpower=2107308
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 
 	local_supplies=10.0
 }

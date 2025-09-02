@@ -16,12 +16,14 @@ state={
 			industrial_complex = 8
 			arms_factory = 1
 			air_base = 7
-
+			3516 = {
+            air_facility = 1 
+            }
 		}
 		add_core_of = HLR
 		add_core_of = WLL
 	}
-
+	
 	provinces={
 		3516 3576 6537 9418 9444 9536 11407 11519 13081 
 	}

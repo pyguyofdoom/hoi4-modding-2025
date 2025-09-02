@@ -17,12 +17,14 @@ state={
 			3552 = {
 				naval_base = 10
 			}
-
+			3552 = {
+            naval_facility = 1 
+            }
 		}
 		add_core_of = BRI
 		add_core_of = X23
 	}
-
+	
 	provinces={
 		542 3552 3758 6536 6548 6572 9495 9510 9525 11465 11508 11616 
 	}

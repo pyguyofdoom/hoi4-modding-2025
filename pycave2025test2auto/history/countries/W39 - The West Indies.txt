@@ -16,18 +16,18 @@ if = {
 set_technology = {
 	basic_train = 1
 	electronic_mechanical_engineering = 1
-	fuel_refining = 1
-	fuel_silos = 1
+	
+	
 	gw_artillery = 1
 	infantry_weapons = 1
-	infantry_weapons1 = 1
+	
 	interwar_antiair = 1
 	interwar_artillery = 1
 	motorised_infantry = 1
 	support_weapons = 1
-	synth_oil_experiments = 1
+	
 	tech_engineers = 1
-	tech_recon = 1
+	
 	tech_support = 1
 	tech_trucks = 1
 }
@@ -88,11 +88,11 @@ if = {
 if = {
 	limit = { has_dlc = "No Step Back" }
 	set_technology = {
-		basic_heavy_tank_chassis = 1
+		
 		basic_light_tank_chassis = 1
-		basic_medium_tank_chassis = 1
+		
 		gwtank_chassis = 1
-		improved_light_tank_chassis = 1
+		
 	}
 }
 
@@ -152,10 +152,20 @@ set_politics = {
     elections_allowed = yes
 }
 
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	complete_special_project = {
+		project = sp:sp_air_helicopter
+	}
+}
+
+
 set_popularities = {
 	absolutist = 5
-	communism = 2
-	democratic = 79
+	communism = 12
+	democratic = 69
 	fascism = 9
 	neutrality = 3
 	radical = 2
@@ -332,6 +342,7 @@ add_ideas = {
 	volunteer_only
 	civilian_economy
 	export_focus
+	marizair
 	culture_nieuwereld
 }
 set_stability = 0.60

@@ -15,15 +15,16 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 0
+			industrial_complex = 1
 			arms_factory = 0
-			dockyard = 1
+			dockyard = 4
 			air_base = 0
 			2228 = {
 				naval_base = 10
 			}
 
 		}
+		add_core_of = W39
 	}
 
 	provinces={
