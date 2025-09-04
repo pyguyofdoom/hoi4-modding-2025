@@ -18,4 +18,230 @@ focus_tree = {
 	shared_focus = industrial_effort
 	shared_focus = political_effort
 
+
+	
+	#The Iberian Rumble
+	focus = {
+		id = W04_the_iberian_rumble
+		icon = GFX_focus_BEL_legacy_of_the_great_war
+		x = 29
+		y = 0
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		available = {
+			owns_state = 141
+			owns_state = 767
+		}
+		completion_reward = {
+			add_manpower = 100000
+			add_political_power = 100
+		}
+		ai_will_do = {
+		factor = 10
+		}
+	}
+	#Africa Prep
+	focus = {
+		id = W04_africa_prep
+		icon = GFX_goal_fortify_the_westwall
+		x = 31
+		y = 1
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = W04_the_iberian_rumble  }
+		
+		completion_reward = {
+			424 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+				}
+			}
+			423 = {
+				add_building_construction = { type = bunker province = 12087 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 10113 level = 2 instant_build = yes }
+				
+			}
+			422 = {
+				add_building_construction = { type = bunker province = 4097 level = 2 instant_build = yes }
+				add_building_construction = { type = bunker province = 7173 level = 3 instant_build = yes }
+				
+			}
+			182 = {
+				add_building_construction = { type = bunker province = 1152 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 4933 level = 2 instant_build = yes }
+				
+			}
+			
+			
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	#Prepare for the Celtic Storm 
+	focus = {
+		id = W04_prepare_for_storm
+		icon = GFX_focus_generic_coastal_fort
+		x = 29
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = W04_the_iberian_rumble  }
+		available = {
+			owns_state = 141
+			owns_state = 767
+			
+		}
+		completion_reward={
+			141 = {
+				add_building_construction = { type = bunker province = 9764 level = 5 instant_build = yes }
+				add_building_construction = { type = bunker province = 6812 level = 2 instant_build = yes }
+				
+			}
+			770 = {
+				add_building_construction = { type = bunker province = 3816 level = 3 instant_build = yes }
+				
+			}
+			769 = {
+				add_building_construction = { type = bunker province = 9785 level = 3 instant_build = yes }
+				
+			}
+			769 = {
+				add_building_construction = { type = bunker province = 9785 level = 3 instant_build = yes }
+				
+			}
+			767 = {
+				add_building_construction = { type = bunker province = 9800 level = 3 instant_build = yes }
+				add_building_construction = { type = bunker province = 9699 level = 3 instant_build = yes }
+				
+			}
+		}
+		ai_will_do = {
+		factor = 10
+		}
+	}
+	#Quick Integration
+	focus = {
+		id = W04_quick_integration
+		icon = GFX_focus_generic_annex_country_2
+		x = 29
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = W04_prepare_for_storm  }
+		available = {
+			owns_state = 141
+			owns_state = 767
+			
+		}
+		completion_reward={
+			add_state_core = 141
+			add_state_core = 770
+			add_state_core = 769
+			add_state_core = 767
+			
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+	
+
+	#Rally for the king! 
+	focus = {
+		id = W04_great_pagan_war
+		icon = GFX_focus_ICE_the_viking_spirit
+		x = 29
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = W04_quick_integration  }
+		available = {
+			has_war_support > 0.5
+			owns_state = 141
+			owns_state = 767
+			
+		}
+		bypass = {
+			
+			X23 = { has_capitulated = yes }
+			}
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = X23 }
+
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	
+
+	#The fusiliers
+	focus = {
+		id = W04_desert_power
+		icon = GFX_focus_PER_desert_training
+		x = 31
+		y = 3
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = W04_africa_prep  }
+		available = {
+			controls_state = 785
+			controls_state = 782
+			
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			add_ideas = prov_sand
+			
+		}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+	#United Provence, for the last time
+	focus = {
+		id = W04_united_prov
+		icon = GFX_focus_hol_united_netherlands
+		x = 30
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = W04_great_pagan_war  } prerequisite = { focus = W04_desert_power  }
+		available = {
+			owns_state = 220
+			owns_state = 161
+			owns_state = 178
+			owns_state = 158
+		}
+		completion_reward={
+			add_state_core = 220
+			add_state_core = 161
+			add_state_core = 178
+			add_state_core = 158
+			add_stability = 0.1
+			add_war_support = 0.1
+		ai_will_do = {
+		factor = 10
+	}
+	}
 }

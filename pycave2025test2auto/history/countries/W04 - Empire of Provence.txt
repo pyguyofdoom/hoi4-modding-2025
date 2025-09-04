@@ -17,16 +17,15 @@ add_timed_idea = {
 set_technology = {
 	basic_train = 1
 	electronic_mechanical_engineering = 1
-	fuel_refining = 1
-	fuel_silos = 1
+	
 	gw_artillery = 1
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	interwar_antiair = 1
+	
+	
 	interwar_artillery = 1
 	motorised_infantry = 1
 	support_weapons = 1
-	synth_oil_experiments = 1
+	
 	tech_engineers = 1
 	tech_recon = 1
 	tech_support = 1
@@ -294,6 +293,7 @@ add_ideas = {
 	volunteer_only
 	low_economic_mobilisation
 	export_focus
+	W04_monarch
 	culture_occitan
 }
 set_stability = 0.60

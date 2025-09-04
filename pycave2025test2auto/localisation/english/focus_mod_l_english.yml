@@ -1504,3 +1504,25 @@
  Alliance_SCA_desc:0 "We have often had positive relations with the scandinavians, and now we stand at a crossroads. Communist insurgents, decaying liberal superpowers, and enemies on all sides. We need a strong ally, and while Scandinavia is still a shadow of its former self they will do just fine."
  GP_WarKORRUS:0 "Last Dance of the Bikal"
  GP_WarKORRUS_desc:0 "We are done waiting. It is time to meet destiny, one way, or another." 
+ W04_the_iberian_rumble:0 "Victory In Iberia"
+ W04_the_iberian_rumble_desc:0 "Success! By the grace of Odin we have defeated the two non-aligned statelets in Iberia, and have marched right up to the celtic border. Now comes the hard part."
+ W04_africa_prep:0 "Fortify Royal Holdings in Morocco" 
+ W04_africa_prep_desc:0 "We need to hold on in the south. If we lose our land in Morocco, southern Iberia will be lost soon thereafter." 
+ W04_prepare_for_storm:0 "Prepare For the Celtic Onslaught" 
+ W04_prepare_for_storm_desc:0 "Despite our victory, territories to the north remain poorly guarded. The celts can come at us any time, if we are not prepared we will face our doom here and now." 
+ W04_quick_integration:0 "Quick Integration"
+ W04_quick_integration_desc:0 "We need to speed this damn integration along. The king and prime minister will personally oversee that every najeran and catalonian is given 3 loafs of bread, 14 provencial ducats, and a horse." 
+ W04_great_pagan_war:0 "The Last Great Pagan War"
+ W04_great_pagan_war_desc:0 "We have come to it at last. Our armies are ready, and the Celts are not looking. They must be busy elsewhere. Let us strike while the iron is hot!"
+ W04_desert_power:0 "Desert Power" 
+ W04_desert_power_desc:0 "Success in the African campaign bears fruit: Italian deserters in Algiers and Tunis have offered their support! Native Italians have been living here for nearly 1000 years, and their expertise in desert warfare will be a great boon." 
+ W04_united_prov:0 "Legacy"
+ W04_united_prov_desc:0 "No more masters. No more overlords. Through grit we have finally overcome the Celts and reclaimed most of the homeland. But the job is not done. More occitanians live under the foreign rule of enemy empires, and we will not stop here." 
+ prov_sand:0 "Italian Freedmen" 
+ Prov_sand_desc:0 "Freed Italian slaves have given us much to work with. Their knowledge of the desert gives our troops the experience they need to survive."
+ W04_monarch:0 "King Louis De Froge Duex"
+ W04_monarch_desc:0 "Rallying around the one rightful king, the people of Provence are determined to see their destiny through." 
+
+
+
+  

@@ -14,6 +14,19 @@ ideas = {
 				
 			}
 		}
+		prov_sand = {
+			picture = ast_volunteer_defence_corps
+			allowed = {
+				always = no
+			}
+			modifier = {
+				heat_attrition_factor = -0.3
+				supply_consumption_factor = -0.1
+				
+
+				
+			}
+		}
 		
 	}	
 }
