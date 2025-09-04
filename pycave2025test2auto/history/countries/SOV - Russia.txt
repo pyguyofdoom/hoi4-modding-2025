@@ -141,7 +141,10 @@ set_popularities = {
 	neutrality = 5
 	radical = 0
 }
-
+add_timed_idea = {
+	idea = russo_depresso
+	days = 700
+}
 
 
 add_opinion_modifier = { target = AFG modifier = negative_145 }

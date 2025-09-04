@@ -295,6 +295,7 @@ add_opinion_modifier = { target = X99 modifier = positive_200 }
 create_faction = league_of_nations
 add_to_faction = KOR
 add_to_faction = HLR
+add_to_faction = CAL
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

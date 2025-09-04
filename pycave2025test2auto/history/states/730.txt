@@ -17,10 +17,13 @@ state={
 			industrial_complex = 8
 			arms_factory = 4
 			air_base = 10
-
+			11542 = {
+                nuclear_facility = 1 
+            }
 		}
 		add_core_of = W38
 		add_core_of = W41
+		
 	}
 
 	provinces={

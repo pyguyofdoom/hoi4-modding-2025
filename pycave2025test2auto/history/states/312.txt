@@ -14,7 +14,7 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			arms_factory = 0
+			arms_factory = 3
 			air_base = 0
 			855 = {
 				naval_base = 1
@@ -29,7 +29,7 @@ state={
 	}
 	manpower=687468
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 
 	local_supplies=10.0
 }

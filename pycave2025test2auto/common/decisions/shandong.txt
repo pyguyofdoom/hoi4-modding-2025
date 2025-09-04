@@ -1,0 +1,53 @@
+shandong_timer = {
+	korean_invasion = {
+		days_mission_timeout = 730
+		fire_only_once = yes
+		allowed = {
+			OR = {
+				original_tag = W10 
+				original_tag = KOR
+			}
+			
+		}
+		visible = {
+			TAG = W10
+			TAG = KOR
+			
+		}
+		available = {
+			OR = {
+				NOT = { country_exists = W10 }
+				NOT = {country_exists = KOR}
+				has_war_with = W10
+				has_war_with = KOR
+
+			}
+			
+			
+			
+			
+		}
+		timeout_effect = {
+			KOR = {
+				declare_war_on = {
+					target = W10 #tag
+					type = annex_everything #cb
+				
+				}
+			}
+			KOR ={
+				add_timed_idea = {
+					idea = lady_liberty_calls
+					days = 360
+				}
+			}
+			W10 ={
+				add_timed_idea = {
+					idea = shandong_timeout
+					days = 360
+				}
+			}
+
+		}
+	}
+}

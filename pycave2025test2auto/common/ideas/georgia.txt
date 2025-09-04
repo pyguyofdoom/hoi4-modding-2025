@@ -51,6 +51,17 @@ ideas = {
 
 			}
 		}
+		shandong_timeout = { 
+			picture = chi_army_corruption 
+			allowed = {
+				always = no
+			}
+			modifier = {
+				required_garrison_factor = 0.5
+				resistance_target = 0.8
+				war_support_factor = -0.3
+				communism_drift = 0.1
+
 		
 	}	
 }
