@@ -26,4 +26,56 @@ ideas = {
 		}
 
 	}
+	
+	country = {
+	
+    fortress_britanny = {
+        allowed = {
+            original_tag = X23   # or change to the tag of the country you want
+        }
+        picture = FRA_fortification_focus # optional: replace with a custom GFX key if you have one
+        modifier = {
+            army_core_defence_factor = 0.10       # +10% core defense
+            production_speed_bunker_factor = 0.20   # +20% fort build speed
+        }
+    }
+	
+	    socialist_militias = {
+        allowed = {
+            original_tag = X23   # or change to the tag of the country you want
+        }
+        picture = MEX_revolutionary_army # optional: replace with a custom GFX key if you have one
+        modifier = {
+            war_support_factor	= -0.15
+            conscription	 = -0.01  
+        }
+    }
+		   outdated_command = {
+        allowed = {
+            original_tag = X23   # or change to the tag of the country you want
+        }
+        picture = ARG_political_corruption_modifier # optional: replace with a custom GFX key if you have one
+        modifier = {
+            experience_gain_army_factor	 = -0.5
+           training_time_factor	 = 0.3
+			army_speed_factor = -0.1
+		   
+        }
+		
+    }
+	
+	thousand_years_rule = {
+        allowed = {
+            original_tag = X23   # or change to the tag of the country you want
+        }
+        picture = SWI_spirit_of_helvetia_defensive_peace # optional: replace with a custom GFX key if you have one
+        modifier = {
+          stability_factor = 0.2
+		  political_power_factor = 0.3
+		   
+        }
+		
+    }	
+	}
+
 }
