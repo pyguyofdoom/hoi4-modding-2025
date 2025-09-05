@@ -248,6 +248,8 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
+			desc = SCA_johan_virgin_desc
+			traits = { dictator }
 			expire="1965.1.1.1"
 			id=-1
 		}

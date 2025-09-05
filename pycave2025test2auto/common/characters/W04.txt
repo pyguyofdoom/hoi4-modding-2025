@@ -202,12 +202,14 @@ characters={
 	W04_gautiers_jordas={
 		name=W04_gautiers_jordas
 		portraits={
-			civilian={
+			civilian={ 
 				large="GFX_USA_Happy_Chandler"
 			}
 		}
 		country_leader={
 			ideology=conservatism
+			desc = W04_gautiers_jordas_desc
+			traits = { conservative_nationalist } 
 			expire="1965.1.1.1"
 			id=-1
 		}

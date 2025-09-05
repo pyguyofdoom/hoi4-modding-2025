@@ -248,6 +248,8 @@ characters={
 		}
 		country_leader={
 			ideology=socialism
+			desc = W21_jemal_razikashvili_desc
+			traits = { sharp_tongued_lawyer }
 			expire="1965.1.1.1"
 			id=-1
 		}

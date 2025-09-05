@@ -208,6 +208,8 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
+			desc=X20_sotiris_staikopoulos_desc
+			traits = { autokrator }
 			expire="1965.1.1.1"
 			id=-1
 		}

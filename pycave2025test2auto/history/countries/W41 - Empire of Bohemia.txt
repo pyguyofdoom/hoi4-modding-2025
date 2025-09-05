@@ -90,9 +90,9 @@ if = {
 	set_technology = {
 		basic_heavy_tank_chassis = 1
 		basic_light_tank_chassis = 1
-		basic_medium_tank_chassis = 1
+		
 		gwtank_chassis = 1
-		improved_light_tank_chassis = 1
+		
 	}
 }
 
