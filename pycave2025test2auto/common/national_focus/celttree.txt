@@ -1,0 +1,564 @@
+focus_tree = {
+	id = celttree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 30
+			tag = X23
+		}
+	}
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+focus = {
+		id = WarPropX23
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 28
+		y = 0
+		cost = 10
+		available = {
+		threat > 0.000100
+	}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterX23
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropX23 }
+		x = 0
+		y = 1
+		relative_position_id = WarPropX23
+		cost = 10
+		available = {
+		threat > 0.000150
+	}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimX23
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterX23 }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterX23
+		cost = 10
+		available = {
+		threat > 0.000250
+	}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanX23SOV
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanSOV
+		prerequisite = { focus = LimX23 }
+		bypass = {
+		has_war_with = SOV
+	}
+		x = 0
+		y = 1
+		relative_position_id = LimX23
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = SOV
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoX23SOV
+		icon = GFX_goal_generic_trade
+		text = EmbargoSOV
+		prerequisite = { focus =  WarPlanX23SOV }
+		bypass = {
+		has_war_with = SOV
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanX23SOV
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = SOV
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		SOV = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARX23SOV
+		icon = GFX_goal_support_democracy
+		text = WARSOV
+		prerequisite = { focus =  EmbargoX23SOV }
+		bypass = {
+		has_war_with = SOV
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoX23SOV
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = SOV
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = SOV
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	# Crisis in the Union
+	focus = {
+		id = X23_crisis_in_the_union
+		icon = GFX_focus_eng_the_kings_party
+		x = 33
+		y = 0
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		# Available only if event breton_events.200 has fired
+		available = {
+			has_country_flag = breton_events_200_triggered
+		}
+
+		prerequisite = { }
+
+		completion_reward = {
+			# Fire follow-up event
+			country_event = { id = breton_events.201 days = 1 }
+		}
+	}
+
+	# Request Parlament Support
+	focus = {
+		id = X23_request_parlament_support
+		icon = GFX_X23_request_parlament_support-645772
+		x = 33
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = X23_crisis_in_the_union }
+		completion_reward = {
+			add_stability = 0.15
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.3
+			}
+		}
+	}
+
+# Increase the Military Budget
+focus = {
+    id = X23_increase_the_military_budget
+    icon = GFX_X23_increase_the_military_budget-645750
+    x = 33
+    y = 2
+    cost = 10
+    search_filters = { FOCUS_FILTER_INDUSTRY }
+    prerequisite = { focus = X23_request_parlament_support }
+
+    completion_reward = {
+        # Add 3 military factories in 4 random states
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }   
+			            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }   
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            }   
+			            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 3
+                    instant_build = yes
+                }
+            } 			
+
+        # Add temporary national spirit (2 years = 730 days)
+        add_ideas = {
+            increased_mil_budget
+            days = 730
+        }
+    }   # This closes completion_reward
+}
+
+	# Purge the Armchair Generals
+	focus = {
+		id = X23_purge_the_armchair_generals
+		icon = GFX_X23_purge_the_armchair_generals-262098
+		x = 33
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = X23_increase_the_military_budget }
+
+		completion_reward = {
+			# Remove the outdated_command spirit
+			remove_ideas = outdated_command
+
+			# Add 50% research bonus for land doctrines
+			add_tech_bonus = {
+				name = purge_generals_doctrine_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+
+	# Crush the Rebels
+	focus = {
+		id = X23_crush_the_rebels
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 33
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
+		prerequisite = { focus = X23_purge_the_armchair_generals }
+
+		# Only available if you have 650k troops in the field
+		available = {
+			has_army_manpower = { size > 650000}
+		}
+
+		completion_reward = {
+			# Remove the socialist militias spirit
+			remove_ideas = socialist_militias
+
+			# Reduce communist popularity by 20%
+			add_popularity = {
+				ideology = communism
+				popularity = -0.2
+			}
+		}
+	}
+
+	# Adopt Guerilla Tactics
+	focus = {
+		id = X23_adopt_guerilla_tactics
+		icon = GFX_X23_adopt_guerilla_tactics-646336
+		x = 33
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		prerequisite = { focus = X23_crush_the_rebels }
+
+		# Require 50 army experience to take this focus
+		available = {
+			has_army_experience  > 50
+		}
+
+		completion_reward = {
+			# Grant debug Finnish army spirit
+			add_ideas = guerilla_tactics
+		}
+	}
+
+	# Nationalize Irish Enclosures
+	focus = {
+		id = X23_nationalize_irish_enclosures
+		icon = GFX_X23_nationalize_irish_enclosures-646040
+		x = 33
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		prerequisite = { focus = X23_adopt_guerilla_tactics }
+		completion_reward = {
+			# Add 5 building slots to all Irish states owned by this country
+			every_owned_state = {
+				limit = {
+					OR = {
+						state = 171   # Ulster
+						state = 172   # Connaught
+						state = 173   # Leinster
+						state = 174
+						state = 642# Munster
+					}
+				}
+				add_extra_state_shared_building_slots = 5
+			}
+		}
+	}
+
+	# The Union's Most Faithful Servant
+	focus = {
+		id = X23_theunionsmostfaithfulservant
+		icon = GFX_focus_fra_loyalty_stalin
+		x = 33
+		y = 7
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		prerequisite = { focus = X23_nationalize_irish_enclosures }
+		completion_reward = {
+
+				add_trait = {
+					character  = X23_segal_thomas
+					ideology = prussian_const_neutral
+					trait = defender_of_the_celts
+				}
+
+		}
+	}
+
+	# Our Greatest Enemy
+	focus = {
+		id = X23_our_greatest_enemy
+		icon = GFX_X23_our_greatest_enemy-201
+		x = 33
+		y = 8
+		cost = 10
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		
+		# Require being past June 1939
+		available = {
+			date > 1939.06.01
+		}
+		
+		prerequisite = { focus = X23_theunionsmostfaithfulservant }
+		completion_reward = {
+			create_wargoal = { 
+				type = take_core_state 
+				target = HLR 
+			}
+		}
+	}
+
+	# Ennact War Plan South
+	focus = {
+		id = X23_ennact_war_plan_south
+		icon = GFX_X23_ennact_war_plan_south-645931
+		x = 33
+		y = 9
+		cost = 10
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		
+		# Require being in 1940 or later
+		available = {
+			date > 1939.12.31
+		}
+		
+		prerequisite = { focus = X23_our_greatest_enemy }
+		completion_reward = {
+			# Create puppet war goals against all non-puppet countries with capitals in Iberia
+
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = W04
+				}
+								create_wargoal = {
+					type = puppet_wargoal_focus
+					target = W49
+				}
+								create_wargoal = {
+					type = puppet_wargoal_focus
+					target = CAT
+				}
+								create_wargoal = {
+					type = puppet_wargoal_focus
+					target = MOR
+				}
+			}
+		}
+	
+
+	# ---------------------------
+	# Secondary Branch
+	# ---------------------------
+
+	# Ennact War Plan Home
+	focus = {
+		id = X23_ennact_war_plan_home
+		icon = GFX_focus_generic_industry_3
+		x = 35
+		y = 0
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		prerequisite = { }
+				available = {
+			has_war = yes
+		}
+		completion_reward = {
+			set_capital = { state = 147 remember_old_capital = no }
+			
+		}
+	}
+
+	# The People's War
+	focus = {
+		id = X23_thepeopleswar
+		icon = GFX_X23_thepeopleswar-646064
+		x = 35
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		prerequisite = { focus = X23_ennact_war_plan_home }
+		completion_reward = {
+			add_war_support = 0.15
+			
+			# Add a USSR-inspired national spirit (using Great Patriotic War as debug)
+			add_ideas = {
+				peoples_war
+			}
+		}
+	}
+
+	# Refit Civilian Docks
+	focus = {
+		id = X23_refit_civilian_docks
+		icon = GFX_X23_refit_civilian_docks-645974
+		x = 35
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		prerequisite = { focus = X23_thepeopleswar }
+		completion_reward = {
+		add_offsite_building = { type = dockyard level = 10 }
+		}
+	}
+
+	# Re-establish Our Defensive Policy
+	focus = {
+		id = X23_reestablish_our_defensive_policy
+		icon = GFX_goal_generic_fortify_city
+		x = 35
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		prerequisite = { focus = X23_refit_civilian_docks }
+		completion_reward = {
+			# Modify the fortress_britanny national spirit
+			if = {
+				limit = {
+					has_idea = fortress_britanny
+				}
+				remove_ideas = fortress_britanny
+				add_ideas = upgraded_fortress_britanny
+			}
+			
+		}
+	}
+
+
+}

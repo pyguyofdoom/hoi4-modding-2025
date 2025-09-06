@@ -334,6 +334,11 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	culture_breton
+	fortress_britanny
+	socialist_militias
+	outdated_command
+	thousand_years_rule
+
 }
 set_stability = 0.60
 set_war_support = 0.15
