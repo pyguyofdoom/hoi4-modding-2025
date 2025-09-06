@@ -2032,4 +2032,15 @@ leader_traits = {
 	
 	}
 	
+	war_hero_celtic = {
+			random = no 
+		sprite = 13
+		
+		
+        breakthrough_factor = 0.1
+		  max_planning_factor = 0.25
+		   
+		
+    }
+	
 }
