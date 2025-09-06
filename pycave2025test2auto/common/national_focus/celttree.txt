@@ -187,7 +187,7 @@ focus = {
 	focus = {
 		id = X23_crisis_in_the_union
 		icon = GFX_focus_eng_the_kings_party
-		x = 33
+		x = 30
 		y = 0
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -209,16 +209,16 @@ focus = {
 	focus = {
 		id = X23_request_parlament_support
 		icon = GFX_X23_request_parlament_support-645772
-		x = 33
+		x = 30
 		y = 1
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		prerequisite = { focus = X23_crisis_in_the_union }
 		completion_reward = {
-			add_stability = 0.15
+			add_stability = 0.10
 			add_popularity = {
 				ideology = neutrality
-				popularity = 0.3
+				popularity = 0.2
 			}
 		}
 	}
@@ -227,14 +227,14 @@ focus = {
 focus = {
     id = X23_increase_the_military_budget
     icon = GFX_X23_increase_the_military_budget-645750
-    x = 33
+    x = 30
     y = 2
     cost = 10
     search_filters = { FOCUS_FILTER_INDUSTRY }
     prerequisite = { focus = X23_request_parlament_support }
 
     completion_reward = {
-        # Add 3 military factories in 4 random states
+        # Add 2 military factories in 4 random states
             random_owned_controlled_state = {
                 limit = {
                     free_building_slots = {
@@ -243,10 +243,10 @@ focus = {
                         include_locked = yes
                     }
                 }
-                add_extra_state_shared_building_slots = 3
+                add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = arms_factory
-                    level = 3
+                    level = 2
                     instant_build = yes
                 }
             }   
@@ -258,10 +258,10 @@ focus = {
                         include_locked = yes
                     }
                 }
-                add_extra_state_shared_building_slots = 3
+                add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = arms_factory
-                    level = 3
+                    level = 2
                     instant_build = yes
                 }
             }   
@@ -273,10 +273,10 @@ focus = {
                         include_locked = yes
                     }
                 }
-                add_extra_state_shared_building_slots = 3
+                add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = arms_factory
-                    level = 3
+                    level = 2
                     instant_build = yes
                 }
             }   
@@ -288,19 +288,20 @@ focus = {
                         include_locked = yes
                     }
                 }
-                add_extra_state_shared_building_slots = 3
+                add_extra_state_shared_building_slots = 2
                 add_building_construction = {
                     type = arms_factory
-                    level = 3
+                    level = 2
                     instant_build = yes
                 }
             } 			
 
         # Add temporary national spirit (2 years = 730 days)
-        add_ideas = {
-            increased_mil_budget
-            days = 730
-        }
+		add_timed_idea = {
+			idea = increased_mil_budget
+			days = 500
+		}
+        
     }   # This closes completion_reward
 }
 
@@ -308,7 +309,7 @@ focus = {
 	focus = {
 		id = X23_purge_the_armchair_generals
 		icon = GFX_X23_purge_the_armchair_generals-262098
-		x = 33
+		x = 30
 		y = 3
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -332,7 +333,7 @@ focus = {
 	focus = {
 		id = X23_crush_the_rebels
 		icon = GFX_focus_spr_crush_the_revolution
-		x = 33
+		x = 30
 		y = 4
 		cost = 10
 		search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
@@ -359,7 +360,7 @@ focus = {
 	focus = {
 		id = X23_adopt_guerilla_tactics
 		icon = GFX_X23_adopt_guerilla_tactics-646336
-		x = 33
+		x = 30
 		y = 5
 		cost = 10
 		search_filters = { FOCUS_FILTER_MANPOWER }
@@ -380,7 +381,7 @@ focus = {
 	focus = {
 		id = X23_nationalize_irish_enclosures
 		icon = GFX_X23_nationalize_irish_enclosures-646040
-		x = 33
+		x = 30
 		y = 6
 		cost = 10
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -406,7 +407,7 @@ focus = {
 	focus = {
 		id = X23_theunionsmostfaithfulservant
 		icon = GFX_focus_fra_loyalty_stalin
-		x = 33
+		x = 30
 		y = 7
 		cost = 10
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -426,7 +427,7 @@ focus = {
 	focus = {
 		id = X23_our_greatest_enemy
 		icon = GFX_X23_our_greatest_enemy-201
-		x = 33
+		x = 30
 		y = 8
 		cost = 10
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -449,7 +450,7 @@ focus = {
 	focus = {
 		id = X23_ennact_war_plan_south
 		icon = GFX_X23_ennact_war_plan_south-645931
-		x = 33
+		x = 30
 		y = 9
 		cost = 10
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -491,7 +492,7 @@ focus = {
 	focus = {
 		id = X23_ennact_war_plan_home
 		icon = GFX_focus_generic_industry_3
-		x = 35
+		x = 32
 		y = 0
 		cost = 10
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -509,7 +510,7 @@ focus = {
 	focus = {
 		id = X23_thepeopleswar
 		icon = GFX_X23_thepeopleswar-646064
-		x = 35
+		x = 32
 		y = 1
 		cost = 10
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
@@ -528,7 +529,7 @@ focus = {
 	focus = {
 		id = X23_refit_civilian_docks
 		icon = GFX_X23_refit_civilian_docks-645974
-		x = 35
+		x = 32
 		y = 2
 		cost = 10
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -542,7 +543,7 @@ focus = {
 	focus = {
 		id = X23_reestablish_our_defensive_policy
 		icon = GFX_goal_generic_fortify_city
-		x = 35
+		x = 32
 		y = 3
 		cost = 10
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }

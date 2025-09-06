@@ -13,7 +13,40 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
-
+		tank_lords = {
+			picture = generic_acquire_tanks
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_armor_attack_factor = 0.05
+				
+		}
+		equipment_bonus = {
+					medium_tank_equipment = {
+						instant = yes
+						build_cost_ic = -0.1
+						reliability = -0.1
+					}
+			}
+		}
+		tank_lords2 = {
+			picture = generic_acquire_tanks
+			allowed = {
+				always = no
+			}
+			modifier = {
+				army_armor_attack_factor = 0.1
+				
+		}
+		equipment_bonus = {
+					medium_tank_equipment = {
+						instant = yes
+						build_cost_ic = -0.15
+						reliability = -0.05
+					}
+			}
+		}
 		hamstrung_economy = {
 			picture = hamstrung_economy-1061
 			allowed = {

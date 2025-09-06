@@ -122,3 +122,7 @@
  guerilla_tactics_desc:0 "Every man in the army is taught in the ways of assymetric warfare, this increases their effectiveness agaisnt greater foes and we reduce the reliance of a main supply route."
  increased_mil_budget:0 "Increased Military Budget"
  increased_mil_budget_desc:0 "Subsidizing research programs and making deals with known arms manufacturers should set the perfect position to upgrade our armaments."
+ tank_lords:0 "Ironmongers"
+ tank_lords_desc:0 "We are some of the first to adopt fully mechanized divisions. While our armies are undoubtebly stronger for it, the quality of the craft is...suspect."
+ tank_lords2:0 "Steelmongers"
+ tank_lords2_desc:0 "We are damn proud of these tanks. While their quality is still below average, the old forges of the north are the best in the world for producing tanks."

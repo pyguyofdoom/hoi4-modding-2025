@@ -267,11 +267,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = historical_claims_focus
+			remove_ideas = tank_lords
+			add_ideas = tank_lords2
 			add_political_power = 100
 			declare_war_on = {
 			    target = HLR
 			    type = annex_everything
 			}
+			
 	}
 
 	}
